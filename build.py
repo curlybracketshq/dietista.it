@@ -44,6 +44,7 @@ class Pro:
 
 
 class BaseTemplate:
+    """Base template. All template classes inherit from here."""
 
     BASE_PATH_PROD = "/directory/"
     BASE_PATH_DEV = "/dist/"
