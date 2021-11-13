@@ -6,6 +6,17 @@ import shutil
 from dataclasses import dataclass, fields
 from pathlib import Path
 from typing import Dict, Sequence
+from optparse import OptionParser
+
+
+parser = OptionParser()
+parser.add_option(
+    "-p", "--prod", action="store_true", default=False, help="production mode"
+)
+
+(options, args) = parser.parse_args()
+
+print(f"Options: {options}")
 
 
 @dataclass
@@ -33,6 +44,10 @@ class Pro:
 
 
 class BaseTemplate:
+
+    BASE_PATH_PROD = "/directory/"
+    BASE_PATH_DEV = "/dist/"
+
     TITLE = "Dietista.it - I migliori dietisti in Italia"
     DESCRIPTION = "La lista dei migliori dietisti italiani"
 
@@ -42,7 +57,7 @@ class BaseTemplate:
     <meta charset="utf-8" />
     <title>{title}</title>
     <meta name="description" content="{description}">
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
 </head>
 """
 
@@ -63,7 +78,14 @@ class BaseTemplate:
         self, content: str, title: str = TITLE, description: str = DESCRIPTION
     ) -> str:
         header = self.HEADER.format(title=title, description=description)
-        return self.PAGE.format(header=header, content=content)
+        return self._filter(self.PAGE.format(header=header, content=content))
+
+    def _filter(self, content: str) -> str:
+        return re.sub(
+            'href="/',
+            f'href="{self.BASE_PATH_PROD if options.prod else self.BASE_PATH_DEV}',
+            content,
+        )
 
 
 @dataclass
