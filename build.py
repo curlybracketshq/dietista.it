@@ -2,6 +2,7 @@
 
 import csv
 import re
+import shutil
 from dataclasses import dataclass, fields
 from pathlib import Path
 from typing import Dict, Sequence
@@ -182,6 +183,12 @@ with open("data.csv", newline="") as data:
 
 dist = Path("dist")
 dist.mkdir(parents=True, exist_ok=True)
+
+# Remove existing content
+shutil.rmtree(dist)
+
+# Copy static files
+shutil.copytree(Path("static"), dist)
 
 print(f"Building home")
 home_file = dist.joinpath("index.html")
