@@ -3,7 +3,7 @@
 import csv
 import re
 import shutil
-from dataclasses import dataclass, fields
+from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, Sequence
 from optparse import OptionParser
