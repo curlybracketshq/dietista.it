@@ -46,7 +46,7 @@ class Pro:
 class BaseTemplate:
     """Base template. All template classes inherit from here."""
 
-    BASE_PATH_PROD = "/directory/"
+    BASE_PATH_PROD = "/dietista.it/directory/"
     BASE_PATH_DEV = "/dist/"
 
     TITLE = "Dietista.it - I migliori dietisti in Italia"
