@@ -52,7 +52,7 @@ class BaseTemplate:
     TITLE = "Dietista.it - I migliori dietisti in Italia"
     DESCRIPTION = "La lista dei migliori dietisti italiani"
 
-    HEADER = """
+    HEAD = """
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8" />
@@ -62,14 +62,45 @@ class BaseTemplate:
 </head>
 """
 
+    HEADER = """
+<div id="header_container">
+    <div class="page" id="header">
+        <h1 id="header_logo"><a href="/">Dietista.it</a></h1>
+        <ul id="header_menu">
+            <li><a href="/iscriviti">Iscriviti</a></li>
+        </ul>
+    </div>
+</div>
+"""
+
+    FOOTER = """
+<div id="footer_container">
+    <div class="page" id="footer">
+        <p id="disclaimer">&copy; 2021 Dietista.it</p>
+        <ul id="footer_menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/iscriviti">Iscriviti</a></li>
+        </ul>
+    </div>
+</div>
+"""
+
     PAGE = """
 <!DOCTYPE html>
 <html lang="it">
 
-{header}
+{head}
 
 <body>
-    {content}
+    {header}
+
+    <div id="content_container">
+        <div class="page" id="content">
+            {content}
+        </div>
+    </div>
+
+    {footer}
 </body>
 
 </html>
@@ -78,8 +109,12 @@ class BaseTemplate:
     def render(
         self, content: str, title: str = TITLE, description: str = DESCRIPTION
     ) -> str:
-        header = self.HEADER.format(title=title, description=description)
-        return self._filter(self.PAGE.format(header=header, content=content))
+        head = self.HEAD.format(title=title, description=description)
+        return self._filter(
+            self.PAGE.format(
+                head=head, header=self.HEADER, footer=self.FOOTER, content=content
+            )
+        )
 
     def _filter(self, content: str) -> str:
         return re.sub(
@@ -96,8 +131,7 @@ class HomeTemplate(BaseTemplate):
     states: Sequence[str]
 
     CONTENT = """
-<h1>Dietista.it - I migliori dietisti in Italia</h1>
-<h2>La lista dei migliori dietisti italiani</h2>
+<h1>La lista dei migliori dietisti italiani</h1>
 
 <ul>
     {states}
@@ -115,6 +149,27 @@ class HomeTemplate(BaseTemplate):
 
 
 @dataclass
+class SubscribeTemplate(BaseTemplate):
+    """Subscribe page template."""
+
+    CONTENT = """
+<h1>Iscriviti</h1>
+
+<p>
+    Pubblica il tuo profilo ed entra a far parte della più grande lista di
+    dietisti in Italia.
+</p>
+
+<p>
+    <a href="mailto:info@dietista.it?subject=Dietista.it, vorrei saperne di più">Sono interessat@</a>
+</p>
+"""
+
+    def render(self) -> str:
+        return super().render(content=self.CONTENT)
+
+
+@dataclass
 class StateTemplate(BaseTemplate):
     """State page template."""
 
@@ -122,8 +177,7 @@ class StateTemplate(BaseTemplate):
     cities: Sequence[str]
 
     CONTENT = """
-<h1>Dietista.it - I migliori dietisti in Italia</h1>
-<h2>I migliori dietisti nella provincia di {state}</h2>
+<h1>I migliori dietisti nella provincia di {state}</h1>
 
 <ul>
     {cities}
@@ -148,8 +202,7 @@ class CityTemplate(BaseTemplate):
     pros: Sequence[Pro]
 
     CONTENT = """
-<h1>Dietista.it - I migliori dietisti in Italia</h1>
-<h2>I migliori dietisti nella città di {city}</h2>
+<h1>I migliori dietisti nella città di {city}</h1>
 
 <ul>
     {pros}
@@ -162,7 +215,7 @@ class CityTemplate(BaseTemplate):
 
     def _pros_items(self) -> str:
         return "\n".join(
-            f'<li><a href="{slug(pro.full_name())}.html">{pro.full_name()}</a></li>'
+            f'<li><a href="{slug(pro.full_name())}/">{pro.full_name()}</a></li>'
             for pro in self.pros
         )
 
@@ -174,17 +227,38 @@ class ProTemplate(BaseTemplate):
     pro: Pro
 
     CONTENT = """
-<h1>Dietista.it - I migliori dietisti in Italia</h1>
-<h2>{full_name}</h2>
+<h1>{full_name}</h1>
 
-<p>{full_address}</p>
+<p>
+    <strong>Indirizzo:</strong><br/>
+    {full_address}
+</p>
+
+<p>
+    <strong>Telefono:</strong><br/>
+    {phone_1}
+</p>
+
+<p>
+    <strong>Sito Internet:</strong><br/>
+    <a href="{web}">{web}</a>
+</p>
 """
 
     def render(self) -> str:
         content = self.CONTENT.format(
-            full_name=self.pro.full_name(), full_address=self.pro.full_address()
+            full_name=self.pro.full_name(),
+            full_address=self._full_address(),
+            phone_1=self.pro.phone_1,
+            web=self.pro.web,
         )
         return super().render(content=content)
+
+    def _full_address(self) -> str:
+        output = f"{self.pro.address_line_1}<br/>"
+        output += f"{self.pro.address_line_2}<br/>" if self.pro.address_line_2 else ""
+        output += f"{self.pro.zip}, {self.pro.city}, {self.pro.state}"
+        return output
 
 
 def slug(input: str) -> str:
@@ -220,6 +294,15 @@ with home_file.open("w") as f:
     f.write(template.render())
 print(f" - {home_file}")
 
+print(f"Building subscribe")
+subscribe_dir = dist.joinpath("iscriviti")
+subscribe_dir.mkdir(parents=True, exist_ok=True)
+subscribe_file = subscribe_dir.joinpath("index.html")
+with subscribe_file.open("w") as f:
+    template = SubscribeTemplate()
+    f.write(template.render())
+print(f" - {subscribe_file}")
+
 for (state, cities) in states.items():
     print(f"Building state: {state}")
     state_dir = dist.joinpath(slug(state))
@@ -242,7 +325,9 @@ for (state, cities) in states.items():
 
         for pro in pros:
             print(f"Building pro: {pro.full_name()}")
-            pro_file = city_dir.joinpath(f"{slug(pro.full_name())}.html")
+            pro_dir = city_dir.joinpath(slug(pro.full_name()))
+            pro_dir.mkdir(parents=True, exist_ok=True)
+            pro_file = pro_dir.joinpath("index.html")
             with pro_file.open("w") as f:
                 template = ProTemplate(pro)
                 f.write(template.render())
