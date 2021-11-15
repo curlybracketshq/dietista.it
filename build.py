@@ -91,10 +91,10 @@ class BaseTemplate:
 
 {head}
 
-<body>
+<body class="site">
     {header}
 
-    <div id="content_container">
+    <div id="content_container" class="site_content">
         <div class="page" id="content">
             {content}
         </div>
