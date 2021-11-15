@@ -67,7 +67,7 @@ class BaseTemplate:
     <div class="page" id="header">
         <h1 id="header_logo"><a href="/">Dietista.it</a></h1>
         <ul id="header_menu">
-            <li><a href="/iscriviti">Iscriviti</a></li>
+            <li class="highlight"><a href="/iscriviti">Iscriviti</a></li>
         </ul>
     </div>
 </div>
