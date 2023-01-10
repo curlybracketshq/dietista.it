@@ -49,8 +49,8 @@ class BaseTemplate:
     BASE_PATH_PROD = "/directory/"
     BASE_PATH_DEV = "/dist/"
 
-    TITLE = "Dietista.it - I migliori dietisti in Italia"
-    DESCRIPTION = "La lista dei migliori dietisti italiani"
+    TITLE = "Dietista.it - Dietisti in Italia"
+    DESCRIPTION = "La lista di dietisti italiani"
 
     HEAD = """
 <head>
@@ -131,7 +131,7 @@ class HomeTemplate(BaseTemplate):
     states: Sequence[str]
 
     CONTENT = """
-<h1>La lista dei migliori dietisti italiani</h1>
+<h1>La lista di dietisti italiani</h1>
 
 <ul>
     {states}
@@ -177,7 +177,7 @@ class StateTemplate(BaseTemplate):
     cities: Sequence[str]
 
     CONTENT = """
-<h1>I migliori dietisti nella provincia di {state}</h1>
+<h1>Dietisti nella provincia di {state}</h1>
 
 <ul>
     {cities}
@@ -202,7 +202,7 @@ class CityTemplate(BaseTemplate):
     pros: Sequence[Pro]
 
     CONTENT = """
-<h1>I migliori dietisti nella città di {city}</h1>
+<h1>Dietisti nella città di {city}</h1>
 
 <ul>
     {pros}
