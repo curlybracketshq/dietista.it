@@ -10,6 +10,12 @@ layout: default
       {{ page.date | date: "%d/%m/%Y" }}
     </time>
   </header>
+  
+  {% if page.episode_id %}
+    <div class="embed">
+      {% include embed.html episode_id=page.episode_id %}
+    </div>
+  {% endif %}
 
   {{ content }}
 </article>
