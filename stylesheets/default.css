@@ -171,31 +171,10 @@ p.intro {
   font-style: italic;
 }
 
-#triangles {
-  margin: 20px 0;
-}
-
 #container {
   margin: 0 auto;
   padding: 20px;
   width: 640px;
-}
-
-@media screen and (max-width: 825px) {
-  #triangles {
-    width: 100%;
-  }
-
-  #container {
-    width: auto;
-    max-width: 100%;
-  }
-}
-
-@media screen and (max-device-width: 480px) {
-  body {
-    -webkit-text-size-adjust: none;
-  }
 }
 
 a.cta {
@@ -226,5 +205,21 @@ a.podcast_cta {
 
 .podcast_cta img {
   border-radius: 8px;
-  width: 420px;
+}
+
+@media screen and (max-width: 825px) {
+  #container {
+    width: auto;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-device-width: 480px) {
+  a.podcast_cta {
+    width: 300px;
+  }
+
+  body {
+    -webkit-text-size-adjust: none;
+  }
 }
