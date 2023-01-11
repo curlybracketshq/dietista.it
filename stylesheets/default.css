@@ -208,3 +208,35 @@ p.intro {
     -webkit-text-size-adjust: none;
   }
 }
+
+a.cta {
+  text-decoration: none;
+  display: block;
+  background-color: rgb(76, 56, 79);
+  color: #fff;
+  width: 300px;
+  border-radius: 8px;
+  margin: 40px auto;
+}
+
+.cta p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 16px;
+  font-size: 130%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a.podcast_cta {
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  width: 420px;
+  margin: 40px auto;
+}
+
+.podcast_cta img {
+  border-radius: 8px;
+  width: 420px;
+}
