@@ -19,9 +19,9 @@ Sembra proprio che questi due ormoni si rincorrano, perché la nostra attività 
 
 *Quindi regolando il sonno, il risultato è anche quello di regolare la produzione di serotonina, renderla sufficiente a controllare il nostro appetito e/o la nostra fame nervosa.* Ecco di nuovo **il cerchio che si chiude, il sonno che può controllare la nostra alimentazione.**
 
-Perciò possiamo aiutarci, migliorando la qualità del sonno con **prodotti naturali, come la valeriana, la passiflora**, od altri, in funzione al tipo di disregolazione che abbiamo del sonno. E cioè, se facciamo fatica a prendere sonno, se ci svegliamo a qualche ora della notte. Ecco allora ad esempio valeriana induce il sonno e va bene perché fa fatica ad addormentarsi. Mentre la passiflora abbassa lo stress e i pensieri circolari quelli che non ci fanno dormire o riposare.
+Perciò possiamo aiutarci, migliorando la qualità del sonno con **prodotti naturali, come la valeriana, la passiflora**, o altri, in funzione al tipo di disregolazione che abbiamo del sonno. E cioè, se facciamo fatica a prendere sonno, se ci svegliamo a qualche ora della notte. Ecco allora ad esempio valeriana induce il sonno e va bene perché fa fatica ad addormentarsi. Mentre la passiflora abbassa lo stress e i pensieri circolari quelli che non ci fanno dormire o riposare.
 
-Oppure possiamo aiutarci migliorando la qualità del giorno, con i **precursori naturali della serotonina, come grifonia, oppure alimenti come le ciliegie**, se fosse stagione, o qualche pezzetto di banana. In ogni caso **è buona abitudine fare una cena di facile digestione, evitare il caffè, ed anche gli alcolici.**
+Oppure possiamo aiutarci migliorando la qualità del giorno, con i **precursori naturali della serotonina, come grifonia, oppure alimenti come le ciliegie**, se fosse stagione, o qualche pezzetto di banana. In ogni caso **è buona abitudine fare una cena di facile digestione, evitare il caffè, e anche gli alcolici.**
 
 Bene, questo primo incontro termina qui. Sono felice di essere stata in vostra compagnia e per il prossimo argomento, cosa ne dite se facciamo un po’ di chiarezza sul tema glutine?
 
