@@ -207,6 +207,27 @@ a.podcast_cta {
   border-radius: 8px;
 }
 
+div.social {
+  border: red;
+}
+
+div.social .social_icon {
+  border: blue;
+}
+
+nav.social {
+  display: none;
+}
+
+footer nav.social {
+  display: block;
+  border: red;
+}
+
+footer nav.social .social_icon {
+  border: blue;
+}
+
 @media screen and (max-width: 825px) {
   #container {
     width: auto;
