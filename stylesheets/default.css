@@ -223,14 +223,6 @@ div.social .social_icon img {
   width: 32px;
 }
 
-nav.social {
-  display: none;
-}
-
-footer nav.social {
-  display: block;
-}
-
 footer nav.social .social_icon img {
   width: 16px;
 }
