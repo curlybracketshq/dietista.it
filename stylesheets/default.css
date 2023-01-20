@@ -180,19 +180,25 @@ p.intro {
 a.cta {
   text-decoration: none;
   display: block;
-  background-color: rgb(76, 56, 79);
-  color: #fff;
+  background-color: #d8d8d8;
+  color: #333;
   width: 300px;
   border-radius: 8px;
   margin: 40px auto;
+  overflow: hidden;
+  padding: 16px;
 }
 
 .cta p {
-  padding: 16px;
   font-size: 130%;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
+  float: right;
+}
+
+.cta img {
+  float: left;
 }
 
 a.podcast_cta {
