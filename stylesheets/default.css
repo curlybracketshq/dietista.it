@@ -179,7 +179,6 @@ p.intro {
 
 a.cta {
   text-decoration: none;
-  display: block;
   background-color: #d8d8d8;
   color: #333;
   width: 300px;
@@ -187,6 +186,8 @@ a.cta {
   margin: 40px auto;
   overflow: hidden;
   padding: 16px;
+  display: flex;
+  align-items: center;
 }
 
 .cta p {
@@ -195,11 +196,12 @@ a.cta {
   text-transform: uppercase;
   font-weight: bold;
   padding: 0;
-  margin: 0 0 0 32px;
+  margin: 0;
+  flex-grow: 1;
 }
 
 .cta img {
-  float: left;
+  flex-grow: 0;
 }
 
 a.podcast_cta {
@@ -242,6 +244,10 @@ footer nav.social .social_icon img {
 }
 
 @media screen and (max-device-width: 480px) {
+  a.cta {
+    width: auto;
+  }
+
   a.podcast_cta {
     width: 300px;
   }
