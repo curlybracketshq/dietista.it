@@ -43,3 +43,16 @@ description: Dietista, Farmacista e dott. ssa in Scienze e Tecniche Psicologiche
     <img src="/images/applepodcasts.svg" alt="Ascolta il podcast Briciole di Nutrizione su Apple Podcasts" />
   </a>
 </div>
+
+<h2>Archivio</h2>
+
+<ul class="unstyled">
+  {% for post in site.posts %}
+    <li>
+      <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
+      <time datetime='{{ post.date | date: "%Y-%m-%d" }}'>
+        {{ post.date | date: "%d/%m/%Y" }}
+      </time>
+    </li>
+  {% endfor %}
+</ul>
