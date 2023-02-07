@@ -1,8 +1,8 @@
 ---
 layout: post
-title: L'Equilibrio appartiene anche all'Intestino
-description: TODO
-episode_id: TODO
+title: ... e la Pancia non c'è più! (Prima Parte)
+description: Se avete un pò di pazienza cercheremo di venire a capo del motivo di quel fastidioso gonfiore di pancia che a volte non dà tregua.
+episode_id: 15xfqj2w2B2k8qmzoSiKMM
 ---
 
 Se avete sofferto almeno una volta di gonfiore addominale, mi riferisco a quel fastidioso gonfiore che ci condiziona la giornata, allora vorrà dire che siete nel podcast giusto.
