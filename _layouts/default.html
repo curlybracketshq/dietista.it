@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8" />
   <title>{{ page.title }}</title>
   <meta name="description" content="{{ page.description }}">
-  <link rel="stylesheet" type="text/css" href="/stylesheets/default.css" />
-  <!--[if IE]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+  <link rel="stylesheet" type="text/css" href="/stylesheets/default_v2.css" />
 </head>
 
 <body>
-  <div id="container">
+  <header>
     {% include menu.html %}
+  </header>
 
-    {{ content }}
+  {{ content }}
 
-    <footer>
-      {% include footer_menu.html %}
+  <footer>
+    {% include footer_menu.html %}
 
-      <p>&copy; {{ site.time | date: '%Y' }} Mara Micolucci</p>
-    </footer>
+    <p>&copy; {{ site.time | date: '%Y' }} Mara Micolucci</p>
+  </footer>
   </div>
 </body>
+
 </html>
