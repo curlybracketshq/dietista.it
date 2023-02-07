@@ -4,7 +4,7 @@
   --foreground-muted: #2222227f;
   --container-colour: #f3f4f6;
   --blue: #007aff;
-  --purple: #bb00ff;
+  --size-extra-small: 0.25rem; /* 5px */
   --size-small: 0.5rem; /* 10px */
 }
 
@@ -72,12 +72,9 @@ blockquote,
   margin: 2rem 0;
 }
 
-a {
-  color: var(--blue);
-}
-
+a,
 a:visited {
-  color: var(--purple);
+  color: var(--blue);
 }
 
 blockquote,
@@ -151,6 +148,14 @@ footer {
   font-size: 0.83rem;
 }
 
+footer nav {
+  gap: var(--size-extra-small);
+}
+
+footer nav.social {
+  margin-top: 1rem;
+}
+
 footer nav.social .social_icon img {
   width: 16px;
 }
@@ -159,11 +164,11 @@ footer nav.social .social_icon img {
 
 a.cta {
   text-decoration: none;
-  background-color: #d8d8d8;
-  color: #333;
+  background-color: var(--container-colour);
+  color: var(--foreground);
   width: 300px;
   border-radius: 8px;
-  margin: 40px auto;
+  margin: 2rem auto;
   overflow: hidden;
   padding: 16px;
   display: flex;
@@ -171,7 +176,7 @@ a.cta {
 }
 
 .cta p {
-  font-size: 130%;
+  font-size: 1.3rem;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
@@ -187,9 +192,9 @@ a.cta {
 a.podcast_cta {
   text-decoration: none;
   display: block;
-  color: #fff;
+  color: var(--background);
   width: 420px;
-  margin: 40px auto;
+  margin: 2rem auto;
 }
 
 .podcast_cta img {
@@ -202,11 +207,11 @@ a.social_icon {
 
 div.social {
   text-align: center;
-  margin: 40px auto;
+  margin: 2rem auto;
 }
 
 div.social .social_icon {
-  margin-right: 10px;
+  margin-right: 0.5rem;
 }
 
 div.social .social_icon img {
