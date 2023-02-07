@@ -21,7 +21,6 @@ body {
   color: var(--foreground);
   max-width: 95%;
   font-family: -apple-system, sans-serif;
-  font-weight: 400;
   margin: 2rem auto 4rem auto;
 }
 
@@ -29,12 +28,6 @@ img {
   max-width: 100%;
   display: block;
   page-break-after: always;
-}
-
-h1,
-h2,
-h3 {
-  font-weight: 500;
 }
 
 h1 {
