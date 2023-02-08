@@ -37,4 +37,4 @@ Il primo segnale che ci indicherà di aver intrapreso la strada giusta, sarà il
 
 **In sintesi vi consiglio di bere almeno 1 litro di acqua al giorno**, a sorsetti, come fosse un vero e proprio *depurativo*, un *anti-aging*, che oltre ad allontanare le rughe da invecchiamento, tiene soprattutto lontano le malattie legate ad esso.
 
-Alla prossima e il tema sarà il famigerato gonfiore della pancia.
+Alla prossima e il tema sarà [il famigerato gonfiore della pancia]({% post_url 2023-02-07-e-la-pancia-non-c-e-piu-prima-parte %}).

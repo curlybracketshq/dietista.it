@@ -19,4 +19,4 @@ Dovete sapere che utilizzando alimenti senza glutine, e soprattutto senza una mo
 
 Quindi, perdonatemi se mi ripeto, **per chi non è realmente intollerante al glutine e non ha dimestichezza con questo tipo di dieta, evitarlo diventa solo un boomerang, specie se lo si fa per ritrovare la propria forma fisica.**
 
-Il nostro incontro termina qui ci sentiamo alla prossima, il tema sarà l’acqua e l’idratazione.
+Il nostro incontro termina qui ci sentiamo alla prossima, il tema sarà [l’acqua e l’idratazione]({% post_url 2023-01-23-la-forza-dell-acqua %}).

@@ -23,7 +23,7 @@ Perciò possiamo aiutarci, migliorando la qualità del sonno con **prodotti natu
 
 Oppure possiamo aiutarci migliorando la qualità del giorno, con i **precursori naturali della serotonina, come grifonia, oppure alimenti come le ciliegie**, se fosse stagione, o qualche pezzetto di banana. In ogni caso **è buona abitudine fare una cena di facile digestione, evitare il caffè, e anche gli alcolici.**
 
-Bene, questo primo incontro termina qui. Sono felice di essere stata in vostra compagnia e per il prossimo argomento, cosa ne dite se facciamo un po’ di chiarezza sul tema glutine?
+Bene, questo primo incontro termina qui. Sono felice di essere stata in vostra compagnia e per il prossimo argomento, cosa ne dite se [facciamo un po’ di chiarezza sul tema glutine]({% post_url 2023-01-08-glutine-facciamo-un-po-di-chiarezza %})?
 
 A presto,
 Mara.
