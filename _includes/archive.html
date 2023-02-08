@@ -1,0 +1,11 @@
+<h2>Archivio</h2>
+
+{% for post in site.posts %}
+<h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+<p>
+  Pubblicato il
+  <time datetime='{{ post.date | date: "%Y-%m-%d" }}'>
+    {{ post.date | date: "%d/%m/%Y" }}
+  </time>
+</p>
+{% endfor %}

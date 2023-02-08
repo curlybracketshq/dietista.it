@@ -2,10 +2,8 @@
   --background: #fafafa;
   --foreground: #222222;
   --foreground-muted: #2222227f;
-  --container-colour: #f3f4f6;
-  --blue: #007aff;
-  --size-extra-small: 0.25rem; /* 5px */
-  --size-small: 0.5rem; /* 10px */
+  --size-extra-small: 0.3rem;
+  --size-small: 0.5rem;
 }
 
 html {
@@ -26,13 +24,12 @@ body {
 
 img {
   max-width: 100%;
-  display: block;
   page-break-after: always;
 }
 
 h1 {
   font-size: 1.953rem;
-  margin: 4rem auto 2rem auto;
+  margin: 4rem auto 1rem auto;
   line-height: 1.1;
 }
 
@@ -55,51 +52,17 @@ h2+h3 {
 
 p,
 ul,
-ol,
-time {
+ol {
   margin: 1rem 0;
 }
 
-time {
-  font-size: 0.75rem;
-}
-
-img,
-blockquote,
-.container {
+img {
   margin: 2rem 0;
 }
 
-a,
-a:visited {
-  color: var(--blue);
-}
-
-blockquote,
-.container {
-  padding: 1rem;
-  background-color: var(--container-colour);
-}
-
-blockquote>*,
 a>*,
-.two-column-grid>*,
 .flex>* {
   margin: 0;
-}
-
-blockquote {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-blockquote>footer {
-  color: var(--foreground-muted);
-}
-
-blockquote>footer>a {
-  word-break: break-all;
 }
 
 .border {
@@ -108,11 +71,6 @@ blockquote>footer>a {
 
 .muted {
   color: var(--foreground-muted);
-}
-
-.two-column-grid {
-  display: grid;
-  gap: 1rem;
 }
 
 .flex {
@@ -143,7 +101,7 @@ nav {
 
 footer {
   margin-top: 2rem;
-  font-size: 0.83rem;
+  font-size: 0.75rem;
 }
 
 footer nav {
@@ -162,9 +120,9 @@ footer nav.social .social_icon img {
 
 a.cta {
   text-decoration: none;
-  background-color: var(--container-colour);
+  background-color: #ddd;
   color: var(--foreground);
-  width: 300px;
+  width: 388px; /* 420 - 16*2 */
   border-radius: 8px;
   margin: 2rem auto;
   overflow: hidden;
@@ -209,7 +167,7 @@ div.social {
 }
 
 div.social .social_icon {
-  margin-right: 0.5rem;
+  margin-right: 1rem;
 }
 
 div.social .social_icon img {
@@ -223,11 +181,9 @@ div.social .social_icon img {
     max-width: 700px;
     -webkit-text-size-adjust: none;
   }
+}
 
-  .two-column-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-
+@media (max-width: 730px) {
   a.cta {
     width: auto;
   }

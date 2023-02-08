@@ -1,14 +1,12 @@
 ---
 layout: default
-title: Dott. ssa Mara Micolucci Dietista Online
+title: Dott. ssa Mara Micolucci
 description: Dietista, Farmacista e dott. ssa in Scienze e Tecniche Psicologiche
 ---
 
-<header>
-  <h1>Dott. ssa Mara Micolucci</h1>
-</header>
-
+<h1>Dott. ssa Mara Micolucci</h1>
 <h2>Dietista, Farmacista e dott. ssa in Scienze e Tecniche Psicologiche</h2>
+
 <a class="cta" href="https://cal.com/dietista">
   <img src="/images/googlecalendar.svg" width="32" height="32" alt="Prenota un appuntamento" />
   <p>Prenota</p>
@@ -44,15 +42,4 @@ description: Dietista, Farmacista e dott. ssa in Scienze e Tecniche Psicologiche
   </a>
 </div>
 
-<h2>Archivio</h2>
-
-<ul class="unstyled">
-  {% for post in site.posts %}
-    <li>
-      <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
-      <time datetime='{{ post.date | date: "%Y-%m-%d" }}'>
-        {{ post.date | date: "%d/%m/%Y" }}
-      </time>
-    </li>
-  {% endfor %}
-</ul>
+{% include archive.html %}
