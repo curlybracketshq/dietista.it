@@ -2,6 +2,7 @@
   --background: #fafafa;
   --foreground: #222222;
   --foreground-muted: #2222227f;
+  --primary: #0d6efd;
   --size-extra-small: 0.3rem;
   --size-small: 0.5rem;
 }
@@ -25,6 +26,11 @@ body {
 img {
   max-width: 100%;
   page-break-after: always;
+}
+
+a,
+a:visited {
+  color: var(--primary);
 }
 
 h1 {
@@ -120,28 +126,28 @@ footer nav.social .social_icon img {
 
 a.cta {
   text-decoration: none;
-  background-color: #ddd;
-  color: var(--foreground);
-  width: 388px; /* 420 - 16*2 */
-  border-radius: 8px;
+  background-color: var(--primary);
+  color: var(--background);
+  width: 356px; /* 420 - 32*2 */
+  border-radius: 40px;
   margin: 2rem auto;
   overflow: hidden;
-  padding: 16px;
+  padding: 16px 32px;
   display: flex;
   align-items: center;
 }
 
 .cta p {
-  font-size: 1.3rem;
-  text-align: center;
-  text-transform: uppercase;
+  font-size: 1.2rem;
   font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.07rem;
   padding: 0;
   margin: 0;
   flex-grow: 1;
 }
 
-.cta img {
+.cta svg {
   flex-grow: 0;
 }
 
