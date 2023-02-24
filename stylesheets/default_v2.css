@@ -119,7 +119,8 @@ footer nav.social {
 }
 
 footer nav.social .social_icon img {
-  width: 16px;
+  width: 1rem;
+  margin-right: 0.4rem;
 }
 
 /* Start index specific styles */
@@ -177,7 +178,7 @@ div.social .social_icon {
 }
 
 div.social .social_icon img {
-  width: 32px;
+  width: 2.4rem;
 }
 
 /* Start index specific styles */
