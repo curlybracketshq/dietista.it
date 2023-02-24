@@ -5,11 +5,11 @@ description: Quanto è importante l'acqua che beviamo?
 episode_id: 0yjtbfzZsPVEEhEw8BpJ9O
 ---
 
-Ci chiediamo *quanto sia importante e vitale idratarci correttamente*, con almeno una quantità sufficiente d’acqua?
+Ci chiediamo _quanto sia importante e vitale idratarci correttamente_, con almeno una quantità sufficiente d’acqua?
 
 Attenzione perché oggi farò riferimento ad **uno studio che ci convincerà a fare più attenzione all’acqua che beviamo e alla sua estrema importanza.** Perdonatemi se a tratti sarà un po’ pesante, ma ne vale la pena.
 
-Prima di tutto una breve introduzione. *Siamo costituiti da più del 50% d’acqua*, che ci serve per regolare la temperatura, ci serve per la digestione del cibo, per la costruzione degli ormoni, per lo scambio di ossigeno con l’esterno, e lo scambio di tutte quelle sostanze, metaboliti, utili alla nostra sopravvivenza e a tanto altro. Ma quello che probabilmente non sappiamo, e che mi ha lasciata pensierosa, è quanto l’acqua che beviamo può incidere sulla nostra **età biologica**. Ripeto: età biologica, e cioè non la nostra *età anagrafica*, ma l’età che realmente rispecchia il nostro stato di salute. Come siamo davvero, dentro. Perciò ripeto: *quanto l’acqua che beviamo può incidere sulla nostra età biologica e di conseguenza, quanto può rallentare il nostro processo di invecchiamento* e di conseguenza la comparsa delle più comuni malattie croniche, come l’ipertensione, l’insufficienza cardiaca, il diabete, le malattie polmonari croniche e la demenza.
+Prima di tutto una breve introduzione. _Siamo costituiti da più del 50% d’acqua_, che ci serve per regolare la temperatura, ci serve per la digestione del cibo, per la costruzione degli ormoni, per lo scambio di ossigeno con l’esterno, e lo scambio di tutte quelle sostanze, metaboliti, utili alla nostra sopravvivenza e a tanto altro. Ma quello che probabilmente non sappiamo, e che mi ha lasciata pensierosa, è quanto l’acqua che beviamo può incidere sulla nostra **età biologica**. Ripeto: età biologica, e cioè non la nostra _età anagrafica_, ma l’età che realmente rispecchia il nostro stato di salute. Come siamo davvero, dentro. Perciò ripeto: _quanto l’acqua che beviamo può incidere sulla nostra età biologica e di conseguenza, quanto può rallentare il nostro processo di invecchiamento_ e di conseguenza la comparsa delle più comuni malattie croniche, come l’ipertensione, l’insufficienza cardiaca, il diabete, le malattie polmonari croniche e la demenza.
 
 Credo che in questo momento ognuno di noi starà pesando a qualcuno. Io, in questo elenco di malattie croniche, trovo forse più dolorosa quella rappresentata dalla demenza, ma è solo un pensiero personale a mio padre e al dolore che ha dovuto provare a non ritrovarsi e riconoscersi più nella sua quotidianità.
 
@@ -35,6 +35,6 @@ Noi non dobbiamo dimenticare che l’acqua la beviamo, tra virgolette, anche att
 
 Il primo segnale che ci indicherà di aver intrapreso la strada giusta, sarà il cambiamento del colore delle urine che appariranno più chiare, più diluite.
 
-**In sintesi vi consiglio di bere almeno 1 litro di acqua al giorno**, a sorsetti, come fosse un vero e proprio *depurativo*, un *anti-aging*, che oltre ad allontanare le rughe da invecchiamento, tiene soprattutto lontano le malattie legate ad esso.
+**In sintesi vi consiglio di bere almeno 1 litro di acqua al giorno**, a sorsetti, come fosse un vero e proprio _depurativo_, un _anti-aging_, che oltre ad allontanare le rughe da invecchiamento, tiene soprattutto lontano le malattie legate ad esso.
 
 Alla prossima e il tema sarà [il famigerato gonfiore della pancia]({% post_url 2023-02-07-e-la-pancia-non-c-e-piu-prima-parte %}).
