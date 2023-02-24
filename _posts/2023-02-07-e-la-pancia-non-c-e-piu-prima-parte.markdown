@@ -25,4 +25,4 @@ A dimostrare questo lavoro incessante di disinfezione c'è il fatto che _un gran
 
 Quindi possiamo dire che _se il gonfiore va oltre la norma è sicuramente un grido di aiuto da parte di questo organo meraviglioso_, che ci avvisa di una qualche alterazione, che non sarà necessariamente, o solo, di natura alimentare.
 
-Per la soluzione a questo problema ci sentiamo nella seconda parte del prossimo podcast.
+Per la [soluzione a questo problema]({% post_url 2023-02-21-e-la-pancia-non-c-e-piu-seconda-parte %}) ci sentiamo nella seconda parte del prossimo podcast.
