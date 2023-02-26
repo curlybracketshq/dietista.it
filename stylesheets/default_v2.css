@@ -35,25 +35,23 @@ a:visited {
 
 h1 {
   font-size: 1.953rem;
-  margin: 4rem auto 1rem auto;
   line-height: 1.1;
 }
 
 h2 {
   font-size: 1.563rem;
-  margin: 3rem auto 1rem auto;
   line-height: 1.2;
 }
 
 h3 {
   font-size: 1.25rem;
-  margin: 2rem auto 1rem auto;
   line-height: 1.4;
+  margin: 1rem auto 1rem auto;
 }
 
-h1+h2,
-h2+h3 {
-  margin-top: 2rem;
+h1,
+h2 {
+  margin: 2rem auto 1rem auto;
 }
 
 p,
@@ -125,13 +123,16 @@ footer nav.social .social_icon img {
 
 /* Start index specific styles */
 
+.ctas {
+  margin-top: 2rem;
+}
+
 a.cta {
   text-decoration: none;
   background-color: var(--primary);
   color: var(--background);
   width: 356px; /* 420 - 32*2 */
   border-radius: 40px;
-  margin: 2rem auto;
   overflow: hidden;
   padding: 16px 32px;
   display: flex;
@@ -157,24 +158,14 @@ a.podcast_cta {
   display: block;
   color: var(--background);
   width: 420px;
-  margin: 2rem auto;
 }
 
 .podcast_cta img {
   border-radius: 8px;
 }
 
-a.social_icon {
-  text-decoration: none;
-}
-
 div.social {
-  text-align: center;
-  margin: 2rem auto;
-}
-
-div.social .social_icon {
-  margin-right: 1rem;
+  margin-top: 2rem;
 }
 
 div.social .social_icon img {
@@ -192,7 +183,7 @@ div.social .social_icon img {
 
 @media (max-width: 730px) {
   a.cta {
-    width: auto;
+    width: 65%;
   }
 
   a.podcast_cta {
