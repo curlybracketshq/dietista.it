@@ -132,15 +132,15 @@ a.cta {
   background-color: var(--primary);
   color: var(--background);
   width: 356px; /* 420 - 32*2 */
-  border-radius: 40px;
+  border-radius: 20px;
   overflow: hidden;
-  padding: 16px 32px;
+  padding: 24px 32px;
   display: flex;
   align-items: center;
 }
 
 .cta p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: bold;
   text-align: center;
   letter-spacing: 0.07rem;
@@ -151,6 +151,10 @@ a.cta {
 
 .cta svg {
   flex-grow: 0;
+}
+
+a.chat_on_whatsapp img {
+  width: 420px;
 }
 
 a.podcast_cta {
