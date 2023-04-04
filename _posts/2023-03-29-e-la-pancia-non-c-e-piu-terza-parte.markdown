@@ -21,7 +21,7 @@ Che una delle cause del gonfiore possa essere lo stress, l'ansia, lo sappiamo pe
 
 Attenzione, la manifestazione degna di nota è che il segnale può andare anche all'inverso, cioè **l'intestino può comunicare al cervello uno stato di disagio o disbiosi procurando, oltre al gonfiore, anche un possibile stato d'ansia o abbassamento dell'umore**. ["Current Perspectives on Gut Microbiome Dysbiosis and Depression"](https://doi.org/10.1007/s12325-020-01272-7) è uno studio interessante che correla la disbiosi alla depressione.
 
-Questo è _il famoso asse microbiota-intestino-cervello_. E **se il microbiota è in equilibrio, manda il cervello dalle sostanze che migliorano l'umore**.
+Questo è _il famoso asse microbiota-intestino-cervello_. E **se il microbiota è in equilibrio, manda al cervello delle sostanze che migliorano l'umore**.
 
 Vediamo ora invece come **alcuni farmaci, tra i più comuni, possano causare disbiosi, gonfiore di pancia**, per una maggiore fermentazione dei batteri intestinali. L'esempio più eclatante sono gli **antibiotici**, ed ora sappiamo praticamente un po' tutti che vanno adoperati solo su consiglio medico, ma il tranello è altrove, e cioè alla _possibile presenza di antibiotici negli alimenti_, specie nella carne, per l'utilizzo che ne viene fatto nei grandi allevamenti anche come promotore della crescita. ["Antibiotico-resistenza nel settore ambientale"](https://www.salute.gov.it/portale/antibioticoresistenza/dettaglioContenutiAntibioticoResistenza.jsp?lingua=italiano&id=5435&area=antibiotico-resistenza&menu=vuoto) è un documento interessantissimo del Ministero della Salute sull'argomento.
 
