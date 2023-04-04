@@ -105,7 +105,7 @@ nav {
 
 footer {
   margin-top: 2rem;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
 }
 
 footer nav {
@@ -117,8 +117,8 @@ footer nav.social {
 }
 
 footer nav.social .social_icon img {
-  width: 1rem;
-  margin-right: 0.4rem;
+  width: 2rem;
+  margin-right: 0.8rem;
 }
 
 /* Start index specific styles */
@@ -170,6 +170,7 @@ a.podcast_cta {
 
 div.social {
   margin-top: 2rem;
+  gap: 1.4rem;
 }
 
 div.social .social_icon img {
