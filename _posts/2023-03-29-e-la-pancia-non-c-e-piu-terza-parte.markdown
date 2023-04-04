@@ -29,7 +29,7 @@ Un'altra famiglia di farmaci alla ribalta causa di disbiosi sono i **protettori 
 
 Andiamo ora alla **causa regina della disbiosi: l'alimentazione**. Mi ripeto, se la nostra disbiosi, gonfiore, non sarà legata naturalmente a patologie, o all'uso di farmaci, o al nostro stato umorale, potremo finalmente considerare la causa legata all'alimentazione. Basti pensare semplicemente al **latte**, al lattosio in particolare, quando anche in assenza di intolleranza pura al lattosio, non viene digerito, procurando gonfiore e a volte anche delle scariche, a causa dell'aumento dell'attività fermentativa con la produzione di gas. In questo caso il nostro microbiota disbiotico manca dei batteri in grado di aiutarci a digerirlo e questo è il risultato.
 
-**Gli stessi zuccheri possono dare gonfiore di pancia** quando sono troppi. Gli zuccheri sono anche i carboidrati. Se ne assumiamo troppi possono arrivare indigeriti al colon e lì fermentare creando disbiosi e gas. ["Nutritional and dietary strategy in the clinical care of inflammatory bowel disease"](https://doi.org/10.1016/j.jfma.2019.09.005) è studio molto interessante sull'argomento.
+**Gli stessi zuccheri possono dare gonfiore di pancia** quando sono troppi. Gli zuccheri sono anche i carboidrati. Se ne assumiamo troppi possono arrivare indigeriti al colon e lì fermentare creando disbiosi e gas. ["Nutritional and dietary strategy in the clinical care of inflammatory bowel disease"](https://doi.org/10.1016/j.jfma.2019.09.005) è uno studio molto interessante sull'argomento.
 
 Dal punto di vista alimentare, cosa può alterare il nostro microbiota per costringerlo alla disbiosi, ai processi fermentativi e produzione di gas fastidiosi più del dovuto?
 
