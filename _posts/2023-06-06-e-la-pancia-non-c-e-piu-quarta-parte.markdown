@@ -63,4 +63,4 @@ In sintesi: **non colpevolizziamo solo gli alimenti, questo o quello mi gonfia l
 E se ci si gonfia la pancia, leggiamolo come una richiesta di aiuto del nostro corpo, del nostro intestino e non solo come un fastidio da eliminare.
 
 Alla prossima con "Dimmi che dieta fai e ti dirò che microbiota hai".<br>
-E il nostro microbiota può anche farci ingrassare?
+E [il nostro microbiota può anche farci ingrassare?]({% post_url 2024-03-24-e-la-pancia-non-c-e-piu-quinta-parte %})
