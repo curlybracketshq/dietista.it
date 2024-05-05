@@ -1,0 +1,23 @@
+{
+  "id": "chatcmpl-9LMZSOApyPigqFmWLwAjuyw1TCZCG",
+  "object": "chat.completion",
+  "created": 1714878678,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Good morning everyone, good morning all. Here I am responding to the questions raised in the latest podcast. Can our bacterial flora or microbiota influence and condition our weight? Similarly, can our diet and eating habits influence and condition our bacterial flora, our microbiota? At least once in our lives, we have said or heard someone say, \"Even though I am careful about what I eat, I can't seem to lose weight.\" So, I urge you, always and in any case, not to look for a single culprit in our diet that might prevent us from achieving our optimal weight.\n\nObesity and overweight have long been simplistically framed as the result of an imbalance between caloric intake and energy expenditure, or simply put, the result of what we eat minus what we burn. As human beings, we have evolved with a community of bacteria and other intestinal organisms that together form the so-called gut microbiota. The concept that interests us now is that there are differences between the bacterial populations in obese individuals and those with normal weight. There is an increased likelihood that the characteristic bacterial population in an obese person has an enhanced ability to extract calories from foods, thanks to a more effective terminal digestion of compounds that are poorly or not digested by the human gastrointestinal system. We are talking about fibers, that part of the food that we theoretically do not digest and we have always believed to be beneficial to our diet.\n\nTo date, there is experimental evidence on this mechanism, on this peculiarity of the microbiota present in obese individuals. This type of gut microbiota, equipped with enzymes not encoded by the human genome, contributes to the energy recovery of polysaccharides introduced in the diet that would otherwise not be digestible or absorbable, such as fibers. It has been demonstrated that the obese phenotype was transmissible with the gut flora, the microbiota. In fact, rodents with gut flora derived from obese animals showed about a 60% increase in body fat compared to rodents with gut flora from normal-weight individuals. Similar results have been obtained in humans as early as 2005. Intestinal bacteria selected in the gut of obese individuals, with a higher degree of obesity, do not let the calories contained in fibers in the form of sugars and fatty acids escape, somewhat like ruminants.\n\nFrom this, we deduce that in the presence of obesity, attention must also be paid to the amount of vegetables consumed in the diet. Introducing too many vegetables can backfire because in this case, we would be optimizing the calorie recovery from fibers. The important concept is that for the body, balance in an obese person is obesity. It is as if obesity does not want to disappear and thanks to the collaboration of the bacterial flora, the body internally optimizes even foods like fibers to obtain the calories necessary to maintain obesity. Therefore, the diet should be chosen with the help of a professional, and the amount of fibers and vegetables should be reasonable and tailored to the individual and the diet.\n\nThis dietary approach should also be accompanied by the intake of targeted probiotics based on a personalized protocol, such as the diet, to seek balance in gut bacterial flora, the eubiosis of the microbiota, thus finally allowing for the right weight loss. I would like to point out that the Mediterranean diet, rich in plant fibers and low in animal proteins, saturated fats, and refined sugars, seems to promote the intestinal proliferation of bacterial genera favorable to preserving eubiosis, balance, and protecting the intestinal mucosa, upon which not only proper gastrointestinal function depends but also the modulation of allergic and neuroendocrine immune responses.\n\nWell, we have come to the end, and for specific and targeted advice, I urge you to contact me through the dietista.it platform. Now I wish you a good day and until the next podcast. Can we still talk about the ideal weight? What is body weight actually?\n\n(Note: This translation has been adapted for readability and natural flow in English.)"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1173,
+    "completion_tokens": 798,
+    "total_tokens": 1971
+  },
+  "system_fingerprint": "fp_3b956da36b"
+}
