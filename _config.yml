@@ -1,19 +1,22 @@
-# Aggiungi a _config.yml (sostituisce valori esistenti se presenti)
 title: "Dott.ssa Mara Micolucci - Dietista"
 description: "Dietista, Farmacista, Dott.ssa in Scienze e Tecniche Psicologiche. Consulenze online e in presenza."
 url: "https://dietista.it"
 baseurl: ""
 
-# Tracking – lascia vuoto se non usi
 google_analytics: "G-876WVL5S1E"
 meta_pixel_id: "2226744121512874"
 whatsapp_number: "393707021620"
 whatsapp_link: "https://wa.me/393707021620"
+
+email: "info@dietista.it"
+instagram: "https://www.instagram.com/dietista.it/"
+facebook: "https://www.facebook.com/dietista.it"
+podcast_apple: "https://podcasts.apple.com/it/podcast/briciole-di-nutrizione/id1662272760"
+podcast_spotify: "https://podcasters.spotify.com/pod/show/dietista"
+podcast_rss: "https://castro.fm/itunes/1662272760"
 
 # Build
 markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-
-# Rimuovi vecchi riferimenti a stylesheets/main.css – ora usiamo solo assets/css/main.css
