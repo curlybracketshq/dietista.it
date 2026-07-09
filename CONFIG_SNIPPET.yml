@@ -1,1 +1,5 @@
-meta_pixel_id: ""
+# Aggiungi a _config.yml
+google_analytics: "G-876WVL5S1E"  # tuo GA4 ID
+meta_pixel_id: "2226744121512874"  # tuo Pixel ID
+whatsapp_number: "393707021620"
+whatsapp_link: "https://wa.me/393707021620"
