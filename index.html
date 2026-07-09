@@ -3,97 +3,259 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Dott.ssa Mara Micolucci – Dietista, Farmacista</title>
-<meta name="description" content="Consulenze nutrizionali personalizzate online su Zoom o WhatsApp e in presenza. Approccio senza diete restrittive. Prenotazione diretta su Cal.com.">
+<title>Dott.ssa Mara Micolucci – Dietista, Farmacista, Dott.ssa in Scienze e Tecniche Psicologiche</title>
+<meta name="description" content="Consulenze nutrizionali personalizzate online su Zoom o WhatsApp e in presenza. Approccio senza diete restrittive, con supporto psicologico integrato. Prenotazione diretta su Cal.com.">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600&display=swap" rel="stylesheet">
 <style>
-/* --- main.css v5 fixed --- */
+/* dietista.it v5 – clean palette, no legacy CSS */
 :root{
-  --green-900:#1B3D35;--green-800:#224F44;--green-700:#2F7D6B;--green-600:#3A9D8A;--green-500:#4FB89F;--green-100:#E6F4F0;--green-50:#F4FAF8;
-  --sage-200:#D7E8E1;--ink:#1A2A26;--muted:#5C716B;--border:#DDE8E3;--bg:#FFFFFF;--card:#FFFFFF;
-  --shadow:0 8px 24px rgba(27,61,53,.07),0 2px 8px rgba(27,61,53,.05);--whatsapp:#25D366;--whatsapp-hover:#1FB356;--radius:16px;--container:1120px;
+  --green-900:#1B3D35;
+  --green-800:#224F44;
+  --green-700:#2F7D6B; /* primary */
+  --green-600:#3A9D8A;
+  --green-500:#4FB89F;
+  --green-100:#E6F4F0;
+  --green-50:#F4FAF8;
+  --sage-200:#D7E8E1;
+  --ink:#1A2A26;
+  --muted:#5C716B;
+  --border:#DDE8E3;
+  --bg:#FFFFFF;
+  --card:#FFFFFF;
+  --shadow:0 8px 24px rgba(27,61,53,.07),0 2px 8px rgba(27,61,53,.05);
+  --whatsapp:#25D366;
+  --whatsapp-hover:#1FB356;
+  --radius:16px;
+  --radius-sm:10px;
+  --container:1120px;
 }
-*{box-sizing:border-box}html{scroll-behavior:smooth}
-body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
-img{max-width:100%;display:block}a{color:var(--green-700);text-decoration:none}a:hover{color:var(--green-800);text-decoration:underline;text-underline-offset:3px}
-h1,h2,h3,h4{font-family:Fraunces,Georgia,serif;letter-spacing:-.02em;line-height:1.15;color:var(--green-900)}h1{font-size:clamp(2rem,4vw,3rem)}h2{font-size:clamp(1.5rem,3vw,2.1rem)}
-.muted{color:var(--muted)}.small{font-size:.875rem}.container{max-width:var(--container);margin-inline:auto;padding-inline:20px}
-.site-header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:saturate(1.2) blur(10px);border-bottom:1px solid var(--border)}
-.header-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:72px}
-.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit;min-width:0}.brand:hover{text-decoration:none}
-.brand-avatar{width:40px;height:40px;border-radius:50%;object-fit:cover;border:2px solid var(--green-100);flex:0 0 40px}
-.brand-text{display:flex;flex-direction:column;line-height:1.1;min-width:0}.brand-text strong{font-family:Fraunces,serif;font-size:1.05rem;color:var(--green-900);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.brand-text span{font-size:.78rem;color:var(--muted);font-weight:500}
-.main-nav{display:flex;gap:22px;align-items:center}.main-nav a{color:var(--ink);font-weight:500;font-size:.95rem;text-decoration:none;position:relative}
-.main-nav a:hover{color:var(--green-700)}.header-actions{display:flex;gap:10px;align-items:center;flex:0 0 auto}
-.nav-toggle{display:none;background:none;border:1px solid var(--border);border-radius:10px;padding:8px 10px}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:10px 16px;border-radius:999px;font-weight:600;font-size:.92rem;border:1px solid transparent;cursor:pointer;text-decoration:none;transition:.18s;white-space:nowrap;line-height:1}
-.btn:hover{text-decoration:none;transform:translateY(-1px)}.btn-primary{background:var(--green-700);color:#fff;box-shadow:0 6px 16px rgba(47,125,107,.22)}
-.btn-primary:hover{background:var(--green-800);color:#fff}.btn-secondary{background:#fff;color:var(--green-800);border-color:var(--border)}.btn-whatsapp{background:var(--whatsapp);color:#fff}
-.btn-whatsapp:hover{background:var(--whatsapp-hover);color:#fff}
-.hero{padding:56px 0 28px}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:start}.hero h1{margin:0 0 12px}.hero-sub{font-size:1.1rem;color:var(--muted);margin:0 0 22px;max-width:52ch}
-.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0 14px}.trust-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:18px;font-size:.88rem;color:var(--muted)}
-.trust-row span{display:inline-flex;gap:6px;align-items:center;background:var(--green-50);border:1px solid var(--border);padding:6px 10px;border-radius:999px}
-.checklist-card{background:linear-gradient(180deg,#FFFFFF 0%,var(--green-50) 100%);border:1px solid var(--border);border-radius:16px;padding:24px 22px;box-shadow:var(--shadow);position:sticky;top:96px}
-.check-list{list-style:none;padding:0;margin:0;display:grid;gap:12px}.check-list li{display:flex;gap:12px;align-items:flex-start;font-size:.98rem;line-height:1.45}
-.check-icon{flex:0 0 28px;width:28px;height:28px;border-radius:50%;background:var(--green-700);color:#fff;display:grid;place-items:center;font-size:16px;margin-top:1px}
-.section{padding:36px 0}.section-alt{background:var(--green-50);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
-.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:22px;box-shadow:var(--shadow)}.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
-.blog-grid{display:grid;grid-template-columns:repeat(3, minmax(0,1fr));gap:20px;align-items:stretch}
-.post-preview{display:flex;flex-direction:column;background:#fff;border:1px solid var(--border);border-radius:16px;padding:18px 18px 16px;box-shadow:var(--shadow);min-height:180px}
-.booking-wrap{border:1px solid var(--border);border-radius:16px;overflow:hidden;background:#fff;box-shadow:var(--shadow)}.booking-wrap iframe{width:100%;height:760px;border:0;display:block}
-.site-footer{border-top:1px solid var(--border);background:#FBFFFE;margin-top:24px;padding:36px 0 18px}.footer-grid{display:grid;grid-template-columns:1.4fr .8fr .9fr;gap:28px}
-.footer-brand{display:flex;align-items:center;gap:10px;margin-bottom:10px}.footer-brand img{width:48px;height:48px;border-radius:50%;object-fit:cover;border:2px solid var(--green-100)}
-.footer-links{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:8px}.footer-links a{color:var(--muted);font-weight:500}.footer-bottom{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:26px;padding-top:16px;border-top:1px solid var(--border);font-size:.86rem}
 
-/* --- FIXED RESPONSIVE: header no longer crammed --- */
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  color:var(--ink);
+  background:var(--bg);
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:var(--green-700);text-decoration:none}
+a:hover{color:var(--green-800);text-decoration:underline;text-underline-offset:3px}
+h1,h2,h3,h4{font-family:Fraunces,Georgia,serif;letter-spacing:-.02em;line-height:1.15;color:var(--green-900)}
+h1{font-size:clamp(2rem,4vw,3rem)}
+h2{font-size:clamp(1.5rem,3vw,2.1rem)}
+.lead{font-size:1.15rem;line-height:1.6}
+.muted{color:var(--muted)}
+.small{font-size:.875rem}
+
+.container{max-width:var(--container);margin-inline:auto;padding-inline:20px}
+.narrow{max-width:760px}
+
+.site-header{
+  position:sticky;top:0;z-index:50;
+  background:rgba(255,255,255,.88);
+  backdrop-filter:saturate(1.2) blur(10px);
+  border-bottom:1px solid var(--border);
+}
+.header-inner{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:20px;min-height:72px;
+}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit}
+.brand:hover{text-decoration:none}
+.brand-avatar{width:40px;height:40px;border-radius:50%;object-fit:cover;border:2px solid var(--green-100)}
+.brand-text{display:flex;flex-direction:column;line-height:1.1}
+.brand-text strong{font-family:Fraunces,serif;font-size:1.05rem;color:var(--green-900)}
+.brand-text span{font-size:.78rem;color:var(--muted);font-weight:500;letter-spacing:.02em}
+
+.main-nav{display:flex;gap:22px;align-items:center}
+.main-nav a{color:var(--ink);font-weight:500;font-size:.95rem;text-decoration:none;position:relative}
+.main-nav a:hover{color:var(--green-700)}
+.main-nav a::after{content:"";position:absolute;left:0;right:0;bottom:-6px;height:2px;background:var(--green-500);transform:scaleX(0);transition:.2s}
+.main-nav a:hover::after{transform:scaleX(1)}
+
+.header-actions{display:flex;gap:10px;align-items:center}
+.nav-toggle{display:none;background:none;border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  padding:10px 16px;border-radius:999px;font-weight:600;font-size:.92rem;
+  border:1px solid transparent;cursor:pointer;text-decoration:none;transition:.18s;white-space:nowrap;line-height:1;
+}
+.btn:hover{text-decoration:none;transform:translateY(-1px)}
+.btn-primary{background:var(--green-700);color:#fff;box-shadow:0 6px 16px rgba(47,125,107,.22)}
+.btn-primary:hover{background:var(--green-800);color:#fff;box-shadow:0 8px 20px rgba(47,125,107,.28)}
+.btn-secondary{background:#fff;color:var(--green-800);border-color:var(--border)}
+.btn-secondary:hover{border-color:var(--green-600);color:var(--green-800)}
+.btn-whatsapp{background:var(--whatsapp);color:#fff;border-color:transparent}
+.btn-whatsapp:hover{background:var(--whatsapp-hover);color:#fff}
+.btn-ghost{background:var(--green-50);color:var(--green-800)}
+.btn-ghost:hover{background:var(--green-100)}
+
+/* Hero */
+.hero{padding:56px 0 28px}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:start}
+.hero h1{margin:0 0 12px}
+.hero-sub{font-size:1.1rem;color:var(--muted);margin:0 0 22px;max-width:52ch}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0 14px}
+.trust-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:18px;font-size:.88rem;color:var(--muted)}
+.trust-row span{display:inline-flex;gap:6px;align-items:center;background:var(--green-50);border:1px solid var(--border);padding:6px 10px;border-radius:999px}
+
+/* Checklist card – replaces big photo */
+.checklist-card{
+  background:linear-gradient(180deg,#FFFFFF 0%,var(--green-50) 100%);
+  border:1px solid var(--border);border-radius:var(--radius);
+  padding:24px 22px;box-shadow:var(--shadow);
+  position:sticky;top:96px;
+}
+.checklist-card h3{margin:0 0 6px;font-size:1.25rem}
+.checklist-card .sub{margin:0 0 16px;color:var(--muted);font-size:.95rem}
+.check-list{list-style:none;padding:0;margin:0;display:grid;gap:12px}
+.check-list li{display:flex;gap:12px;align-items:flex-start;font-size:.98rem;line-height:1.45}
+.check-icon{
+  flex:0 0 28px;width:28px;height:28px;border-radius:50%;
+  background:var(--green-700);color:#fff;display:grid;place-items:center;font-size:16px;margin-top:1px;
+}
+.check-list strong{color:var(--green-900)}
+
+/* Sections */
+.section{padding:36px 0}
+.section-alt{background:var(--green-50);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.card{
+  background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
+  padding:22px;box-shadow:var(--shadow);
+}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+
+/* Blog – FIX overlap */
+.blog-grid{
+  display:grid;
+  grid-template-columns:repeat(3, minmax(0,1fr));
+  gap:20px;
+  align-items:stretch;
+}
+.post-preview{
+  display:flex;flex-direction:column;
+  background:#fff;border:1px solid var(--border);border-radius:var(--radius);
+  padding:18px 18px 16px;box-shadow:var(--shadow);
+  min-height:180px; /* prevents collapse */
+  position:relative; /* not absolute */
+}
+.post-preview h3{margin:0 0 8px;font-size:1.08rem;line-height:1.3}
+.post-preview h3 a{color:var(--green-900);text-decoration:none}
+.post-preview h3 a:hover{color:var(--green-700)}
+.post-preview p{margin:0 0 12px;color:var(--muted);font-size:.93rem;flex:1}
+.post-meta{font-size:.82rem;color:var(--muted);margin-top:auto}
+
+/* Booking iframe */
+.booking-wrap{
+  border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;background:#fff;box-shadow:var(--shadow)
+}
+.booking-wrap iframe{width:100%;height:760px;border:0;display:block}
+
+/* Page & post */
+.page-wrapper{padding:40px 0 48px}
+.page-header{margin-bottom:18px}
+.page-header h1{margin:0 0 8px}
+.page-card,.post-card{padding:28px}
+.post-header h1{margin:0 0 8px}
+.post-content{font-size:1.02rem}
+.post-content h2,.post-content h3{margin-top:28px}
+.breadcrumbs{margin-bottom:12px}
+.breadcrumbs a{font-weight:500}
+
+/* CTA banner */
+.cta-banner{
+  margin-top:28px;display:flex;justify-content:space-between;align-items:center;gap:16px;
+  background:var(--green-900);color:#E8F3EF;border-radius:var(--radius);padding:18px 20px;
+}
+.cta-banner h3{color:#fff;margin:0 0 4px}
+.cta-banner p{margin:0;color:#C6DDD6}
+.cta-actions{display:flex;gap:10px;flex-wrap:wrap}
+.cta-banner .btn-primary{background:#fff;color:var(--green-900)}
+.cta-banner .btn-primary:hover{background:var(--green-100)}
+
+/* Footer */
+.site-footer{border-top:1px solid var(--border);background:#FBFFFE;margin-top:24px;padding:36px 0 18px}
+.footer-grid{display:grid;grid-template-columns:1.4fr .8fr .9fr;gap:28px}
+.footer-brand{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.footer-brand img{width:48px;height:48px;border-radius:50%;object-fit:cover;border:2px solid var(--green-100)}
+.footer-links{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:8px}
+.footer-links a{color:var(--muted);font-weight:500}
+.footer-links a:hover{color:var(--green-700)}
+.footer-bottom{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:26px;padding-top:16px;border-top:1px solid var(--border);font-size:.86rem}
+
+/* Responsive - FIXED header cramming on phones */
 @media (max-width:980px){
-  .hero-grid{grid-template-columns:1fr}.checklist-card{position:relative;top:auto}.grid-3{grid-template-columns:1fr 1fr}.blog-grid{grid-template-columns:1fr 1fr}.footer-grid{grid-template-columns:1fr 1fr}
-  .main-nav{display:none}.site-header.is-open .main-nav{display:flex;position:absolute;top:68px;left:0;right:0;background:#fff;border-bottom:1px solid var(--border);padding:16px 20px;flex-direction:column;align-items:flex-start;gap:12px;box-shadow:var(--shadow)}
+  .hero-grid{grid-template-columns:1fr}
+  .checklist-card{position:relative;top:auto}
+  .grid-3{grid-template-columns:1fr 1fr}
+  .blog-grid{grid-template-columns:1fr 1fr}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .main-nav{display:none}
+  .site-header.is-open .main-nav{display:flex;position:absolute;top:68px;left:0;right:0;background:#fff;border-bottom:1px solid var(--border);padding:16px 20px;flex-direction:column;align-items:flex-start;gap:12px;box-shadow:var(--shadow)}
   .nav-toggle{display:inline-flex}
-  .brand{min-width:0;flex:1 1 auto}.brand-text strong{max-width:160px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.brand-text span{display:none}
+  .brand{min-width:0;flex:1 1 auto}
+  .brand-text strong{max-width:160px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .brand-text span{display:none} /* hide subtitle on tablet/mobile to save space */
   .header-actions{gap:8px;flex:0 0 auto}
 }
 @media (max-width:640px){
-  .grid-3,.grid-2,.blog-grid,.footer-grid{grid-template-columns:1fr}.container{padding-inline:16px}
-  .header-inner{min-height:56px;gap:8px}.brand{gap:9px}.brand-avatar{width:36px;height:36px;flex:0 0 36px}
+  .grid-3,.grid-2,.blog-grid,.footer-grid{grid-template-columns:1fr}
+  .cta-banner{flex-direction:column;align-items:flex-start}
+  .booking-wrap iframe{height:860px}
+  .container{padding-inline:16px}
+  .header-inner{min-height:56px;gap:8px}
+  .brand{gap:9px}
+  .brand-avatar{width:36px;height:36px;flex:0 0 36px}
   .brand-text strong{font-size:13.5px;max-width:118px}
+  /* Fix cramming: hide WhatsApp in header on phones (hero already has it), keep only Prenota */
   .header-actions .btn-whatsapp{display:none !important}
   .header-actions .btn-primary{padding:9px 14px;font-size:13px;max-width:44vw;overflow:hidden;text-overflow:ellipsis}
-  .booking-wrap iframe{height:860px}
+  .nav-toggle{padding:7px 9px}
 }
 @media (max-width:380px){
-  .brand-text strong{max-width:92px;font-size:12.8px}.header-actions .btn-primary{padding:8px 11px;font-size:12.5px}
+  .brand-text strong{max-width:92px;font-size:12.8px}
+  .header-actions .btn-primary{padding:8px 11px;font-size:12.5px}
 }
+
+
 </style>
 </head>
 <body>
 
 <header class="site-header">
   <div class="container header-inner">
-    <a class="brand" href="/" aria-label="Homepage">
-      <img class="brand-avatar" src="/assets/images/mara-micolucci.jpg" alt="Dott.ssa Mara Micolucci" width="40" height="40" loading="eager">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Homepage">
+      <img class="brand-avatar" src="{{ '/assets/images/mara-micolucci.jpg' | relative_url }}" alt="Dott.ssa Mara Micolucci" width="40" height="40" loading="eager">
       <span class="brand-text">
         <strong>Dott.ssa Mara Micolucci</strong>
         <span>Dietista · Farmacista</span>
       </span>
     </a>
+
     <nav class="main-nav" aria-label="Navigazione principale">
-      <a href="#servizi">Servizi</a>
-      <a href="#metodo">Metodo</a>
-      <a href="/blog/">Blog</a>
-      <a href="/contatti/">Contatti</a>
+      <a href="{{ '/#servizi' | relative_url }}">Servizi</a>
+      <a href="{{ '/#metodo' | relative_url }}">Metodo</a>
+      <a href="{{ '/blog/' | relative_url }}">Blog</a>
+      <a href="{{ '/contatti/' | relative_url }}">Contatti</a>
+      <!-- Directory link removed intentionally -->
     </nav>
+
     <div class="header-actions">
-      <a class="btn btn-whatsapp" href="https://wa.me/393707021620" target="_blank" rel="noopener" aria-label="Chatta su WhatsApp">
+      <a class="btn btn-whatsapp chat_on_whatsapp" href="{{ site.whatsapp_link | default: 'https://wa.me/393707021620' }}" target="_blank" rel="noopener" aria-label="Chatta su WhatsApp">
         <svg viewBox="0 0 24 24" aria-hidden="true" width="18" height="18"><path fill="currentColor" d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.56 2 2.11 6.42 2.11 11.87c0 1.74.46 3.44 1.32 4.93L2 22l5.34-1.4a9.78 9.78 0 0 0 4.69 1.19h.01c5.48 0 9.93-4.42 9.93-9.87a9.78 9.78 0 0 0-2.92-6.99Zm-7 15.06h-.01a8.16 8.16 0 0 1-4.16-1.13l-.3-.18-3.17.83.85-3.07-.2-.31A8.21 8.21 0 0 1 3.77 11.9c0-4.54 3.73-8.24 8.32-8.24 2.22 0 4.31.86 5.88 2.42a8.18 8.18 0 0 1 2.43 5.82c0 4.54-3.73 8.24-8.35 8.24Zm4.57-6.16c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.13s-.65.8-.8.97-.29.19-.54.06a6.83 6.83 0 0 1-2-1.22 7.5 7.5 0 0 1-1.39-1.71c-.15-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.25-.41.08-.16.04-.31-.02-.43s-.56-1.34-.77-1.84c-.2-.47-.4-.41-.56-.42h-.48c-.16 0-.43.06-.65.31s-.86.83-.86 2.03 0.88 2.36 1 2.52c.12.16 1.73 2.62 4.19 3.68.59.25 1.04.4 1.4.51.59.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.2-.58.2-1.07.14-1.18-.06-.1-.23-.16-.48-.28Z"/></svg>
         WhatsApp
       </a>
-      <a class="btn btn-primary" href="#prenota">Prenota online</a>
+      <a class="btn btn-primary" href="{{ '/#prenota' | relative_url }}">Prenota online</a>
       <button class="nav-toggle" aria-label="Apri menu" onclick="document.querySelector('.site-header').classList.toggle('is-open')">☰</button>
     </div>
   </div>
 </header>
+
 
 <section class="hero">
   <div class="container hero-grid">
@@ -105,51 +267,158 @@ h1,h2,h3,h4{font-family:Fraunces,Georgia,serif;letter-spacing:-.02em;line-height
       </div>
       <h1>Nutrizione che ti rispetta, non che ti punisce.</h1>
       <p class="hero-sub">Sono la Dott.ssa Mara Micolucci, dietista e farmacista. Ti aiuto a costruire un rapporto sereno con il cibo, senza diete estreme, con un piano davvero sostenibile e supporto continuo.</p>
+
       <div class="hero-actions">
         <a class="btn btn-primary" href="#prenota">Prenota consulenza online</a>
-        <a class="btn btn-whatsapp" href="https://wa.me/393707021620" target="_blank" rel="noopener">Scrivimi su WhatsApp</a>
+        <a class="btn btn-whatsapp chat_on_whatsapp" href="https://wa.me/393707021620" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.56 2 2.11 6.42 2.11 11.87c0 1.74.46 3.44 1.32 4.93L2 22l5.34-1.4a9.78 9.78 0 0 0 4.69 1.19h.01c5.48 0 9.93-4.42 9.93-9.87a9.78 9.78 0 0 0-2.92-6.99Zm-7 15.06h-.01a8.16 8.16 0 0 1-4.16-1.13l-.3-.18-3.17.83.85-3.07-.2-.31A8.21 8.21 0 0 1 3.77 11.9c0-4.54 3.73-8.24 8.32-8.24 2.22 0 4.31.86 5.88 2.42a8.18 8.18 0 0 1 2.43 5.82c0 4.54-3.73 8.24-8.35 8.24Zm4.57-6.16c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.13s-.65.8-.8.97-.29.19-.54.06a6.83 6.83 0 0 1-2-1.22 7.5 7.5 0 0 1-1.39-1.71c-.15-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.25-.41.08-.16.04-.31-.02-.43s-.56-1.34-.77-1.84c-.2-.47-.4-.41-.56-.42h-.48c-.16 0-.43.06-.65.31s-.86.83-.86 2.03 0.88 2.36 1 2.52c.12.16 1.73 2.62 4.19 3.68.59.25 1.04.4 1.4.51.59.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.2-.58.2-1.07.14-1.18-.06-.1-.23-.16-.48-.28Z"/></svg>
+          Scrivimi su WhatsApp
+        </a>
         <a class="btn btn-secondary" href="#metodo">Scopri come lavoro</a>
       </div>
+
       <div class="trust-row">
         <span>⏱ Risposta entro poche ore</span>
         <span>🎥 Zoom o WhatsApp</span>
         <span>📋 Piano personalizzato</span>
       </div>
     </div>
-    <aside class="checklist-card">
+
+    <aside class="checklist-card" aria-label="Perché prenotare">
       <h3>Perché prenotare una consulenza con me</h3>
-      <p class="muted small">Niente schemi fotocopia. Un percorso pratico, umano e basato su evidenze.</p>
+      <p class="sub">Niente schemi fotocopia. Un percorso pratico, umano e basato su evidenze.</p>
       <ul class="check-list">
-        <li><span class="check-icon">✓</span><span><strong>Niente diete punitive</strong> — lavoriamo su abitudini reali.</span></li>
-        <li><span class="check-icon">✓</span><span><strong>Piano personalizzato</strong> — gusti, orari, salute.</span></li>
-        <li><span class="check-icon">✓</span><span><strong>Approccio integrato</strong> — dietista, farmacista e scienze psicologiche.</span></li>
-        <li><span class="check-icon">✓</span><span><strong>Supporto continuo</strong> — follow-up e messaggi tra controlli.</span></li>
+        <li><span class="check-icon">✓</span><span><strong>Niente diete punitive</strong> — lavoriamo su abitudini reali, non su restrizioni impossibili.</span></li>
+        <li><span class="check-icon">✓</span><span><strong>Piano personalizzato</strong> — costruito su gusti, orari, salute e storia clinica.</span></li>
+        <li><span class="check-icon">✓</span><span><strong>Approccio integrato</strong> — competenze di dietista, farmacista e scienze psicologiche.</span></li>
+        <li><span class="check-icon">✓</span><span><strong>Supporto continuo</strong> — follow-up, aggiustamenti e messaggi tra un controllo e l'altro.</span></li>
+        <li><span class="check-icon">✓</span><span><strong>Comodità online</strong> — consulenza da casa, senza stress, con prenotazione diretta su Cal.com.</span></li>
+        <li><span class="check-icon">✓</span><span><strong>Educazione, non dipendenza</strong> — impari a gestirti in autonomia, anche fuori casa.</span></li>
       </ul>
-      <div style="margin-top:18px"><a class="btn btn-primary" href="#prenota">Vedi disponibilità</a> <span class="muted small" style="margin-left:8px">Email: info@dietista.it</span></div>
+      <div style="margin-top:18px;display:flex;gap:10px;flex-wrap:wrap">
+        <a class="btn btn-primary" href="#prenota">Vedi disponibilità</a>
+        <span class="muted small" style="align-self:center">Nessun pagamento qui — gestito su Cal.com</span>
+      </div>
     </aside>
   </div>
 </section>
 
-<section id="servizi" class="section"><div class="container"><h2>Servizi</h2><div class="grid-3" style="margin-top:18px"><div class="card"><h3>Prima consulenza</h3><p class="muted">Anamnesi completa, analisi abitudini, obiettivi sostenibili.</p></div><div class="card"><h3>Follow-up</h3><p class="muted">Controllo progressi, adattamento piano.</p></div><div class="card"><h3>Educazione alimentare</h3><p class="muted">Lettura etichette, fame emotiva, organizzazione pasti.</p></div></div></div></section>
+<section id="servizi" class="section">
+  <div class="container">
+    <h2>Servizi</h2>
+    <p class="muted" style="max-width:60ch">Percorsi pensati per obiettivi diversi, con lo stesso metodo: ascolto, misura, educazione.</p>
+    <div class="grid-3" style="margin-top:18px">
+      <div class="card"><h3>Prima consulenza</h3><p class="muted">Anamnesi completa, analisi abitudini, obiettivi sostenibili e primo piano alimentare. Durata ~60 min.</p></div>
+      <div class="card"><h3>Follow-up</h3><p class="muted">Controllo progressi, adattamento piano, strategie per imprevisti, spesa, lavoro e vita sociale.</p></div>
+      <div class="card"><h3>Educazione alimentare</h3><p class="muted">Per chi vuole capire davvero: lettura etichette, gestione fame emotiva, organizzazione pasti.</p></div>
+    </div>
+  </div>
+</section>
 
-<section id="prenota" class="section"><div class="container"><h2>Prenota online</h2><p class="muted">Scegli giorno e orario. Se preferisci, <a href="https://wa.me/393707021620">scrivimi su WhatsApp</a> o <a href="mailto:info@dietista.it">info@dietista.it</a>.</p><div class="booking-wrap" style="margin-top:16px"><iframe src="https://cal.com/dietista/30min?embed=true" loading="lazy" title="Prenotazione Cal.com"></iframe></div></div></section>
+<section id="metodo" class="section section-alt">
+  <div class="container">
+    <div class="grid-2">
+      <div>
+        <h2>Come lavoro</h2>
+        <p>Non credo nelle soluzioni rapide. Credo nella continuità. Ogni percorso inizia con una conoscenza approfondita e prosegue con strumenti semplici che puoi usare tutti i giorni.</p>
+        <ul style="margin:16px 0 0 18px;color:var(--muted)">
+          <li>Valutazione di farmaci e integrazioni (competenza da farmacista)</li>
+          <li>Attenzione al rapporto con il cibo, senza giudizio</li>
+          <li>Materiale pratico: esempi menu, liste, guide</li>
+        </ul>
+      </div>
+      <div class="card" style="background:#fff">
+        <h3 style="margin-top:0">Cosa non troverai qui</h3>
+        <ul class="check-list" style="margin-top:12px">
+          <li><span class="check-icon" style="background:var(--sage-200);color:var(--green-900)">–</span><span>Prezzi in evidenza senza contesto</span></li>
+          <li><span class="check-icon" style="background:var(--sage-200);color:var(--green-900)">–</span><span>Diete chetogeniche estreme vendute a tutti</span></li>
+          <li><span class="check-icon" style="background:var(--sage-200);color:var(--green-900)">–</span><span>Prodotti miracolosi o integrazioni obbligatorie</span></li>
+        </ul>
+        <p class="small muted" style="margin-top:14px">Trasparenza: costi e durata vengono concordati in consulenza e confermati su Cal.com.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="prenota" class="section">
+  <div class="container">
+    <h2>Prenota online</h2>
+    <p class="muted">Scegli giorno e orario direttamente dal calendario. Se preferisci, <a class="chat_on_whatsapp" href="https://wa.me/393707021620" target="_blank" rel="noopener">scrivimi su WhatsApp</a>.</p>
+    <div class="booking-wrap" style="margin-top:16px">
+      <iframe src="https://cal.com/dietista/30min?embed=true&hideEventTypeDetails=false" loading="lazy" title="Prenotazione Cal.com"></iframe>
+    </div>
+    <p class="small muted" style="margin-top:10px">Se non vedi il calendario (ad-block), <a href="https://cal.com/dietista/30min" target="_blank" rel="noopener">apri Cal.com in una nuova scheda</a>.</p>
+  </div>
+</section>
+
+
+<section class="section section-alt">
+  <div class="container">
+    <div style="display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap">
+      <h2 style="margin:0">Dal blog</h2>
+      <a class="btn btn-secondary" href="/blog/">Vedi archivio</a>
+    </div>
+    <div class="blog-grid" style="margin-top:18px">
+      <div class="card"><p class="muted">Gli articoli del blog appariranno qui automaticamente quando pubblicati in <code>_posts/</code>. Questa è la versione standalone.</p></div>
+      <article class="post-preview"><h3><a href="/blog/educazione-alimentare/">Educazione alimentare: da dove iniziare</a></h3><p>Come leggere le etichette e organizzare i pasti senza ansia.</p><div class="post-meta">Esempio</div></article>
+      <article class="post-preview"><h3><a href="/blog/fame-emotiva/">Fame emotiva: cosa fare</a></h3><p>Strategie pratiche per distinguere fame e bisogno di conforto.</p><div class="post-meta">Esempio</div></article>
+    </div>
+  </div>
+</section>
+
+
+<div class="container">
+  <p class="small muted" style="text-align:center;padding:8px 0 24px">Informazione legale: i contenuti del sito hanno scopo informativo e non sostituiscono parere medico.</p>
+</div>
+
 
 <footer class="site-footer">
   <div class="container footer-grid">
     <div>
-      <div class="footer-brand"><img src="/assets/images/mara-micolucci.jpg" alt="" width="48" height="48"><strong>Dott.ssa Mara Micolucci</strong></div>
-      <p class="muted">Dietista, Farmacista, Dott.ssa in Scienze e Tecniche Psicologiche. Consulenze online e in presenza a Musile di Piave (VE).</p>
-      <div style="display:flex;flex-direction:column;gap:10px;margin-top:12px">
-        <a class="btn btn-whatsapp" href="https://wa.me/393707021620" target="_blank">+39 370 702 1620</a>
+      <div class="footer-brand">
+        <img src="{{ '/assets/images/mara-micolucci.jpg' | relative_url }}" alt="" width="48" height="48">
+        <strong>Dott.ssa Mara Micolucci</strong>
+      </div>
+      <p class="muted">Dietista, Farmacista, Dott.ssa in Scienze e Tecniche Psicologiche. Consulenze online su Zoom e WhatsApp, e in presenza a Musile di Piave (VE).</p>
+      <div class="footer-actions" style="display:flex;flex-direction:column;gap:10px;margin-top:12px">
+        <a class="btn btn-whatsapp chat_on_whatsapp" href="{{ site.whatsapp_link | default: 'https://wa.me/393707021620' }}" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.56 2 2.11 6.42 2.11 11.87c0 1.74.46 3.44 1.32 4.93L2 22l5.34-1.4a9.78 9.78 0 0 0 4.69 1.19h.01c5.48 0 9.93-4.42 9.93-9.87a9.78 9.78 0 0 0-2.92-6.99Zm-7 15.06h-.01a8.16 8.16 0 0 1-4.16-1.13l-.3-.18-3.17.83.85-3.07-.2-.31A8.21 8.21 0 0 1 3.77 11.9c0-4.54 3.73-8.24 8.32-8.24 2.22 0 4.31.86 5.88 2.42a8.18 8.18 0 0 1 2.43 5.82c0 4.54-3.73 8.24-8.35 8.24Zm4.57-6.16c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.13s-.65.8-.8.97-.29.19-.54.06a6.83 6.83 0 0 1-2-1.22 7.5 7.5 0 0 1-1.39-1.71c-.15-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.25-.41.08-.16.04-.31-.02-.43s-.56-1.34-.77-1.84c-.2-.47-.4-.41-.56-.42h-.48c-.16 0-.43.06-.65.31s-.86.83-.86 2.03 0.88 2.36 1 2.52c.12.16 1.73 2.62 4.19 3.68.59.25 1.04.4 1.4.51.59.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.2-.58.2-1.07.14-1.18-.06-.1-.23-.16-.48-.28Z"/></svg>
+          +39 370 702 1620
+        </a>
         <a href="mailto:info@dietista.it" style="font-size:14px;font-weight:600">✉️ info@dietista.it</a>
-        <div style="display:flex;gap:12px"><a href="https://www.instagram.com/dietista.it/" target="_blank">Instagram</a><span class="muted">·</span><a href="https://www.facebook.com/dietista.it" target="_blank">Facebook</a></div>
+        <div style="display:flex;gap:12px;margin-top:4px">
+          <a href="https://www.instagram.com/dietista.it/" target="_blank" rel="noopener">Instagram</a>
+          <span class="muted">·</span>
+          <a href="https://www.facebook.com/dietista.it" target="_blank" rel="noopener">Facebook</a>
+        </div>
       </div>
     </div>
-    <div><h4>Link utili</h4><ul class="footer-links"><li><a href="#servizi">Servizi</a></li><li><a href="#metodo">Metodo</a></li><li><a href="/blog/">Blog</a></li><li><a href="/contatti/">Contatti</a></li><li><a href="#prenota">Prenota</a></li></ul></div>
-    <div><h4>Podcast — Briciole di Nutrizione</h4><ul class="footer-links"><li><a href="https://podcasts.apple.com/it/podcast/briciole-di-nutrizione/id1662272760" target="_blank">🎧 Apple Podcasts</a></li><li><a href="https://podcasters.spotify.com/pod/show/dietista" target="_blank">🎧 Spotify</a></li><li><a href="https://castro.fm/itunes/1662272760" target="_blank">🎧 Altri player</a></li></ul></div>
+    <div>
+      <h4>Link utili</h4>
+      <ul class="footer-links">
+        <li><a href="{{ '/#servizi' | relative_url }}">Servizi</a></li>
+        <li><a href="{{ '/#metodo' | relative_url }}">Come lavoro</a></li>
+        <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+        <li><a href="{{ '/contatti/' | relative_url }}">Contatti</a></li>
+        <li><a href="{{ '/#prenota' | relative_url }}">Prenota</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Podcast — Briciole di Nutrizione</h4>
+      <p class="muted small">Pillole brevi per capire meglio il tuo rapporto con il cibo, a cura di Micolucci Mara.</p>
+      <ul class="footer-links">
+        <li><a href="https://podcasts.apple.com/it/podcast/briciole-di-nutrizione/id1662272760" target="_blank" rel="noopener">🎧 Apple Podcasts</a></li>
+        <li><a href="https://podcasters.spotify.com/pod/show/dietista" target="_blank" rel="noopener">🎧 Spotify</a></li>
+        <li><a href="https://castro.fm/itunes/1662272760" target="_blank" rel="noopener">🎧 Altri player (Castro / RSS)</a></li>
+      </ul>
+    </div>
   </div>
-  <div class="container footer-bottom"><span>© 2026 Dott.ssa Mara Micolucci</span><span class="muted small">P.IVA su richiesta · Iscrizione Albo</span></div>
+  <div class="container footer-bottom">
+    <span>© {{ site.time | date: '%Y' }} Dott.ssa Mara Micolucci – Tutti i diritti riservati</span>
+    <span class="muted small">P.IVA su richiesta · Iscrizione Albo professionale</span>
+  </div>
 </footer>
+
 
 </body>
 </html>
