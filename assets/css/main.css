@@ -86,7 +86,7 @@ h2{font-size:clamp(1.5rem,3vw,2.1rem)}
 .btn-ghost:hover{background:var(--green-100)}
 
 /* Hero */
-.hero{padding:56px 0 28px}
+.hero{padding:24px 0 28px}
 .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:start}
 .hero h1{margin:0 0 12px}
 .hero-sub{font-size:1.1rem;color:var(--muted);margin:0 0 22px;max-width:52ch}
