@@ -1,52 +1,249 @@
 ---
 layout: default
-title: Dott.ssa Mara Micolucci
-description: Dietista, Farmacista e dott.ssa in Scienze e Tecniche Psicologiche
+title: Dott.ssa Mara Micolucci - Dietista, Farmacista
+description: Dott.ssa Mara Micolucci - Dietista, Farmacista e dott.ssa in Scienze e Tecniche Psicologiche. Consulenze alimentari online su Zoom o WhatsApp, podcast Briciole di Nutrizione.
 ---
 
-<h1>{{ page.title }}</h1>
-<h2>{{ page.description }}</h2>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 
-<div class="ctas flex centred column">
-  <a class="cta" href="https://cal.com/dietista">
-    <img src="/images/googlecalendar.svg" width="32" height="32" alt="Prenota un appuntamento" />
-    <p>Prenota</p>
-  </a>
-  <a class="cta" href="/blog/">
-    <img src="/images/rss.svg" width="32" height="32" alt="Leggi il blog" />
-    <p>Leggi il blog</p>
-  </a>
+<style>
+:root { --bg:#fdf9f1; --ink:#23261f; --line:#e8ddd0; --olive:#4a5c36; --sand:#efe9d9; --muted:#5f6c56; }
+.booking-root { font-family: 'Inter', system-ui, sans-serif; background: var(--bg); color: var(--ink); margin: -20px -15px 0; }
+.booking-root h1,.booking-root h2,.booking-root h3 { font-family: 'Bricolage Grotesque', sans-serif; letter-spacing:-0.02em; }
+.serif { font-family: 'Instrument Serif', serif; }
+.btn-dark { background: var(--ink); color: white; border-radius: 999px; padding: 12px 22px; font-weight: 600; font-size:14px; display:inline-flex; align-items:center; gap:8px; text-decoration:none; border:none; cursor:pointer; }
+.btn-light { background: #e8ece1; color: var(--ink); border-radius: 999px; padding: 12px 22px; font-weight:600; font-size:14px; text-decoration:none; border:none; cursor:pointer; display:inline-flex; align-items:center; }
+.card { border-radius: 24px; border:1px solid var(--line); background:white; padding:22px; }
+.card-highlight { border:2px solid var(--ink); }
+.day-btn, .time-btn, .choice-btn { border:1px solid var(--line); border-radius: 999px; padding:8px 14px; font-size:13px; cursor:pointer; background:white; }
+.day-btn.active, .time-btn.active, .choice-btn.active { background: var(--ink); color:white; border-color: var(--ink); }
+.choice-btn { border-radius: 16px; padding:12px; text-align:left; width:100%; }
+.input { width:100%; border:1px solid var(--line); border-radius:12px; padding:10px 14px; font-size:14px; box-sizing:border-box; }
+.social-row { display:flex; gap:12px; align-items:center; flex-wrap:wrap; margin-top:16px; }
+.social-row a { display:inline-flex; align-items:center; gap:6px; text-decoration:none; font-size:13px; color: var(--ink); background:white; border:1px solid var(--line); border-radius:999px; padding:6px 12px; }
+.social-row img { width:18px; height:18px; }
+.badge-albo { display:inline-flex; align-items:center; gap:8px; background:white; border:1px solid var(--line); border-radius:999px; padding:6px 12px; font-size:12px; }
+</style>
 
-  <a class="chat_on_whatsapp" aria-label="Chat on WhatsApp" href="https://wa.me/393707021620">
-    <img alt="Chat on WhatsApp" src="/images/WhatsAppButtonGreenLarge.svg" />
-  </a>
+<div class="booking-root">
 
-  <a class="podcast_cta" href="https://open.spotify.com/show/6MhsdZ5sEn8JgpDm9yuL9b?si=dca7b40f66a2491e">
-    <img src="/images/82973ba381903632eb7cc86366913f0892644910.png"
-      alt="Ascolta il podcast Briciole di Nutrizione su Spotify" />
-  </a>
-  <a class="podcast_cta" href="https://podcasts.apple.com/it/podcast/briciole-di-nutrizione/id1662272760">
-    <img src="/images/briciole_di_nutrizione-1300x740.png"
-      alt="Ascolta il podcast Briciole di Nutrizione su Apple Podcasts" />
-  </a>
-
-  <div class="social flex centred row">
-    <a class="social_icon" href="https://www.instagram.com/dietista.it/">
-      <img src="/images/instagram.svg" alt="Visita Dietista.it su Instagram" />
-    </a>
-    <a class="social_icon" href="https://www.facebook.com/dietista">
-      <img src="/images/facebook.svg" alt="Visita Dietista.it su Facebook" />
-    </a>
-    <a class="social_icon" href="https://twitter.com/dietista">
-      <img src="/images/twitter.svg" alt="Visita Dietista.it su Twitter" />
-    </a>
-    <a class="social_icon" href="https://open.spotify.com/show/6MhsdZ5sEn8JgpDm9yuL9b?si=dca7b40f66a2491e">
-      <img src="/images/spotify.svg" alt="Ascolta il podcast Briciole di Nutrizione su Spotify" />
-    </a>
-    <a class="social_icon" href="https://podcasts.apple.com/it/podcast/briciole-di-nutrizione/id1662272760">
-      <img src="/images/applepodcasts.svg" alt="Ascolta il podcast Briciole di Nutrizione su Apple Podcasts" />
-    </a>
+<!-- TOP BAR WITH EXISTING IDENTITY -->
+<section style="max-width:1160px;margin:0 auto;padding:28px 24px 10px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px">
+  <div>
+    <div style="font-family:'Bricolage Grotesque';font-weight:700;font-size:20px">Dott.ssa Mara Micolucci</div>
+    <div style="font-size:13px;color:var(--muted);margin-top:2px">Dietista, Farmacista e dott.ssa in Scienze e Tecniche Psicologiche · Iscritta Albo TSRM-PSTRP</div>
   </div>
+  <div class="social-row" style="margin-top:0">
+    <a href="https://www.instagram.com/dietista.it/" target="_blank"><img src="/images/instagram.svg" alt="IG"> @dietista.it</a>
+    <a href="https://www.facebook.com/Dietista.it" target="_blank"><img src="/images/facebook.svg" alt="FB"> Dietista.it</a>
+    <a href="https://twitter.com/dietista" target="_blank"><img src="/images/twitter.svg" alt="TW"> @dietista</a>
+    <a href="mailto:info@dietista.it">✉️ info@dietista.it</a>
+  </div>
+</section>
+
+<!-- HERO + BOOKING INTRO -->
+<section style="max-width:1160px;margin:0 auto;padding:18px 24px 24px;display:grid;grid-template-columns:1.15fr 0.85fr;gap:28px;align-items:start">
+  <div>
+    <span class="badge-albo">● Ricevo online su Zoom e WhatsApp · Fattura sanitaria</span>
+    <h1 style="font-size:44px;line-height:0.92;margin:18px 0 12px">Consulenza Alimentare Online.<br><span class="serif" style="font-style:italic;font-weight:400">Chiara, pratica, senza miracoli.</span></h1>
+    <p style="color:var(--muted);max-width:540px;line-height:1.6;font-size:15px">
+      Parli direttamente con me, non con un algoritmo. Prenoti in 1 minuto qui sotto, scegli se pagare subito o dopo, e ci vediamo su Zoom o WhatsApp Video.
+      Se preferisci il vecchio sistema, il mio link Cal.com resta attivo.
+    </p>
+    <div style="display:flex;gap:10px;margin-top:18px;flex-wrap:wrap">
+      <a href="#prenota-widget" class="btn-dark">Prenota qui — 70€ prima visita →</a>
+      <a href="https://cal.com/dietista/30min" target="_blank" class="btn-light">O usa Cal.com (30min)</a>
+    </div>
+
+    <!-- PODCAST BRICIOLE - kept from old site -->
+    <div style="margin-top:22px;background:white;border:1px solid var(--line);border-radius:18px;padding:14px;display:flex;gap:12px;align-items:center">
+      <div style="font-size:28px">🎧</div>
+      <div style="flex:1">
+        <div style="font-weight:600;font-size:14px">Podcast: Briciole di Nutrizione</div>
+        <div style="font-size:12px;color:var(--muted)">Episodi brevi su microbiota, pancia piatta, sonno e alimentazione</div>
+      </div>
+      <div style="display:flex;gap:8px">
+        <a href="https://open.spotify.com/show/" target="_blank" title="Spotify"><img src="/images/spotify.svg" style="width:32px;height:32px" alt="Spotify"></a>
+        <a href="https://podcasts.apple.com/" target="_blank" title="Apple Podcasts"><img src="/images/applepodcasts.svg" style="width:32px;height:32px" alt="Apple"></a>
+      </div>
+    </div>
+  </div>
+
+  <div style="background:var(--sand);border-radius:28px;padding:14px;border:1px solid var(--line)">
+    <div style="background:white;border-radius:20px;padding:18px">
+      <div style="font-weight:600">Cosa ottieni nella consulenza</div>
+      <ul style="margin:12px 0 0;padding:0;list-style:none;font-size:13px;line-height:1.7;color:var(--muted)">
+        <li>✓ Colloquio 1:1 di 60 min, niente questionari automatici</li>
+        <li>✓ Indicazioni scritte in PDF + lista spesa</li>
+        <li>✓ Materiale su etichette, microbiota, sonno</li>
+        <li>✓ Possibilità di registrare la call</li>
+        <li>✓ Fattura sanitaria detraibile</li>
+      </ul>
+      <div style="margin-top:16px;background:#fdf9f1;border-radius:14px;padding:12px;font-size:12px">Prossima disponibilità: <b id="next-slot-label">domani ore 10:30</b> · Rispondo io su WhatsApp al <b><a class="chat_on_whatsapp" aria-label="Chat on WhatsApp" href="https://wa.me/393707021620">+39 370 702 1620</a></b></div>
+      <div style="margin-top:12px;font-size:11px;color:#8a9a78">Dott.ssa Mara Micolucci - Iscritta Ordine TSRM-PSTRP - P.IVA [xxx] - Consulenza a scopo educativo, non sostituisce parere medico.</div>
+    </div>
+    <div style="margin-top:12px;background:#23261f;color:white;border-radius:16px;padding:12px 14px;font-size:12px;display:flex;justify-content:space-between;align-items:center">
+      <span>Hai già il link Cal.com? Funziona ancora.</span>
+      <a href="https://cal.com/dietista/30min" target="_blank" style="color:white;text-decoration:underline">Apri Cal.com →</a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVIZI -->
+<section id="servizi" style="max-width:1160px;margin:0 auto;padding:6px 24px 12px">
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px">
+    <div class="card card-highlight" data-service="prima" onclick="window.selectService('prima')">
+      <div style="display:flex;justify-content:space-between"><b>Prima Consulenza</b><span style="font-size:11px;background:var(--ink);color:white;border-radius:999px;padding:3px 10px">Più richiesta</span></div>
+      <div style="font-size:12px;color:var(--muted);margin-top:4px">60 min · Anamnesi, abitudini, obiettivi</div>
+      <div style="font-size:28px;font-weight:700;margin:10px 0">70€</div>
+      <div style="font-size:12px;color:var(--muted)">Include PDF + follow-up WhatsApp 7gg</div>
+    </div>
+    <div class="card" data-service="controllo" onclick="window.selectService('controllo')">
+      <b>Controllo</b><div style="font-size:12px;color:var(--muted);margin-top:4px">30 min · Revisione</div>
+      <div style="font-size:28px;font-weight:700;margin:10px 0">45€</div>
+      <div style="font-size:12px;color:var(--muted)">Per chi è già in percorso</div>
+    </div>
+    <div class="card" data-service="singola" onclick="window.selectService('singola')">
+      <b>Domanda Singola</b><div style="font-size:12px;color:var(--muted);margin-top:4px">15 min · Dubbio rapido</div>
+      <div style="font-size:28px;font-weight:700;margin:10px 0">25€</div>
+      <div style="font-size:12px;color:var(--muted)">Etichette, integrazione, pasto fuori</div>
+    </div>
+  </div>
+</section>
+
+<!-- PRENOTA WIDGET (main) -->
+<section id="prenota-widget" style="max-width:1160px;margin:18px auto;padding:0 24px">
+  <div class="card" style="padding:0;overflow:hidden;display:grid;grid-template-columns:320px 1fr">
+    <div style="background:#fcf7ed;border-right:1px solid var(--line);padding:18px">
+      <div style="font-weight:600;margin-bottom:10px">Scegli giorno e ora</div>
+      <div id="days" style="display:flex;flex-wrap:wrap;gap:8px"></div>
+      <div style="margin:16px 0 8px;font-size:13px;font-weight:600">Orari</div>
+      <div id="times" style="display:flex;flex-wrap:wrap;gap:8px"></div>
+      <div style="margin-top:18px;padding:10px;background:white;border-radius:12px;border:1px dashed var(--line);font-size:11px;color:var(--muted)">
+        Conferma via email + WhatsApp.<br>Sposti gratis fino a 24h prima.<br><br>
+        <b>Alternativa:</b> <a href="https://cal.com/dietista/30min" target="_blank">Prenota su Cal.com</a>
+      </div>
+    </div>
+    <div style="padding:18px">
+      <div style="display:flex;gap:22px;flex-wrap:wrap">
+        <div style="flex:1;min-width:220px">
+          <div style="font-weight:600;margin-bottom:8px;font-size:13px">Canale</div>
+          <div style="display:grid;gap:8px">
+            <button id="ch-zoom" class="choice-btn active" onclick="window.setChannel('zoom')"><b>Zoom</b><br><span style="font-size:11px;color:var(--muted)">Link automatico, ideale prima volta</span></button>
+            <button id="ch-whatsapp" class="choice-btn" onclick="window.setChannel('whatsapp')"><b>WhatsApp Video</b><br><span style="font-size:11px;color:var(--muted)">Più semplice, dal telefono</span></button>
+          </div>
+          <div style="margin-top:16px;font-weight:600;margin-bottom:8px;font-size:13px">Pagamento</div>
+          <div style="display:flex;gap:8px">
+            <button id="pay-ora" class="day-btn active" onclick="window.setPay('ora')">Paga ora</button>
+            <button id="pay-dopo" class="day-btn" onclick="window.setPay('dopo')">Paga dopo</button>
+          </div>
+          <div id="pay-hint" style="font-size:11px;color:var(--muted);margin-top:8px">Paghi subito con carta (Stripe) o Satispay. Fattura sanitaria.</div>
+        </div>
+        <div style="flex:1.2;min-width:280px">
+          <div style="font-weight:600;margin-bottom:8px;font-size:13px">I tuoi dati</div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+            <input id="f-nome" class="input" placeholder="Nome">
+            <input id="f-cognome" class="input" placeholder="Cognome">
+          </div>
+          <div style="display:grid;gap:8px;margin-top:8px">
+            <input id="f-email" class="input" placeholder="Email">
+            <input id="f-tel" class="input" placeholder="Telefono WhatsApp">
+            <textarea id="f-note" class="input" rows="3" placeholder="Obiettivo, allergie, farmaci (facoltativo)"></textarea>
+          </div>
+          <div style="margin-top:10px;display:grid;gap:5px;font-size:11px">
+            <label><input type="checkbox" id="c-privacy"> Accetto Privacy GDPR</label>
+            <label><input type="checkbox" id="c-consenso"> Consenso informato dietista</label>
+            <label><input type="checkbox" id="c-info"> Ho letto che è consulenza educativa</label>
+          </div>
+          <div id="form-errors" style="color:#b91c1c;font-size:11px;margin-top:8px;display:none"></div>
+          <button onclick="window.confirmBooking()" class="btn-dark" style="width:100%;justify-content:center;margin-top:12px">Conferma — <span id="summary-price">70€</span></button>
+          <div style="font-size:10px;color:#8a9a78;margin-top:6px;text-align:center">Demo: nessun pagamento reale finché non colleghi Stripe. Link Cal.com resta attivo.</div>
+        </div>
+      </div>
+      <div id="confirm-box" style="display:none;margin-top:18px;background:#f0f5e6;border:1px solid #c9d9b0;border-radius:16px;padding:16px">
+        <div style="font-weight:700">Prenotazione pronta ✓</div>
+        <div id="confirm-text" style="font-size:13px;margin-top:6px;line-height:1.6"></div>
+        <div style="display:flex;gap:10px;margin-top:12px;flex-wrap:wrap">
+          <a id="pay-link" href="#" target="_blank" class="btn-dark">Vai al pagamento (placeholder)</a>
+          <button onclick="document.getElementById('confirm-box').style.display='none'" class="btn-light">Modifica</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ARCHIVIO BLOG - kept from old site -->
+<section style="max-width:1160px;margin:0 auto;padding:24px 24px 12px">
+  <div style="display:flex;justify-content:space-between;align-items:end;flex-wrap:wrap;gap:8px">
+    <h2 style="font-size:26px;margin:0">Archivio & Briciole di Nutrizione</h2>
+    <a href="/blog/" style="font-size:13px;text-decoration:underline">Vedi tutto il blog →</a>
+  </div>
+  <div style="margin-top:14px;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px">
+    {% for post in site.posts limit:6 %}
+    <a href="{{ post.url }}" style="text-decoration:none;color:inherit">
+      <div class="card" style="padding:16px">
+        <div style="font-weight:600;font-size:14px;line-height:1.3">{{ post.title }}</div>
+        <div style="font-size:11px;color:var(--muted);margin-top:6px">Pubblicato il {{ post.date | date: "%d/%m/%Y" }}</div>
+        <div style="font-size:12px;color:var(--muted);margin-top:8px;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical">{{ post.excerpt | strip_html | truncate: 110 }}</div>
+      </div>
+    </a>
+    {% endfor %}
+    <!-- Fallback static if no posts loop -->
+    <noscript>
+      <div class="card"><b>... e la Pancia non c'è più! (Quinta parte)</b></div>
+    </noscript>
+  </div>
+</section>
+
+<!-- FOOTER CONTACTS - kept -->
+<section style="max-width:1160px;margin:0 auto;padding:18px 24px 48px;display:grid;grid-template-columns:1.2fr 0.8fr;gap:16px">
+  <div style="background:white;border:1px solid var(--line);border-radius:20px;padding:18px">
+    <b>Contatti & Social - restano uguali</b>
+    <div style="margin-top:10px;font-size:13px;line-height:1.7;color:var(--muted)">
+      Email: <a href="mailto:info@dietista.it">info@dietista.it</a> ·
+      <a href="https://www.instagram.com/dietista.it/" target="_blank">Instagram @dietista.it</a> ·
+      <a href="https://www.facebook.com/Dietista.it" target="_blank">Facebook Dietista.it</a> ·
+      <a href="https://twitter.com/dietista" target="_blank">Twitter @dietista</a><br>
+      Podcast: <a href="https://open.spotify.com/" target="_blank">Briciole di Nutrizione su Spotify</a> e Apple Podcasts<br>
+      Prenotazione diretta: <a href="https://cal.com/dietista/30min" target="_blank">cal.com/dietista/30min</a> (resta attivo)
+    </div>
+  </div>
+  <div style="background:#23261f;color:white;border-radius:20px;padding:18px;font-size:12px;line-height:1.6">
+    <b style="color:white">Nota legale</b><br>
+    Prestazione sanitaria a scopo educativo, Dott.ssa Mara Micolucci iscritta Ordine TSRM-PSTRP. Non sostituisce parere medico. Fattura sanitaria elettronica. GDPR compliant.
+  </div>
+</section>
+
 </div>
 
-{% include archive.html %}
+<script>
+window._state = { service:'prima', servicePrice:{prima:70,controllo:45,singola:25}, serviceName:{prima:'Prima Consulenza 60min',controllo:'Controllo 30min',singola:'Domanda Singola 15min'}, channel:'zoom', pay:'ora', day:null, time:'10:30' };
+(function(){
+  const container=document.getElementById('days'); const now=new Date(); const days=[]; let i=0;
+  while(days.length<6){ const d=new Date(); d.setDate(now.getDate()+i); if(d.getDay()!==0) days.push(d); i++; }
+  window._state.day=days[0];
+  days.forEach((d,idx)=>{ const btn=document.createElement('button'); btn.className='day-btn'+(idx===0?' active':''); btn.textContent=d.toLocaleDateString('it-IT',{weekday:'short',day:'numeric',month:'short'}); btn.onclick=()=>{ window._state.day=d; container.querySelectorAll('.day-btn').forEach(b=>b.classList.remove('active')); btn.classList.add('active'); }; container.appendChild(btn); });
+  const label=document.getElementById('next-slot-label'); if(label) label.textContent=days[0].toLocaleDateString('it-IT',{weekday:'long',day:'numeric'})+' ore 10:30';
+})();
+(function(){
+  const times=["09:00","09:45","10:30","11:15","12:00","15:00","15:45","16:30","17:15","18:00"];
+  const container=document.getElementById('times');
+  times.forEach(t=>{ const btn=document.createElement('button'); btn.className='time-btn'+(t===window._state.time?' active':''); btn.textContent=t; btn.onclick=()=>{ window._state.time=t; container.querySelectorAll('.time-btn').forEach(b=>b.classList.remove('active')); btn.classList.add('active'); }; container.appendChild(btn); });
+})();
+window.selectService=(id)=>{ window._state.service=id; document.querySelectorAll('[data-service]').forEach(el=>{ el.classList.toggle('card-highlight', el.dataset.service===id); }); document.getElementById('summary-price').textContent=window._state.servicePrice[id]+'€'; };
+window.setChannel=(ch)=>{ window._state.channel=ch; document.getElementById('ch-zoom').classList.toggle('active',ch==='zoom'); document.getElementById('ch-whatsapp').classList.toggle('active',ch==='whatsapp'); };
+window.setPay=(p)=>{ window._state.pay=p; document.getElementById('pay-ora').classList.toggle('active',p==='ora'); document.getElementById('pay-dopo').classList.toggle('active',p==='dopo'); document.getElementById('pay-hint').textContent=p==='ora'?'Paghi subito con carta (Stripe) o Satispay. Fattura sanitaria.':'Ricevi link pagamento dopo via WhatsApp/email.'; };
+window.confirmBooking=()=>{
+  const get=id=>document.getElementById(id).value.trim(); const c=id=>document.getElementById(id).checked;
+  const errs=[]; if(!get('f-nome')) errs.push('Nome'); if(!get('f-cognome')) errs.push('Cognome'); if(!get('f-email').includes('@')) errs.push('Email'); if(!get('f-tel')) errs.push('Telefono'); if(!c('c-privacy')) errs.push('Privacy'); if(!c('c-consenso')) errs.push('Consenso'); if(!c('c-info')) errs.push('Informativa');
+  const errBox=document.getElementById('form-errors'); if(errs.length){ errBox.style.display='block'; errBox.innerHTML='Compila: '+errs.join(', '); return; } errBox.style.display='none';
+  const s=window._state; const dayStr=s.day.toLocaleDateString('it-IT',{weekday:'long',day:'numeric',month:'long'});
+  document.getElementById('confirm-text').innerHTML=`<b>${s.serviceName[s.service]}</b> — ${s.servicePrice[s.service]}€<br>${dayStr} ore ${s.time} — via ${s.channel==='zoom'?'Zoom':'WhatsApp'}<br><br>A: ${get('f-nome')} ${get('f-cognome')} — ${get('f-email')} — ${get('f-tel')}<br>Note: ${get('f-note')||'—'}<br><br><small>Pagamento: ${s.pay==='ora'?'Paga ora (link sotto)':'Paga dopo'}<br>Sostituisci link con Stripe reali quando vuoi.</small>`;
+  const PAY={ prima_zoom:'#', prima_whatsapp:'#', controllo_zoom:'#', controllo_whatsapp:'#', singola_zoom:'#', singola_whatsapp:'#' };
+  document.getElementById('pay-link').href=PAY[`${s.service}_${s.channel}`]||'#';
+  document.getElementById('pay-link').style.display=s.pay==='ora'?'inline-flex':'none';
+  document.getElementById('confirm-box').style.display='block';
+  document.getElementById('confirm-box').scrollIntoView({behavior:'smooth',block:'center'});
+  if(window.fbq) fbq('track','Lead',{value:s.servicePrice[s.service],currency:'EUR'});
+};
+</script>
