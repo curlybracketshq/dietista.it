@@ -1,10 +1,21 @@
 ---
 layout: default
 ---
-<article class="page-content post-content">
-  <h1>{{ page.title }}</h1>
-  <p class="post-meta">{{ page.date | date: "%d/%m/%Y" }}</p>
-  {{ content }}
-  <hr style="margin:32px 0">
-  {% include cta-prenota.html %}
-</article>
+<div class="page-wrapper">
+  <div class="container narrow">
+    <nav class="breadcrumbs"><a href="{{ '/blog/' | relative_url }}">← Torna al blog</a></nav>
+    <article class="card post-card">
+      <header class="post-header">
+        <h1>{{ page.title }}</h1>
+        <div class="post-meta muted small">
+          {% if page.date %}Pubblicato il {{ page.date | date: "%d %B %Y" }}{% endif %}
+          {% if page.author %} · {{ page.author }}{% endif %}
+        </div>
+      </header>
+      <div class="post-content">
+        {{ content }}
+      </div>
+    </article>
+    {% include cta-prenota.html %}
+  </div>
+</div>

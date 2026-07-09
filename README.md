@@ -1,73 +1,70 @@
-# Dietista.it – Nuova homepage (versione produzione, no demo)
+# dietista.it v5 – aggiornamento richiesto
 
-Versione pulita, pronta per pubblicazione. Tutta la prenotazione è delegata a **Cal.com**, nessun pagamento finto, nessun calendario custom, nessun form demo.
+Questa versione risolve i 7 punti richiesti:
 
-## Cosa è cambiato rispetto alle versioni precedenti
+### 1. Immagine non più prominente
+- Rimosso hero con foto grande.
+- Foto usata solo come **avatar 40px** nel logo top-left (`header.html`) e 48px nel footer.
+- Al posto della foto, in hero a destra c'è la **checklist "Perché prenotare con me"** – card sticky con 6 motivi, come nella versione precedente che ti piaceva.
 
-- **Rimossi:** calendario disponibilità custom, form nome/email/telefono, toggle “Paga ora / Paga dopo”, link Stripe placeholder, testi “demo / finto / placeholder / TODO”.
-- **Semplificato:** homepage ora è informativa + embed Cal.com. La raccolta dati (nome, email, telefono, consenso privacy) avviene direttamente su Cal.com, che è già GDPR compliant.
-- **Foto professionale:** aggiunta `/assets/images/mara-micolucci.jpg` (e `.webp`) estratta dal tuo profilo Instagram e resa più professionale. Usata nell’hero. Sostituibile in qualsiasi momento.
-- **Header ovunque:** `_layouts/default.html`, `page.html`, `post.html` includono tutti `{% include header.html %}` quindi la nav con Prenota + WhatsApp appare su Blog, Contatti, Directory e singoli post.
-- **Tracking:** GA4 + Meta Pixel supportati insieme. Eventi tracciati: `click_whatsapp`, `click_cal`, `view_booking_calendar`, `Contact`, `InitiateCheckout`.
+### 2. WhatsApp fix
+- Nuovo stile `.btn-whatsapp` con verde ufficiale `#25D366` e hover `#1FB356`.
+- Icona SVG ufficiale inclusa nel bottone.
+- Classe `chat_on_whatsapp` mantenuta ovunque per tracking GA4/Pixel.
+- Link unificato: `https://wa.me/393707021620`
 
-## Contenuto pacchetto
+### 3. Directory rimosso
+- Rimosso link a `/directory/` da `header.html` e `footer.html`.
+- Nessun entry point visibile. La cartella può restare sul repo ma non è linkata.
 
-```
-index.html                      → NUOVA homepage definitiva (hero con foto, servizi, embed Cal.com, blog)
-_layouts/
-  default.html                  → layout globale con header/footer ovunque
-  page.html                     → per pagine statiche
-  post.html                     → per articoli blog, include CTA
-_includes/
-  head.html                     → carica CSS vecchi + nuovi, GA4 + Meta Pixel
-  header.html                   → nav sticky con WhatsApp https://wa.me/393707021620
-  footer.html                   → contatti, socials, podcast, note legali
-  cta-prenota.html              → banner CTA
-assets/
-  css/booking.css
-  js/booking.js                 → solo smooth scroll + tracking, nessun calendario/form
-  images/mara-micolucci.jpg/.webp
-prenota/index.html              → redirect a /#prenota
-CONFIG_SNIPPET.yml
-README_INSTALL.md
-```
+### 4. Blog boxes overlap fix
+- Vecchio CSS causava `position:absolute` o grid rotta da `stylesheets/main.css`.
+- Nuovo `.blog-grid` = `display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap:20px; align-items:stretch`
+- `.post-preview` è `display:flex; flex-direction:column; min-height:180px; position:relative` – niente più sovrapposizione.
 
-## Installazione (macOS / Linux)
+### 5. Link color default fix
+- **Rimosso completamente** il vecchio `stylesheets/main.css` dal caricamento.
+- `head.html` ora carica **solo** `/assets/css/main.css?v=5`.
+- Tutti i link usano `var(--green-700)` con hover coerente, niente blu di default.
 
+### 6. Nuova palette green professionale
+- Primary: `#2F7D6B` (verde salvia scuro, non quasi-nero)
+- Hover: `#224F44`
+- Accent light: `#E6F4F0`, `#F4FAF8`
+- Bottoni primary: verde, non nero. Ombre soft.
+- WhatsApp separato con suo verde.
+- Font: Fraunces per titoli, Inter per corpo – più professionale e leggibile.
+
+### 7. Pagine interne coerenti
+- `_layouts/default.html` → base pulita con header/footer + booking.js
+- `_layouts/page.html` → `container narrow + page-header + card page-card + cta-prenota`
+- `_layouts/post.html` → breadcrumbs + `card post-card` + meta + cta
+- `blog/index.html` e `contatti/index.html` usano `layout: page` e quindi ereditano stesso stile, stessa palette, stesso header.
+- `prenota/index.html` rimane redirect a `/#prenota`.
+
+### Installazione
 ```bash
 git checkout gh-pages
 git pull origin gh-pages
+# backup
 cp index.html index_backup_$(date +%F).html
-unzip -o ~/Downloads/dietista-full-package.zip
-git add index.html _layouts/ _includes/ assets/ prenota/
-git commit -m "feat: homepage produzione con Cal.com embed, rimossi demo/pagamenti, foto professionale, header globale, GA4+Pixel"
+
+# scompatta questo zip nella root
+unzip -o ~/Downloads/dietista-v5.zip
+
+# IMPORTANTE: mantieni la tua foto esistente
+# Se hai già assets/images/mara-micolucci.jpg non sovrascriverla
+# Questo pacchetto NON include la foto per non sostituirla
+
+git add index.html _layouts/ _includes/ assets/ blog/ contatti/ prenota/ CONFIG_SNIPPET.yml
+git rm -r stylesheets || true  # rimuove vecchio CSS legacy come richiesto
+git commit -m "feat v5: green palette, checklist hero, whatsapp fix, remove directory link, fix blog overlap, unify internal pages, remove legacy css"
 git push origin gh-pages
 ```
 
-## Configurazione tracking
+### Cosa NON è stato toccato
+- La tua foto `assets/images/mara-micolucci.jpg` – mantieni quella che hai già.
+- Cal.com embed URL – puoi cambiarlo cercando `cal.com/dietista/30min` in `index.html`.
+- GA4 / Meta Pixel – config in `_config.yml` come prima.
 
-In `_config.yml`:
-
-```yaml
-google_analytics: "G-XXXXXXXXXX"
-meta_pixel_id: "123456789012345"
-whatsapp_number: "393707021620"
-```
-
-## Cal.com
-
-Embed iframe in #prenota. Cambia URL cercando `cal.com/dietista/30min` in index.html.
-
-## Foto professionale
-
-File: `/assets/images/mara-micolucci.jpg`. Sostituibile mantenendo stesso nome. Il Reel Facebook linkato non è scaricabile senza login proprietario: se carichi uno screenshot qui, te lo trasformo in ritratto professionale.
-
-## WhatsApp link
-
-Ovunque uso:
-
-```html
-<a class="chat_on_whatsapp" aria-label="Chat on WhatsApp" href="https://wa.me/393707021620" target="_blank" rel="noopener">+39 370 702 1620</a>
-```
-
-Classe `chat_on_whatsapp` perfetta per CSS/JS tracking, già stilizzata in booking.css.
+Fatto.

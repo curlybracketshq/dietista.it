@@ -1,10 +1,17 @@
 ---
-layout: default
-title: Briciole di Nutrizione
-description: Vi accompagno, come Pollicino, attraverso questo mondo, che è la Nutrizione, troppo ricco di sfumature e desideroso di chiarezza...
+layout: page
+title: Blog
+description: Articoli, guide pratiche e riflessioni su nutrizione, benessere e rapporto con il cibo.
 ---
-
-<h1>{{ page.title }}</h1>
-<p>Vi accompagno, come Pollicino, attraverso questo mondo, che è la Nutrizione, troppo ricco di sfumature e desideroso di chiarezza...</p>
-
-{% include archive.html %}
+<div class="blog-grid">
+{% for post in site.posts %}
+  <article class="post-preview">
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <p>{{ post.excerpt | strip_html | truncate: 130 }}</p>
+    <div class="post-meta">{{ post.date | date: "%d %B %Y" }}</div>
+  </article>
+{% endfor %}
+</div>
+{% if site.posts.size == 0 %}
+<p class="muted">Nessun articolo trovato. Aggiungi file in <code>_posts/</code>.</p>
+{% endif %}

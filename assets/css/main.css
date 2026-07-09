@@ -1,0 +1,197 @@
+/* dietista.it v5 – clean palette, no legacy CSS */
+:root{
+  --green-900:#1B3D35;
+  --green-800:#224F44;
+  --green-700:#2F7D6B; /* primary */
+  --green-600:#3A9D8A;
+  --green-500:#4FB89F;
+  --green-100:#E6F4F0;
+  --green-50:#F4FAF8;
+  --sage-200:#D7E8E1;
+  --ink:#1A2A26;
+  --muted:#5C716B;
+  --border:#DDE8E3;
+  --bg:#FFFFFF;
+  --card:#FFFFFF;
+  --shadow:0 8px 24px rgba(27,61,53,.07),0 2px 8px rgba(27,61,53,.05);
+  --whatsapp:#25D366;
+  --whatsapp-hover:#1FB356;
+  --radius:16px;
+  --radius-sm:10px;
+  --container:1120px;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  color:var(--ink);
+  background:var(--bg);
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:var(--green-700);text-decoration:none}
+a:hover{color:var(--green-800);text-decoration:underline;text-underline-offset:3px}
+h1,h2,h3,h4{font-family:Fraunces,Georgia,serif;letter-spacing:-.02em;line-height:1.15;color:var(--green-900)}
+h1{font-size:clamp(2rem,4vw,3rem)}
+h2{font-size:clamp(1.5rem,3vw,2.1rem)}
+.lead{font-size:1.15rem;line-height:1.6}
+.muted{color:var(--muted)}
+.small{font-size:.875rem}
+
+.container{max-width:var(--container);margin-inline:auto;padding-inline:20px}
+.narrow{max-width:760px}
+
+.site-header{
+  position:sticky;top:0;z-index:50;
+  background:rgba(255,255,255,.88);
+  backdrop-filter:saturate(1.2) blur(10px);
+  border-bottom:1px solid var(--border);
+}
+.header-inner{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:20px;min-height:72px;
+}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit}
+.brand:hover{text-decoration:none}
+.brand-avatar{width:40px;height:40px;border-radius:50%;object-fit:cover;border:2px solid var(--green-100)}
+.brand-text{display:flex;flex-direction:column;line-height:1.1}
+.brand-text strong{font-family:Fraunces,serif;font-size:1.05rem;color:var(--green-900)}
+.brand-text span{font-size:.78rem;color:var(--muted);font-weight:500;letter-spacing:.02em}
+
+.main-nav{display:flex;gap:22px;align-items:center}
+.main-nav a{color:var(--ink);font-weight:500;font-size:.95rem;text-decoration:none;position:relative}
+.main-nav a:hover{color:var(--green-700)}
+.main-nav a::after{content:"";position:absolute;left:0;right:0;bottom:-6px;height:2px;background:var(--green-500);transform:scaleX(0);transition:.2s}
+.main-nav a:hover::after{transform:scaleX(1)}
+
+.header-actions{display:flex;gap:10px;align-items:center}
+.nav-toggle{display:none;background:none;border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  padding:10px 16px;border-radius:999px;font-weight:600;font-size:.92rem;
+  border:1px solid transparent;cursor:pointer;text-decoration:none;transition:.18s;white-space:nowrap;line-height:1;
+}
+.btn:hover{text-decoration:none;transform:translateY(-1px)}
+.btn-primary{background:var(--green-700);color:#fff;box-shadow:0 6px 16px rgba(47,125,107,.22)}
+.btn-primary:hover{background:var(--green-800);color:#fff;box-shadow:0 8px 20px rgba(47,125,107,.28)}
+.btn-secondary{background:#fff;color:var(--green-800);border-color:var(--border)}
+.btn-secondary:hover{border-color:var(--green-600);color:var(--green-800)}
+.btn-whatsapp{background:var(--whatsapp);color:#fff;border-color:transparent}
+.btn-whatsapp:hover{background:var(--whatsapp-hover);color:#fff}
+.btn-ghost{background:var(--green-50);color:var(--green-800)}
+.btn-ghost:hover{background:var(--green-100)}
+
+/* Hero */
+.hero{padding:56px 0 28px}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:start}
+.hero h1{margin:0 0 12px}
+.hero-sub{font-size:1.1rem;color:var(--muted);margin:0 0 22px;max-width:52ch}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0 14px}
+.trust-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:18px;font-size:.88rem;color:var(--muted)}
+.trust-row span{display:inline-flex;gap:6px;align-items:center;background:var(--green-50);border:1px solid var(--border);padding:6px 10px;border-radius:999px}
+
+/* Checklist card – replaces big photo */
+.checklist-card{
+  background:linear-gradient(180deg,#FFFFFF 0%,var(--green-50) 100%);
+  border:1px solid var(--border);border-radius:var(--radius);
+  padding:24px 22px;box-shadow:var(--shadow);
+  position:sticky;top:96px;
+}
+.checklist-card h3{margin:0 0 6px;font-size:1.25rem}
+.checklist-card .sub{margin:0 0 16px;color:var(--muted);font-size:.95rem}
+.check-list{list-style:none;padding:0;margin:0;display:grid;gap:12px}
+.check-list li{display:flex;gap:12px;align-items:flex-start;font-size:.98rem;line-height:1.45}
+.check-icon{
+  flex:0 0 28px;width:28px;height:28px;border-radius:50%;
+  background:var(--green-700);color:#fff;display:grid;place-items:center;font-size:16px;margin-top:1px;
+}
+.check-list strong{color:var(--green-900)}
+
+/* Sections */
+.section{padding:36px 0}
+.section-alt{background:var(--green-50);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.card{
+  background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
+  padding:22px;box-shadow:var(--shadow);
+}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+
+/* Blog – FIX overlap */
+.blog-grid{
+  display:grid;
+  grid-template-columns:repeat(3, minmax(0,1fr));
+  gap:20px;
+  align-items:stretch;
+}
+.post-preview{
+  display:flex;flex-direction:column;
+  background:#fff;border:1px solid var(--border);border-radius:var(--radius);
+  padding:18px 18px 16px;box-shadow:var(--shadow);
+  min-height:180px; /* prevents collapse */
+  position:relative; /* not absolute */
+}
+.post-preview h3{margin:0 0 8px;font-size:1.08rem;line-height:1.3}
+.post-preview h3 a{color:var(--green-900);text-decoration:none}
+.post-preview h3 a:hover{color:var(--green-700)}
+.post-preview p{margin:0 0 12px;color:var(--muted);font-size:.93rem;flex:1}
+.post-meta{font-size:.82rem;color:var(--muted);margin-top:auto}
+
+/* Booking iframe */
+.booking-wrap{
+  border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;background:#fff;box-shadow:var(--shadow)
+}
+.booking-wrap iframe{width:100%;height:760px;border:0;display:block}
+
+/* Page & post */
+.page-wrapper{padding:40px 0 48px}
+.page-header{margin-bottom:18px}
+.page-header h1{margin:0 0 8px}
+.page-card,.post-card{padding:28px}
+.post-header h1{margin:0 0 8px}
+.post-content{font-size:1.02rem}
+.post-content h2,.post-content h3{margin-top:28px}
+.breadcrumbs{margin-bottom:12px}
+.breadcrumbs a{font-weight:500}
+
+/* CTA banner */
+.cta-banner{
+  margin-top:28px;display:flex;justify-content:space-between;align-items:center;gap:16px;
+  background:var(--green-900);color:#E8F3EF;border-radius:var(--radius);padding:18px 20px;
+}
+.cta-banner h3{color:#fff;margin:0 0 4px}
+.cta-banner p{margin:0;color:#C6DDD6}
+.cta-actions{display:flex;gap:10px;flex-wrap:wrap}
+.cta-banner .btn-primary{background:#fff;color:var(--green-900)}
+.cta-banner .btn-primary:hover{background:var(--green-100)}
+
+/* Footer */
+.site-footer{border-top:1px solid var(--border);background:#FBFFFE;margin-top:24px;padding:36px 0 18px}
+.footer-grid{display:grid;grid-template-columns:1.4fr .8fr .9fr;gap:28px}
+.footer-brand{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.footer-brand img{width:48px;height:48px;border-radius:50%;object-fit:cover;border:2px solid var(--green-100)}
+.footer-links{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:8px}
+.footer-links a{color:var(--muted);font-weight:500}
+.footer-links a:hover{color:var(--green-700)}
+.footer-bottom{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:26px;padding-top:16px;border-top:1px solid var(--border);font-size:.86rem}
+
+/* Responsive */
+@media (max-width:980px){
+  .hero-grid{grid-template-columns:1fr}
+  .checklist-card{position:relative;top:auto}
+  .grid-3{grid-template-columns:1fr 1fr}
+  .blog-grid{grid-template-columns:1fr 1fr}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .main-nav{display:none}
+  .site-header.is-open .main-nav{display:flex;position:absolute;top:72px;left:0;right:0;background:#fff;border-bottom:1px solid var(--border);padding:16px 20px;flex-direction:column;align-items:flex-start}
+  .nav-toggle{display:inline-flex}
+}
+@media (max-width:640px){
+  .grid-3,.grid-2,.blog-grid,.footer-grid{grid-template-columns:1fr}
+  .cta-banner{flex-direction:column;align-items:flex-start}
+  .booking-wrap iframe{height:860px}
+}

@@ -1,5 +1,19 @@
-# Aggiungi a _config.yml
-google_analytics: "G-876WVL5S1E"  # tuo GA4 ID
-meta_pixel_id: "2226744121512874"  # tuo Pixel ID
+# Aggiungi a _config.yml (sostituisce valori esistenti se presenti)
+title: "Dott.ssa Mara Micolucci - Dietista"
+description: "Dietista, Farmacista, Dott.ssa in Scienze e Tecniche Psicologiche. Consulenze online e in presenza."
+url: "https://dietista.it"
+baseurl: ""
+
+# Tracking – lascia vuoto se non usi
+google_analytics: "G-876WVL5S1E"
+meta_pixel_id: "2226744121512874"
 whatsapp_number: "393707021620"
 whatsapp_link: "https://wa.me/393707021620"
+
+# Build
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Rimuovi vecchi riferimenti a stylesheets/main.css – ora usiamo solo assets/css/main.css

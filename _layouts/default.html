@@ -1,1 +1,14 @@
-<!DOCTYPE html><html lang="it"><head>{% include head.html %}</head><body>{% include header.html %}<main>{{ content }}</main>{% include footer.html %}<script src="/assets/js/booking.js" defer></script></body></html>
+<!doctype html>
+<html lang="it">
+<head>
+  {% include head.html %}
+</head>
+<body>
+  {% include header.html %}
+  <main id="main">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  <script src="{{ '/assets/js/booking.js' | relative_url }}" defer></script>
+</body>
+</html>

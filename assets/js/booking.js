@@ -1,46 +1,36 @@
-// booking.js - simplified for Cal.com delegation (no custom calendar/form)
-// Mobile nav toggle already inline, this adds smooth scroll + analytics
-
-document.addEventListener('DOMContentLoaded', () => {
-  // Smooth scroll for anchor links
-  document.querySelectorAll('a[href^="#"]').forEach(a=>{
-    a.addEventListener('click', e=>{
-      const id = a.getAttribute('href');
-      if(id.length>1){
-        const el = document.querySelector(id);
-        if(el){ e.preventDefault(); el.scrollIntoView({behavior:'smooth', block:'start'}); }
-      }
-    });
-  });
-
-  // Track WhatsApp clicks in GA4 + Meta
-  document.querySelectorAll('.chat_on_whatsapp').forEach(link=>{
-    link.addEventListener('click', ()=>{
-      if(window.gtag) gtag('event','click_whatsapp',{method:'whatsapp'});
-      if(window.fbq) fbq('track','Contact');
-    });
-  });
-
-  // Track Cal.com CTA clicks
-  document.querySelectorAll('a[href*="cal.com"]').forEach(link=>{
-    link.addEventListener('click', ()=>{
-      if(window.gtag) gtag('event','click_cal',{link:link.href});
-      if(window.fbq) fbq('track','InitiateCheckout');
-    });
-  });
-
-  // Track when Cal iframe loads (user viewed booking)
-  const calFrame = document.querySelector('iframe[src*="cal.com"]');
-  if(calFrame){
-    calFrame.addEventListener('load', ()=>{
-      if(window.gtag) gtag('event','view_booking_calendar');
-      if(window.fbq) fbq('track','ViewContent',{content_name:'cal_booking'});
-    });
+// dietista.it v5 – tracking only, no custom calendar/form
+(function(){
+  function track(name, params){
+    try{ if(window.gtag) gtag('event', name, params||{}); }catch(e){}
+    try{ if(window.fbq) fbq('trackCustom', name, params||{}); }catch(e){}
   }
-});
-
-// Legacy stubs - kept so old inline onclick don't error if cached
-window.selectService = ()=>{};
-window.setChannel = ()=>{};
-window.setPay = ()=>{};
-window.confirmBooking = ()=>{ window.location.href='#prenota'; };
+  document.addEventListener('click', function(e){
+    var a = e.target.closest('a');
+    if(!a) return;
+    var href = a.getAttribute('href')||'';
+    if(a.classList.contains('chat_on_whatsapp') || href.includes('wa.me') || href.includes('whatsapp')){
+      track('click_whatsapp', {link: href});
+      try{ if(window.fbq) fbq('track','Contact'); }catch(_){}
+    }
+    if(href.includes('cal.com')){
+      track('click_cal', {link: href});
+      try{ if(window.fbq) fbq('track','InitiateCheckout'); }catch(_){}
+    }
+  });
+  window.addEventListener('load', function(){
+    var cal = document.querySelector('iframe[src*=\"cal.com\"]');
+    if(cal){ track('view_booking_calendar'); }
+  });
+  // smooth scroll for hash links
+  document.addEventListener('click', function(e){
+    var a = e.target.closest('a[href^=\"#\"]');
+    if(!a) return;
+    var id = a.getAttribute('href');
+    if(id.length>1){
+      var el = document.querySelector(id);
+      if(el){ e.preventDefault(); el.scrollIntoView({behavior:'smooth', block:'start'}); history.pushState(null,'',id); }
+    }
+  });
+  // legacy stubs so old posts don't error
+  window.selectService = function(){};
+})();
