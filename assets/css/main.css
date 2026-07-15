@@ -190,7 +190,7 @@ h2{font-size:clamp(1.5rem,3vw,2.1rem)}
   .site-header.is-open .main-nav{
     display:flex;
     position:absolute;
-    top:68px;
+    top:100%;
     left:0;
     right:0;
     background:#fff;
