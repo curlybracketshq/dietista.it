@@ -12,6 +12,11 @@ layout: default
           {% if page.author %} · {{ page.author }}{% endif %}
         </div>
       </header>
+      {% if page.episode_id %}
+      <div class="embed" style="margin:18px 0 24px">
+        {% include embed.html episode_id=page.episode_id %}
+      </div>
+      {% endif %}
       <div class="post-content">
         {{ content }}
       </div>
