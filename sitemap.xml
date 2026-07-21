@@ -7,23 +7,25 @@ layout: null
     {% unless post.published == false %}
     <url>
       <loc>{{ site.url }}{{ post.url }}</loc>
-      <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      <lastmod>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
+      <priority>0.8</priority>
     </url>
     {% endunless %}
   {% endfor %}
   {% for page in site.pages %}
-    {% unless page.name == "sitemap.xml" or page.name == "404.html" %}
+    {% unless page.name == "sitemap.xml" or page.name == "404.html" or page.url contains ".css" or page.url contains ".js" or page.url contains ".json" or page.url contains ".xml" or page.url contains "/assets/" or page.url contains "/directory/" %}
     <url>
         <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
-        {% if page.date %}
+        {% if page.last_modified_at %}
+        <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
+        {% elsif page.date %}
         <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
         {% else %}
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
         {% endif %}
         <changefreq>monthly</changefreq>
-        <priority>0.3</priority>
+        <priority>0.5</priority>
     </url>
     {% endunless %}
   {% endfor %}
