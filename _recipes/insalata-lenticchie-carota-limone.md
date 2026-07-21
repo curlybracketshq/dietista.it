@@ -3,6 +3,8 @@ title: "Insalata lenticchie, carota e limone"
 description: "Terza variante salva-pranzo: lenticchie rosse già cotte, carota julienne, limone. Piccole, dolci, 10 minuti senza fornelli."
 date: 2026-07-20 09:00:00 +0200
 author: Mara Micolucci
+image: /assets/images/recipes/insalata-lenticchie-carota-limone.jpg
+image_alt: "Insalata lenticchie carota limone"
 recipe_category: Insalata / Pranzo veloce
 recipe_cuisine: Italiana
 prep_time: PT10M

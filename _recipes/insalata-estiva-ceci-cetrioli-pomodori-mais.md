@@ -3,6 +3,8 @@ title: "Insalata estiva ceci, cetrioli, pomodori e mais"
 description: "Il piatto freddo anti-salto-pranzo di Mara: ceci, cetrioli, pomodori, mais, olio e limone. Completo, fresco, niente fornelli."
 date: 2026-07-18 18:00:00 +0200
 author: Mara Micolucci
+image: /assets/images/recipes/insalata-estiva-ceci-cetrioli-pomodori-mais.jpg
+image_alt: "Insalata estiva ceci pomodori mais"
 recipe_category: Primo freddo / Pranzo completo
 recipe_cuisine: Italiana
 prep_time: PT10M

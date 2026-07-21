@@ -3,6 +3,8 @@ title: "Ceci schiacciati bimbi-friendly con mais"
 description: "Variante dolce per bimbi che non mangiano i ceci interi: crema rustica ceci + mais, dal FAQ podcast di Mara Micolucci."
 date: 2026-07-20 09:00:00 +0200
 author: Mara Micolucci
+image: /assets/images/recipes/ceci-schiacciati-bimbi-mais.jpg
+image_alt: "Ceci schiacciati bimbi con mais"
 recipe_category: Primo bimbi
 recipe_cuisine: Italiana
 prep_time: PT5M

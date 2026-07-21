@@ -3,6 +3,8 @@ title: "Ciotola estiva: yogurt greco, pesca e mandorle"
 description: "Fresca, cremosa, anti-fame serale: la ciotola estiva di Mara Micolucci per le notti tropicali a Musile di Piave. Proteine, grassi buoni, niente picco glicemico."
 date: 2026-07-18 18:00:00 +0200
 author: Mara Micolucci
+image: /assets/images/recipes/ciotola-estiva-yogurt-pesca-mandorle.jpg
+image_alt: "Ciotola estiva yogurt greco, pesca veneta e mandorle"
 recipe_category: Snack serale
 recipe_cuisine: Italiana
 prep_time: PT2M

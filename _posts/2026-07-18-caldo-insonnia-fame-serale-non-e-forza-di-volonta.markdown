@@ -3,6 +3,8 @@ layout: post
 title: "Caldo, insonnia e fame serale: non è forza di volontà"
 seo_title: "Fame serale con il caldo? Non è forza di volontà"
 description: "Notti tropicali a Musile di Piave: fame serale, insonnia e disidratazione estiva. Mara Micolucci spiega 3 meccanismi e la ciotola estiva in 2 minuti."
+image: /assets/images/posts/fame-serale-estate-2026.jpg
+image_alt: "Ciotola estiva – watercolor, no people"
 episode_id: 7dYt2y2dPuJaXRah3XwpAq
 date: 2026-07-18 18:00:00 +0200
 author: Mara Micolucci

@@ -3,6 +3,8 @@ layout: post
 title: "Sonno, il primo regolatore della nostra alimentazione"
 seo_title: "Sonno e fame: come dormire regola l’appetito"
 description: "Mara Micolucci, dietista a Musile di Piave: come sonno, serotonina e melatonina regolano fame nervosa e peso. Strategie naturali per dormire meglio."
+image: /assets/images/posts/sonno-primo-regolatore-2023.jpg
+image_alt: "Sonno e serotonina – watercolor, no people"
 episode_id: 6diWQBJ9D0AS8kpPEGoOHl
 date: 2023-01-01 00:00:00 +0100
 author: Mara Micolucci
