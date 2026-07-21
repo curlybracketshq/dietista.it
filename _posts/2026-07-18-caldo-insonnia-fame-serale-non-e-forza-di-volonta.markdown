@@ -10,7 +10,14 @@ image: /assets/images/posts/fame-serale-estate-2026.jpg
 image_alt: "Mara Micolucci – ciotola estiva yogurt, pesca e mandorle contro la fame serale"
 keywords: "fame serale, insonnia caldo, fame nervosa estate, dietista Musile di Piave, disidratazione estiva, grelina leptina"
 tags: [fame serale, insonnia, estate, idratazione, sonno]
-last_modified_at: 2026-07-21 00:05:00 +0200
+last_modified_at: 2026-07-21 04:25:00 +0200
+faq:
+  - q: "Perché con il caldo viene fame serale?"
+    a: "Disidratazione estiva, sonno spezzato che altera grelina e leptina, e stanchezza della corteccia prefrontale. Non è mancanza di forza di volontà."
+  - q: "Cosa mangiare la sera quando non riesco a dormire per il caldo?"
+    a: "Prima idratazione con acqua, sale e limone. Poi ciotola fresca: yogurt greco, frutta di stagione, mandorle. Proteine e grassi buoni, niente picco glicemico."
+  - q: "Come migliorare il sonno nelle notti tropicali?"
+    a: "Luci calde basse dalle 21:30, camera a 24°, lenzuola di cotone, rituale di chiusura di 10 minuti. Evita alcol e bibite zero ghiacciate la sera."
 ---
 
 Buongiorno a tutti, buongiorno a tutte. Eccomi qui con una domanda arrivata ieri sera alle 22:40.

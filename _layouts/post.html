@@ -81,37 +81,23 @@ layout: default
         "name": "Briciole di Nutrizione",
         "url": "https://podcasters.spotify.com/pod/show/dietista"
       }
-    }{% endif %},
+    }{% endif %}{% if page.faq %},
     {
       "@type": "FAQPage",
       "@id": "{{ page.url | absolute_url }}#faq",
       "mainEntity": [
+        {% for item in page.faq %}
         {
           "@type": "Question",
-          "name": "Perché con il caldo viene fame serale?",
+          "name": {{ item.q | jsonify }},
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Disidratazione estiva, sonno spezzato che altera grelina e leptina, e stanchezza della corteccia prefrontale. Non è mancanza di forza di volontà."
+            "text": {{ item.a | jsonify }}
           }
-        },
-        {
-          "@type": "Question",
-          "name": "Cosa mangiare la sera quando non riesco a dormire per il caldo?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Prima idratazione con acqua, sale e limone. Poi ciotola fresca: yogurt greco, frutta di stagione, mandorle. Proteine e grassi buoni, niente picco glicemico."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Come migliorare il sonno nelle notti tropicali?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Luci calde basse dalle 21:30, camera a 24°, lenzuola di cotone, rituale di chiusura di 10 minuti. Evita alcol e bibite zero ghiacciate la sera."
-          }
-        }
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
       ]
-    }
+    }{% endif %}
   ]
 }
 </script>
