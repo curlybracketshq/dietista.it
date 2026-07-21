@@ -1,0 +1,12 @@
+<div class="related-posts" style="margin-top:32px">
+  <h3 style="font-size:1.1rem;margin-bottom:12px">Leggi anche</h3>
+  <ul style="list-style:none;padding:0;margin:0;display:grid;gap:8px">
+  {% assign related_count = 0 %}
+  {% for post in site.posts %}
+    {% if post.url != page.url and related_count < 3 %}
+      <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a><br><span class="muted small">{{ post.date | date: "%d %B %Y" }}</span></li>
+      {% assign related_count = related_count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+  </ul>
+</div>

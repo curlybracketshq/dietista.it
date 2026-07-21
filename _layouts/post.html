@@ -4,23 +4,114 @@ layout: default
 <div class="page-wrapper">
   <div class="container narrow">
     <nav class="breadcrumbs"><a href="{{ '/blog/' | relative_url }}">← Torna al blog</a></nav>
-    <article class="card post-card">
+    <article class="card post-card" itemscope itemtype="https://schema.org/BlogPosting">
       <header class="post-header">
-        <h1>{{ page.title }}</h1>
+        <h1 itemprop="headline">{{ page.title }}</h1>
         <div class="post-meta muted small">
-          {% if page.date %}Pubblicato il {{ page.date | date: "%d %B %Y" }}{% endif %}
-          {% if page.author %} · {{ page.author }}{% endif %}
+          {% if page.date %}<time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">Pubblicato il {{ page.date | date: "%d %B %Y" }}</time>{% endif %}
+          {% if page.author %} · <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% else %} · <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Mara Micolucci</span></span>{% endif %}
         </div>
+        {% if page.description %}<p class="visually-hidden" itemprop="description">{{ page.description | escape }}</p>{% endif %}
       </header>
       {% if page.episode_id %}
       <div class="embed" style="margin:18px 0 24px">
         {% include embed.html episode_id=page.episode_id %}
       </div>
       {% endif %}
-      <div class="post-content">
+      <div class="post-content" itemprop="articleBody">
         {{ content }}
       </div>
+      {% if page.tags %}
+      <footer class="post-footer" style="margin-top:24px; font-size:0.9em; color:#666">
+        <span>Argomenti:</span>
+        {% for tag in page.tags %}<a href="{{ '/blog/' | relative_url }}#{{ tag | slugify }}" style="margin-left:6px">#{{ tag }}</a>{% endfor %}
+      </footer>
+      {% endif %}
     </article>
     {% include cta-prenota.html %}
+    {% include related-posts.html %}
   </div>
 </div>
+
+{%- capture _jsonld_image -%}{{ page.image | default: '/assets/images/mara-micolucci.jpg' | absolute_url }}{%- endcapture -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "{{ page.url | absolute_url }}#post",
+      "headline": "{{ page.title | escape }}",
+      "description": "{{ page.description | strip_newlines | escape }}",
+      "image": "{{ _jsonld_image }}",
+      "datePublished": "{{ page.date | date_to_xmlschema }}",
+      "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+      "author": {
+        "@type": "Person",
+        "name": "Mara Micolucci",
+        "url": "https://dietista.it",
+        "jobTitle": "Dietista, Farmacista",
+        "sameAs": ["https://www.instagram.com/dietista.it/", "https://www.facebook.com/dietista"]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "dietista.it",
+        "url": "https://dietista.it",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dietista.it/assets/images/mara-micolucci.jpg"
+        }
+      },
+      "mainEntityOfPage": "{{ page.url | absolute_url }}",
+      "inLanguage": "it-IT",
+      "isPartOf": { "@id": "https://dietista.it/#website" }
+    }{% if page.episode_id %},
+    {
+      "@type": "PodcastEpisode",
+      "@id": "{{ page.url | absolute_url }}#podcast",
+      "name": "{{ page.title | escape }}",
+      "description": "{{ page.description | strip_newlines | escape }}",
+      "datePublished": "{{ page.date | date_to_xmlschema }}",
+      "associatedMedia": {
+        "@type": "MediaObject",
+        "contentUrl": "https://open.spotify.com/episode/{{ page.episode_id }}"
+      },
+      "partOfSeries": {
+        "@type": "PodcastSeries",
+        "name": "Briciole di Nutrizione",
+        "url": "https://podcasters.spotify.com/pod/show/dietista"
+      }
+    }{% endif %},
+    {
+      "@type": "FAQPage",
+      "@id": "{{ page.url | absolute_url }}#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Perché con il caldo viene fame serale?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Disidratazione estiva, sonno spezzato che altera grelina e leptina, e stanchezza della corteccia prefrontale. Non è mancanza di forza di volontà."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cosa mangiare la sera quando non riesco a dormire per il caldo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prima idratazione con acqua, sale e limone. Poi ciotola fresca: yogurt greco, frutta di stagione, mandorle. Proteine e grassi buoni, niente picco glicemico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Come migliorare il sonno nelle notti tropicali?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Luci calde basse dalle 21:30, camera a 24°, lenzuola di cotone, rituale di chiusura di 10 minuti. Evita alcol e bibite zero ghiacciate la sera."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
