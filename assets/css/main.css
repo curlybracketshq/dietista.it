@@ -142,8 +142,8 @@ h2{font-size:clamp(1.5rem,3vw,2.1rem)}
 .post-meta{font-size:.82rem;color:var(--muted);margin-top:auto}
 
 /* Post / Recipe – removed card wrapper, keep inner spacing */
-.post-card{padding:22px 0}
-@media(max-width:680px){.post-card{padding:16px 0}}
+.post-card{padding:22px}
+@media(max-width:680px){.post-card{padding:16px}}
 
 /* Booking iframe */
 .booking-wrap{
