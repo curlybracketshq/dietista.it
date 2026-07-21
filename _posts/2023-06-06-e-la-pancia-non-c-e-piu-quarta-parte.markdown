@@ -4,8 +4,6 @@ title: ... e la Pancia non c'è più! (Quarta Parte)
 seo_title: "FODMAP, additivi e metalli pesanti: pancia"
 description: "Leaky gut, FODMAP, additivi alimentari e metalli pesanti. Mara Micolucci, dietista, spiega il legame con gonfiore e disbiosi."
 author: Mara Micolucci
-image: /assets/images/posts/pancia-gonfia-4-2023.jpg
-image_alt: "Mara Micolucci – FODMAP, additivi, metalli pesanti"
 keywords: "FODMAP, leaky gut, additivi alimentari, metalli pesanti, pancia gonfia"
 tags: [FODMAP, leaky gut, additivi, metalli pesanti, microbiota]
 last_modified_at: 2026-07-21 04:15:00 +0200

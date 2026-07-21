@@ -6,8 +6,6 @@ description: "Mara Micolucci, dietista a Musile di Piave: come sonno, serotonina
 episode_id: 6diWQBJ9D0AS8kpPEGoOHl
 date: 2023-01-01 00:00:00 +0100
 author: Mara Micolucci
-image: /assets/images/posts/sonno-primo-regolatore-2023.jpg
-image_alt: "Mara Micolucci – sonno e alimentazione, regolazione fame"
 keywords: "sonno e alimentazione, fame nervosa, serotonina melatonina, dietista Musile di Piave, insonnia e peso"
 tags: [sonno, alimentazione, serotonina, melatonina, fame nervosa]
 last_modified_at: 2026-07-21 04:15:00 +0200

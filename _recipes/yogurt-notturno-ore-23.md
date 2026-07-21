@@ -3,8 +3,6 @@ title: "Yogurt notturno – salvataggio ore 23"
 description: "Micro-spuntino di Mara Micolucci per le 23: quando sei ancora sveglia e hai fame. Senza commenti interiori cattivi. Nutrirsi non è fallire."
 date: 2026-07-18 18:00:00 +0200
 author: Mara Micolucci
-image: /assets/images/posts/fame-serale-estate-2026.jpg
-image_alt: "Yogurt notturno tre cucchiai"
 recipe_category: Snack notturno
 recipe_cuisine: Italiana
 prep_time: PT1M

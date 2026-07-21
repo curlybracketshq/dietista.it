@@ -3,8 +3,6 @@ title: "Insalata ceci, pomodorini e cetriolo – pranzo bimbi 10 minuti"
 description: "Il salva-pranzo estivo di Mara Micolucci: ceci, pomodorini veneti, cetriolo, olio e limone. Fresco, sazio, zero fornelli. Bimbi a casa, Musile di Piave."
 date: 2026-07-20 09:00:00 +0200
 author: Mara Micolucci
-image: /assets/images/posts/pancia-gonfia-1-2023.jpg
-image_alt: "Insalata estiva ceci pomodorini cetriolo"
 recipe_category: Insalata / Pranzo veloce
 recipe_cuisine: Italiana
 prep_time: PT10M

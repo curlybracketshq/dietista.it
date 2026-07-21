@@ -4,8 +4,6 @@ title: Glutine, facciamo un po’ di chiarezza...
 seo_title: "Glutine: quando eliminarlo davvero?"
 description: "Celiachia, sensibilità al glutine e falsi miti. Mara Micolucci, dietista a Musile di Piave, spiega quando il glutine fa male davvero."
 author: Mara Micolucci
-image: /assets/images/posts/glutine-chiarezza-2023.jpg
-image_alt: "Mara Micolucci – glutine e celiachia, chiarezza nutrizionale"
 keywords: "glutine, celiachia, sensibilità glutine, dietista Musile di Piave, pasta grani antichi"
 tags: [glutine, celiachia, alimentazione, grani antichi, infiammazione]
 last_modified_at: 2026-07-21 04:15:00 +0200

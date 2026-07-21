@@ -4,8 +4,6 @@ title: ... e la Pancia non c'è più! (Seconda Parte)
 seo_title: "Microbiota intestinale: cos’è e come curarlo"
 description: "Microbiota, eubiosi e disbiosi spiegati da Mara Micolucci. Come batteri intestinali influenzano pancia gonfia, umore e immunità."
 author: Mara Micolucci
-image: /assets/images/posts/pancia-gonfia-2-2023.jpg
-image_alt: "Mara Micolucci – microbiota intestinale, eubiosi"
 keywords: "microbiota, eubiosi, disbiosi, pancia gonfia, probiotici, dietista"
 tags: [microbiota, eubiosi, probiotici, pancia gonfia, intestino]
 last_modified_at: 2026-07-21 04:15:00 +0200

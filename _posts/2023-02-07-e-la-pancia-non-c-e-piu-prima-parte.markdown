@@ -4,8 +4,6 @@ title: ... e la Pancia non c'è più! (Prima Parte)
 seo_title: "Pancia gonfia: perché succede davvero"
 description: "Gonfiore addominale: intestino, villi e microbiota spiegati da Mara Micolucci, dietista a Musile di Piave. Prima parte."
 author: Mara Micolucci
-image: /assets/images/posts/pancia-gonfia-1-2023.jpg
-image_alt: "Mara Micolucci – pancia gonfia, intestino e microbiota"
 keywords: "pancia gonfia, gonfiore addominale, microbiota, intestino, dietista Musile di Piave"
 tags: [pancia gonfia, microbiota, intestino, digestione, infiammazione]
 episode_id: 15xfqj2w2B2k8qmzoSiKMM

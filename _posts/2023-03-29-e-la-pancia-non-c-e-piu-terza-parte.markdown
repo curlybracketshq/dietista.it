@@ -6,8 +6,6 @@ description: "30% della popolazione soffre di pancia gonfia. Mara Micolucci spie
 episode_id: 2MCeNR2NBys4zgzRPBcEc8
 date: 2023-03-29 12:00:00 +0200
 author: Mara Micolucci
-image: /assets/images/posts/pancia-gonfia-3-2023.jpg
-image_alt: "Mara Micolucci – gonfiore pancia, stress e farmaci"
 keywords: "pancia gonfia, disbiosi, stress intestino, antibiotici, PPI, FODMAP"
 tags: [pancia gonfia, disbiosi, stress, farmaci, alimentazione]
 last_modified_at: 2026-07-21 04:15:00 +0200

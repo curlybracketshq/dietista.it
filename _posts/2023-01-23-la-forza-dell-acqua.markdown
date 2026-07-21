@@ -4,8 +4,6 @@ title: "La Forza dell'Acqua"
 seo_title: "Bere acqua: il miglior anti-aging naturale"
 description: "Idratazione e longevità: lo studio USA su 16.000 persone. Mara Micolucci spiega quanta acqua bere davvero, ogni giorno."
 author: Mara Micolucci
-image: /assets/images/posts/forza-acqua-2023.jpg
-image_alt: "Mara Micolucci – idratazione e longevità"
 keywords: "acqua, idratazione, longevità, invecchiamento, dietista Musile di Piave"
 tags: [acqua, idratazione, longevità, anti-aging, salute]
 last_modified_at: 2026-07-21 04:15:00 +0200

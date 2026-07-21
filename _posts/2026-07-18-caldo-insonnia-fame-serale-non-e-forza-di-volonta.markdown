@@ -6,8 +6,6 @@ description: "Notti tropicali a Musile di Piave: fame serale, insonnia e disidra
 episode_id: 7dYt2y2dPuJaXRah3XwpAq
 date: 2026-07-18 18:00:00 +0200
 author: Mara Micolucci
-image: /assets/images/posts/fame-serale-estate-2026.jpg
-image_alt: "Mara Micolucci – ciotola estiva yogurt, pesca e mandorle contro la fame serale"
 keywords: "fame serale, insonnia caldo, fame nervosa estate, dietista Musile di Piave, disidratazione estiva, grelina leptina"
 tags: [fame serale, insonnia, estate, idratazione, sonno]
 last_modified_at: 2026-07-21 04:25:00 +0200

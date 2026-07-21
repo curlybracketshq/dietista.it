@@ -4,8 +4,6 @@ title: ... e la Pancia non c'è più! (Quinta parte)
 seo_title: "Microbiota e peso: perché non dimagrisci"
 description: "Obesità e microbiota: come i batteri intestinali estraggono più calorie dalle fibre. Mara Micolucci spiega il paradosso."
 author: Mara Micolucci
-image: /assets/images/posts/pancia-gonfia-5-2024.jpg
-image_alt: "Mara Micolucci – microbiota e peso, obesità"
 keywords: "microbiota e peso, obesità, fibre, probiotici, dietista Musile di Piave"
 tags: [microbiota, obesità, peso, fibre, probiotici]
 last_modified_at: 2026-07-21 04:15:00 +0200

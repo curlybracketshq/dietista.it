@@ -3,8 +3,6 @@ title: "Insalata fagioli cannellini, cetriolo e menta"
 description: "Variante bimbi-friendly del salva-pranzo estivo: fagioli cannellini neutri, cetriolo croccante, menta fresca. 10 minuti, senza fornelli."
 date: 2026-07-20 09:00:00 +0200
 author: Mara Micolucci
-image: /assets/images/posts/pancia-gonfia-2-2023.jpg
-image_alt: "Insalata fagioli cannellini cetriolo menta"
 recipe_category: Insalata / Pranzo veloce
 recipe_cuisine: Italiana
 prep_time: PT10M

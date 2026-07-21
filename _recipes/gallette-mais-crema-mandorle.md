@@ -3,8 +3,6 @@ title: "Gallette di mais con crema di mandorle"
 description: "Integrazione serale leggera firmata Mara: quando hai cenato troppo poco con il caldo. Non è sgarro, è completare la giornata."
 date: 2026-07-18 18:00:00 +0200
 author: Mara Micolucci
-image: /assets/images/posts/fame-serale-estate-2026.jpg
-image_alt: "Gallette di mais con crema di mandorle"
 recipe_category: Snack serale
 recipe_cuisine: Italiana
 prep_time: PT1M

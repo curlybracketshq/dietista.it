@@ -3,8 +3,6 @@ title: "Acqua sale e limone – idratazione intelligente serale"
 description: "Il primo gesto anti fame serale di Mara Micolucci: reintegra sali, spegne la sete scambiata per fame. Notti tropicali, Musile di Piave."
 date: 2026-07-18 18:00:00 +0200
 author: Mara Micolucci
-image: /assets/images/posts/forza-acqua-2023.jpg
-image_alt: "Bicchiere d'acqua con sale e limone"
 recipe_category: Bevanda
 recipe_cuisine: Italiana
 prep_time: PT1M

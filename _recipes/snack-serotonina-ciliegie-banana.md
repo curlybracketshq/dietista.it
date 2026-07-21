@@ -3,8 +3,6 @@ title: "Snack serale serotonina naturale – ciliegie e banana"
 description: "Mini-spuntino serale per sostenere serotonina e melatonina, dal post sonno di Mara Micolucci. Con note su valeriana e passiflora."
 date: 2023-01-01 18:00:00 +0100
 author: Mara Micolucci
-image: /assets/images/posts/sonno-primo-regolatore-2023.jpg
-image_alt: "Ciliegie e banana – precursori serotonina naturali"
 recipe_category: Snack serale
 recipe_cuisine: Italiana
 prep_time: PT5M
