@@ -2,6 +2,8 @@ title: "Dott.ssa Mara Micolucci - Dietista"
 description: "Dietista, Farmacista, Dott.ssa in Scienze e Tecniche Psicologiche. Consulenze online e in presenza."
 url: "https://dietista.it"
 baseurl: ""
+lang: it-IT
+locale: it_IT
 
 google_analytics: "G-876WVL5S1E"
 meta_pixel_id: "2226744121512874"

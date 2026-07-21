@@ -109,7 +109,7 @@ description: Consulenze nutrizionali personalizzate online su Zoom o WhatsApp e 
       <article class="post-preview">
         <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
         <p>{{ post.description | default: post.excerpt | strip_html | truncate: 160 }}</p>
-        <div class="post-meta">{% if post.date %}{{ post.date | date: "%d %B %Y" }}{% endif %}</div>
+        <div class="post-meta">{% if post.date %}{% include date_it.html date=post.date %}{% endif %}</div>
       </article>
       {% else %}
       <div class="card"><p class="muted">Ancora nessun articolo pubblicato. Gli articoli in <code>_posts/</code> appariranno qui automaticamente.</p></div>
