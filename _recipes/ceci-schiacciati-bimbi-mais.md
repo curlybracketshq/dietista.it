@@ -1,6 +1,6 @@
 ---
 title: "Ceci schiacciati bimbi-friendly con mais"
-description: "Variante dolce per bimbi che non mangiano i ceci interi: crema rustica ceci + mais, dal FAQ podcast di Mara Micolucci."
+description: "Crema rustica di ceci e mais: consistenza morbida e gusto naturalmente dolce, pensata per i bimbi che rifiutano i legumi interi."
 date: 2026-07-20 09:00:00 +0200
 author: Mara Micolucci
 image: /assets/images/recipes/ceci-schiacciati-bimbi-mais.jpg
@@ -23,13 +23,13 @@ instructions:
   - "Schiaccia grossolanamente i ceci con una forchetta."
   - "Unisci mais e olio, mescola fino a crema dolce rustica."
   - "Servi tiepido/freddo. Consistenza morbida, gusto dolce naturale."
-nutrition_note: "Dal FAQ podcast settimana 20 luglio: 'I miei bimbi non mangiano i ceci.' Mara: prova ceci schiacciati + mais + olio, diventa crema dolce. Se ancora no: parti da fagioli cannellini, più neutri, o lenticchie rosse piccole."
+nutrition_note: "Consistenza morbida, gusto naturalmente dolce grazie al mais. Se il bimbo rifiuta ancora: prova fagioli cannellini, più neutri, o lenticchie rosse ben cotte."
 tips:
   - "Coinvolgi i bimbi nella scelta colore: 'rosso pomodoro o verde cetriolo?' Scelta guidata, non imposizione."
 tags: [bimbi, ceci, senza glutine, pappa, estate]
-source_post_url: /blog/
-source_post_title: "Bimbi a casa, pranzo in 10 minuti — in arrivo"
+source_post_url: /blog/bimbi-a-casa-pranzo-in-10-minuti/
+source_post_title: "Bimbi a casa, pranzo in 10 minuti"
 seo_title: "Ceci schiacciati bimbi – crema mais Mara"
 ---
 
-Ricetta FAQ dal podcast “Bimbi a casa, pranzo in 10 minuti”: per bimbi che rifiutano i ceci interi.
+Variante morbida per bimbi che rifiutano i legumi interi: crema rustica di ceci e mais, pronta in 5 minuti.
