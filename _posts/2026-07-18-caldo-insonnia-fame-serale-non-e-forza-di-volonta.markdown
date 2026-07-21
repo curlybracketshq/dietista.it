@@ -76,4 +76,4 @@ Anche a te capita con questa afa? Qual è la tua serata tipo quando non dormi? S
 
 E se ti ritrovi in questa descrizione, scrivimi: mi trovi su Instagram [@dietista.it](https://www.instagram.com/dietista.it/) in DM, oppure via email a [info@dietista.it](mailto:info@dietista.it). Raccontami la tua serata tipo: leggo tutto, senza giudizio, e costruiamo insieme un'estate che ti fa dormire meglio e spegne la fame nervosa.
 
-Io sono Mara, ci sentiamo lunedì prossimo con una nuova domanda dal campo. Buona estate, idratatevi.
+Io sono Mara, ci sentiamo la prossima settimana con una nuova domanda dal campo. Buona estate, idratatevi.
