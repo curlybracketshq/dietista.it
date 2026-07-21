@@ -1,13 +1,26 @@
 ---
 layout: post
 title: ... e la Pancia non c'è più! (Quarta Parte)
-description: Il gonfiore di pancia, la disbiosi, può dipendere anche da non-alimenti, che introduciamo inconsapevolmente...
+seo_title: "FODMAP, additivi e metalli pesanti: pancia"
+description: "Leaky gut, FODMAP, additivi alimentari e metalli pesanti. Mara Micolucci, dietista, spiega il legame con gonfiore e disbiosi."
+author: Mara Micolucci
+image: /assets/images/posts/pancia-gonfia-4-2023.jpg
+image_alt: "Mara Micolucci – FODMAP, additivi, metalli pesanti"
+keywords: "FODMAP, leaky gut, additivi alimentari, metalli pesanti, pancia gonfia"
+tags: [FODMAP, leaky gut, additivi, metalli pesanti, microbiota]
+last_modified_at: 2026-07-21 04:15:00 +0200
 episode_id: 4O7tu0UzMM4dIYf6gswiw8
 ---
+
+Quarta puntata di “… e la Pancia non c’è più!”. Oggi parliamo di **FODMAP**, **additivi alimentari** e **metalli pesanti**, e del loro legame con gonfiore, disbiosi e leaky gut.
+
+> Se ti sei persa la terza parte: [stress, farmaci e alimentazione: le tre cause del gonfiore](/2023/03/29/e-la-pancia-non-c-e-piu-terza-parte.html) — recuperala, è la base per capire quello che segue.
 
 Eccoci qua, questi sono gli argomenti che tratterò, e cioè **<abbr>FODMAP</abbr>** (fermentable oligosaccharides, disaccharides, monosaccharides, and polyols), **additivi alimentari**, **metalli pesanti** e il loro legame con il **gonfiore di pancia**.
 
 Non li tratterò in questo ordine, bensì al contrario, inizierò introducendo uno studio sui metalli pesanti, perché così capiremo come alcuni alimenti possono dar vita ad intolleranze legate alla disbiosi, alla *leaky gut*, che significa letteralmente intestino che gocciola, intestino che fa entrare nell'organismo, senza riuscire a filtrare, elementi tossici ed allergizzanti. Vedremo come porvi il rimedio e correre ai ripari.
+
+## Metalli pesanti e microbiota: barriera indebolita
 
 [**I metalli pesanti più pericolosi per la salute sono il mercurio, il cadmio, il cromo, il piombo, ma c'è anche arsenico e nickel**](https://www.issalute.it/index.php/la-salute-dalla-a-alla-z-menu/m/metalli-pesanti-negli-alimenti), questo sicuramente lo avrete già sentito nominare come agente di allergie.
 
@@ -27,6 +40,8 @@ In sintesi danneggia il nostro microbiota.
 *Mentre quando il nostro microbiota intestinale è sano, in eubiosi, altera l'assorbimento e il metabolismo dei metalli pesanti, agendo come barriera fisica all'assorbimento, alterando il pH, l'equilibrio ossidativo e la concentrazione di enzimi e proteine disintossicanti sui metalli pesanti.*
 
 In sintesi è stato dimostrato che **il nostro microbiota in uno stato di salute e di eubiosi riduce l'assorbimento dei metalli pesanti nell'intestino, sequestrandoli per poi farli eliminare con le feci.**
+
+## Additivi alimentari e leaky gut
 
 Passiamo ora al secondo argomento, la presenza di [**additivi alimentari**](https://www.salute.gov.it/portale/temi/p2_6.jsp?area=sicurezzaAlimentare&id=1170&menu=chimica) nella nostra dieta. Cosa combineranno?
 
@@ -48,6 +63,8 @@ Quest'ultimo è un enzima prodotto dai batteri, usato per migliorare la consiste
 
 **Questo enzima mina gravemente la permeabilità intestinale e sembra sia immunogenico per chi ha la celiachia, cioè possono peggiorarla, sensibilizzarla.** La transglutaminasi batterica è un additivo alimentare, ma essendo un enzima non c'è obbligo di scriverlo in etichetta, secondo la normativa europea.
 
+## FODMAP: quando toglierli (con un professionista)
+
 Terminiamo ora con un argomento più leggero, i FODMAP.<br>
 I FODMAP sono alimenti che contengono zuccheri come fruttosio, lattosio e alcuni dolcificanti che normalmente sono fermentati nell'intestino sano dal microbiota batterico.
 
@@ -62,5 +79,10 @@ In sintesi: **non colpevolizziamo solo gli alimenti, questo o quello mi gonfia l
 
 E se ci si gonfia la pancia, leggiamolo come una richiesta di aiuto del nostro corpo, del nostro intestino e non solo come un fastidio da eliminare.
 
-Alla prossima con "Dimmi che dieta fai e ti dirò che microbiota hai".<br>
-E [il nostro microbiota può anche farci ingrassare?]({% post_url 2024-03-24-e-la-pancia-non-c-e-piu-quinta-parte %})
+---
+
+Se ti ritrovi con pancia gonfia, FODMAP che non tolleri, o sospetti di leaky gut e disbiosi, scrivimi: mi trovi su Instagram [@dietista.it](https://www.instagram.com/dietista.it/) in DM, oppure via email a [info@dietista.it](mailto:info@dietista.it). Raccontami la tua storia, da quanto dura il gonfiore, cosa hai già provato: leggo tutto, senza giudizio, e costruiamo insieme un piano alimentare che calma la pancia.
+
+Io sono Mara. Ci sentiamo nella [quinta parte: il microbiota può farci ingrassare?](/2024/03/24/e-la-pancia-non-c-e-piu-quinta-parte.html)
+
+*È informazione generale, per il tuo caso personale serve una valutazione individuale.*

@@ -1,9 +1,19 @@
 ---
 layout: post
-title: ... e la Pancia non c'è più! (Terza Parte)
-description: ... sino al 30% della popolazione soffre di gonfiore di pancia, vediamo qualche perchè
+title: "... e la Pancia non c'è più! (Terza Parte)"
+seo_title: "Gonfiore di pancia: stress, farmaci e cibo"
+description: "30% della popolazione soffre di pancia gonfia. Mara Micolucci spiega stress, antibiotici, PPI e alimentazione dietro la disbiosi."
 episode_id: 2MCeNR2NBys4zgzRPBcEc8
+date: 2023-03-29 12:00:00 +0200
+author: Mara Micolucci
+image: /assets/images/posts/pancia-gonfia-3-2023.jpg
+image_alt: "Mara Micolucci – gonfiore pancia, stress e farmaci"
+keywords: "pancia gonfia, disbiosi, stress intestino, antibiotici, PPI, FODMAP"
+tags: [pancia gonfia, disbiosi, stress, farmaci, alimentazione]
+last_modified_at: 2026-07-21 04:15:00 +0200
 ---
+
+## Gonfiore di pancia: 30% della popolazione
 
 Ora affronterò le tre principali cause del gonfiore di pancia: **lo stress**, **i farmaci** ed introdurrò anche **la causa alimentare**.
 
@@ -15,7 +25,9 @@ _Se l'intestino si carica di gas più del dovuto, è il segnale che il nostro mi
 
 Una delle capacità caratteristiche del nostro microbiota è quella della **resilienza**, e cioè la sua _capacità di tornare in equilibrio_ dopo una delle cause tra alimentazione, farmaci, stress, che lo ha squilibrato ed impoverito. Quando questo non è possibile, e cioè il nostro microbiota non è sufficientemente resiliente e fatica a tornare ricco come prima, allora questo è il momento di integrare con l'apporto di probiotici mirati. Pensate che se il nostro microbiota non è sufficientemente resiliente, può impiegare _sino a due anni per ripristinare l'eubiosi_, dopo ad esempio l'uso di antibiotici.
 
-Abbiamo già visto che il microbiota disbiotico, in squilibrio, non sarà di grande aiuto per il nostro sistema immunitario, per il nostro umore e per la nostra digestione.
+Abbiamo già visto — nella [seconda parte sul microbiota](/2023/02/21/e-la-pancia-non-c-e-piu-seconda-parte.html) — che il microbiota disbiotico, in squilibrio, non sarà di grande aiuto per il nostro sistema immunitario, per il nostro umore e per la nostra digestione.
+
+## Stress e asse intestino-cervello
 
 Che una delle cause del gonfiore possa essere lo stress, l'ansia, lo sappiamo perché **il nostro cervello è collegato direttamente al nostro apparato digerente**. Prova ne è che solo l'idea di mangiare qualcosa di appetitoso fa produrre al nostro stomaco i succhi gastrici, con conseguente brontolio. Oppure sappiamo che il nostro cervello è collegato all'apparato digerente perché ad esempio la paura di affrontare una situazione scomoda ci può procurare l'impellente bisogno di andare al bagno.
 
@@ -23,9 +35,13 @@ Attenzione, la manifestazione degna di nota è che il segnale può andare anche 
 
 Questo è _il famoso asse microbiota-intestino-cervello_. E **se il microbiota è in equilibrio, manda al cervello delle sostanze che migliorano l'umore**.
 
+## Farmaci che causano disbiosi: antibiotici e PPI
+
 Vediamo ora invece come **alcuni farmaci, tra i più comuni, possano causare disbiosi, gonfiore di pancia**, per una maggiore fermentazione dei batteri intestinali. L'esempio più eclatante sono gli **antibiotici**, ed ora sappiamo praticamente un po' tutti che vanno adoperati solo su consiglio medico, ma il tranello è altrove, e cioè alla _possibile presenza di antibiotici negli alimenti_, specie nella carne, per l'utilizzo che ne viene fatto nei grandi allevamenti anche come promotore della crescita. ["Antibiotico-resistenza nel settore ambientale"](https://www.salute.gov.it/portale/antibioticoresistenza/dettaglioContenutiAntibioticoResistenza.jsp?lingua=italiano&id=5435&area=antibiotico-resistenza&menu=vuoto) è un documento interessantissimo del Ministero della Salute sull'argomento.
 
 Un'altra famiglia di farmaci alla ribalta causa di disbiosi sono i **protettori gastrici** o <abbr>**PPI**</abbr>, l'acronimo di _inibitori di pompa protonica_. Il loro abuso, oltre al tempo stabilito dal medico, oltre a causare carenza di calcio, ferro e vitamina B12, può anche danneggiare il microbiota, perché cambiando il grado di acidità gastrica, cambia anche il terreno del primo tratto intestinale, minando la diversità delle specie batteriche come quelle utili al nostro organismo. E anche in questo caso lamenteremo difficoltà digestive e gonfiore. Vi rimando a ["Proton pump inhibitors and dysbiosis: Current knowledge and aspects to be clarified"](https://doi.org/10.3748/wjg.v25.i22.2706) per maggiori informazioni sull'argomento.
+
+## Alimentazione: zuccheri, lattosio e masticazione
 
 Andiamo ora alla **causa regina della disbiosi: l'alimentazione**. Mi ripeto, se la nostra disbiosi, gonfiore, non sarà legata naturalmente a patologie, o all'uso di farmaci, o al nostro stato umorale, potremo finalmente considerare la causa legata all'alimentazione. Basti pensare semplicemente al **latte**, al lattosio in particolare, quando anche in assenza di intolleranza pura al lattosio, non viene digerito, procurando gonfiore e a volte anche delle scariche, a causa dell'aumento dell'attività fermentativa con la produzione di gas. In questo caso il nostro microbiota disbiotico manca dei batteri in grado di aiutarci a digerirlo e questo è il risultato.
 
@@ -39,4 +55,14 @@ E anche nel caso cambiassimo le nostre abitudini alimentari con l'assunzione di 
 
 **Ricordiamoci che quello che mangiamo, il nostro cibo, è anche il cibo per il microbiota.** Quindi sta a noi offrirgli del materiale indigerito come le fibre per il suo nutrimento, cosicché possa svolgere azioni utili per noi. _Il microbiota preferisce fibre innanzitutto, da frutta e verdura_, ma non per questo dobbiamo mangiarne in quantità esagerate o eccessive.
 
-Nel prossimo podcast vi parlerò di [come i <abbr>FODMAP</abbr> (fermentable oligosaccharides, disaccharides, monosaccharides, and polyols) influenzano la salute del nostro microbiota]({% post_url 2023-06-06-e-la-pancia-non-c-e-piu-quarta-parte %}) e metterò sotto la lente anche quelle presenze invisibili della nostra alimentazione che sono gli additivi alimentari e di [come il microbiota sia la nostra prima barriera contro i metalli pesanti]({% post_url 2023-06-06-e-la-pancia-non-c-e-piu-quarta-parte %}).
+---
+
+Nel prossimo podcast vi parlerò di come i <abbr>FODMAP</abbr> influenzano la salute del nostro microbiota — [quarta parte qui](/2023/06/06/e-la-pancia-non-c-e-piu-quarta-parte.html) — e metterò sotto la lente anche additivi alimentari e metalli pesanti.
+
+E se ti ritrovi in questa descrizione, scrivimi: mi trovi su Instagram [@dietista.it](https://www.instagram.com/dietista.it/) in DM, oppure via email a [info@dietista.it](mailto:info@dietista.it).
+
+*Sono Mara Micolucci, dietista e farmacista. È informazione generale.*
+
+---
+
+← [Seconda parte: microbiota](/2023/02/21/e-la-pancia-non-c-e-piu-seconda-parte.html) | [Quarta parte: FODMAP →](/2023/06/06/e-la-pancia-non-c-e-piu-quarta-parte.html)
