@@ -11,6 +11,13 @@ image_alt: "Mara Micolucci – sonno e alimentazione, regolazione fame"
 keywords: "sonno e alimentazione, fame nervosa, serotonina melatonina, dietista Musile di Piave, insonnia e peso"
 tags: [sonno, alimentazione, serotonina, melatonina, fame nervosa]
 last_modified_at: 2026-07-21 04:15:00 +0200
+faq:
+  - q: "Dormire poco fa ingrassare?"
+    a: "Sì. Meno di 7 ore altera serotonina e melatonina, aumenta fame nervosa e riduce il controllo prefrontale. Esporsi alla luce mattutina e cenare leggero aiuta il sonno, come spiega Mara."
+  - q: "Serotonina e melatonina: che legame hanno con il sonno?"
+    a: "La luce diurna produce serotonina, precursore della melatonina serale. Più luce al mattino significa più melatonina la sera, addormentamento facilitato e appetito regolato."
+  - q: "Cosa prendere naturalmente per dormire meglio?"
+    a: "Valeriana se fai fatica ad addormentarti, passiflora se ti svegli con pensieri circolari. Sempre con cena digeribile, niente caffè e alcol la sera. Chiedi consiglio personalizzato a info@dietista.it."
 ---
 
 Buongiorno a tutti, buongiorno a tutte, come avete riposato questa notte? Bene, allora il tema per oggi sarà quello del sonno. **Il sonno**, come influisce sul nostro benessere, il nostro stato psicofisico e anche sulla nostra alimentazione. Vedremo tutte queste relazioni oggi.

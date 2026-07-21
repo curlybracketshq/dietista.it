@@ -10,6 +10,13 @@ keywords: "glutine, celiachia, sensibilità glutine, dietista Musile di Piave, p
 tags: [glutine, celiachia, alimentazione, grani antichi, infiammazione]
 last_modified_at: 2026-07-21 04:15:00 +0200
 episode_id: 1cg7RZJWlig8U3hT2U5il2
+faq:
+  - q: "Il glutine fa male a tutti?"
+    a: "No. Solo chi ha celiachia diagnosticata deve eliminarlo totalmente. Per gli altri, spesso il problema è la qualità industriale del grano, non il glutine in sé. Scegli grani antichi biologici."
+  - q: "Come si diagnostica la celiachia?"
+    a: "Con esami del sangue specifici, anticorpi anti-transglutaminasi, confermati da biopsia. Evita test non validati o auto-diete: rischi carenze e aumento di peso."
+  - q: "Eliminare il glutine fa dimagrire?"
+    a: "Spesso è il contrario. I prodotti senza glutine sono ricchi di amidi facilmente assorbibili, alzano la glicemia e favoriscono l’accumulo di grasso se non sei celiaco."
 ---
 
 Buongiorno a tutti, oggi vi parlerò del Glutine.

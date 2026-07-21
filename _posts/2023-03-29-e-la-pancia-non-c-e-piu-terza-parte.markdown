@@ -11,6 +11,13 @@ image_alt: "Mara Micolucci – gonfiore pancia, stress e farmaci"
 keywords: "pancia gonfia, disbiosi, stress intestino, antibiotici, PPI, FODMAP"
 tags: [pancia gonfia, disbiosi, stress, farmaci, alimentazione]
 last_modified_at: 2026-07-21 04:15:00 +0200
+faq:
+  - q: "Lo stress può gonfiare la pancia?"
+    a: "Sì. Cervello e intestino sono collegati bidirezionalmente. Lo stress altera il microbiota e la permeabilità, e la disbiosi a sua volta può aumentare ansia e umore basso."
+  - q: "Quali farmaci causano gonfiore?"
+    a: "Soprattutto antibiotici e inibitori di pompa protonica (PPI) usati oltre il tempo prescritto. Alterano pH e flora, favorendo fermentazione e gas. Anche residui negli alimenti possono influire."
+  - q: "Zuccheri e lattosio gonfiano?"
+    a: "Sì, se in eccesso o mal digeriti. Arrivano indigeriti al colon, fermentano e producono gas. Anche cambiare bruscamente dieta può temporaneamente squilibrare il microbiota."
 ---
 
 ## Gonfiore di pancia: 30% della popolazione

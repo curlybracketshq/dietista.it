@@ -10,6 +10,13 @@ keywords: "acqua, idratazione, longevità, invecchiamento, dietista Musile di Pi
 tags: [acqua, idratazione, longevità, anti-aging, salute]
 last_modified_at: 2026-07-21 04:15:00 +0200
 episode_id: 0yjtbfzZsPVEEhEw8BpJ9O
+faq:
+  - q: "Quanta acqua devo bere al giorno?"
+    a: "Almeno 1 litro al giorno, a sorsetti, come base sicura. D’estate o se fai sport aumenta. Controlla il colore delle urine: chiare significa idratazione corretta."
+  - q: "Bere poco fa invecchiare?"
+    a: "Sì. Lo studio USA su 16.000 persone per 25 anni mostra che l’ipoidratazione subclinica accelera l’età biologica e aumenta del 40% il rischio di malattie croniche."
+  - q: "Caffè e alcol disidratano?"
+    a: "Sì, se in eccesso. Riducono le riserve d’acqua e concentrano le urine. Alternali sempre con acqua naturale, soprattutto con il caldo di Musile di Piave."
 ---
 
 Quanta acqua bevi davvero? Non le tisane, non il caffè: acqua. Perché quello che stiamo scoprendo oggi cambia il modo in cui guardiamo un semplice bicchiere. L’acqua non è solo sete. È il miglior anti-aging naturale che abbiamo.

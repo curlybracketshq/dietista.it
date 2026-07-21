@@ -10,6 +10,13 @@ keywords: "FODMAP, leaky gut, additivi alimentari, metalli pesanti, pancia gonfi
 tags: [FODMAP, leaky gut, additivi, metalli pesanti, microbiota]
 last_modified_at: 2026-07-21 04:15:00 +0200
 episode_id: 4O7tu0UzMM4dIYf6gswiw8
+faq:
+  - q: "Cosa sono i FODMAP?"
+    a: "Zuccheri fermentabili presenti in funghi, cavoli, carciofi, legumi e dolcificanti. In un intestino disbiotico fermentano e gonfiano. Vanno eliminati solo brevemente, con un professionista."
+  - q: "Gli additivi alimentari fanno male all’intestino?"
+    a: "Sì, molti sì. Emulsionanti, coloranti, nanoparticelle e transglutaminasi batterica aumentano la permeabilità intestinale — leaky gut — e possono attivare autoimmunità."
+  - q: "Metalli pesanti e pancia gonfia: c’è un legame?"
+    a: "Sì. Mercurio, cadmio, piombo, arsenico e nickel alterano composizione e metabolismo del microbiota, causando gonfiore e leaky gut. Un microbiota in eubiosi invece sequestra i metalli e li elimina con le feci."
 ---
 
 Quarta puntata di “… e la Pancia non c’è più!”. Oggi parliamo di **FODMAP**, **additivi alimentari** e **metalli pesanti**, e del loro legame con gonfiore, disbiosi e leaky gut.

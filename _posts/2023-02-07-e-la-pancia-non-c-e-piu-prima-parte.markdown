@@ -10,6 +10,13 @@ keywords: "pancia gonfia, gonfiore addominale, microbiota, intestino, dietista M
 tags: [pancia gonfia, microbiota, intestino, digestione, infiammazione]
 episode_id: 15xfqj2w2B2k8qmzoSiKMM
 last_modified_at: 2026-07-21 04:15:00 +0200
+faq:
+  - q: "Perché ho sempre la pancia gonfia?"
+    a: "L’intestino ha una superficie assorbente grande come un campo da basket. Quando perde efficienza produce gas in eccesso. È un segnale di allarme, non solo quello che mangi."
+  - q: "Il gonfiore dipende solo dal cibo?"
+    a: "No. Oltre all’alimentazione contano microbiota, farmaci, stress e immunità intestinale. Eliminare alimenti a caso raramente risolve, spesso peggiora."
+  - q: "Cosa fa l’intestino oltre a digerire?"
+    a: "Assorbe nutrienti, difende da virus e batteri con linfonodi e mucosa, ed elimina scorie. Se una funzione rallenta, arriva il gonfiore."
 ---
 
 Se avete sofferto almeno una volta di gonfiore addominale, mi riferisco a quel fastidioso gonfiore che ci condiziona la giornata, allora vorrà dire che siete nel podcast giusto.

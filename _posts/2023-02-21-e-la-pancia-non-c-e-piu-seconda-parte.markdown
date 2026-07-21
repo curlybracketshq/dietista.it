@@ -10,6 +10,13 @@ keywords: "microbiota, eubiosi, disbiosi, pancia gonfia, probiotici, dietista"
 tags: [microbiota, eubiosi, probiotici, pancia gonfia, intestino]
 last_modified_at: 2026-07-21 04:15:00 +0200
 episode_id: 0EaFicZEIqcXH8EneHzI6k
+faq:
+  - q: "Cos’è il microbiota intestinale?"
+    a: "È la comunità di batteri, virus e funghi che vive nel colon, oggi considerata un vero organo. Produce vitamine B e K, difende dalle infezioni e regola l’umore."
+  - q: "Eubiosi e disbiosi: che differenza c’è?"
+    a: "Eubiosi è equilibrio batterico ricco e vario, che protegge. Disbiosi è squilibrio: gonfiore, candida, cistiti, umore basso. Cause principali: alimentazione, farmaci e stress."
+  - q: "I probiotici servono davvero?"
+    a: "Sì, quando mirati. Uno studio NIH mostra un probiotico che riduce lo Staphylococcus aureus del 95% senza antibiotici. Un microbiota resiliente torna in equilibrio da solo, altrimenti serve aiuto clinico."
 ---
 
 In questa seconda parte vi accompagnerò alla scoperta del **Microbiota**, una comunità di microrganismi che vivono in simbiosi con il corpo ospite, come il nostro, ma anche in quello animale e vegetale.
