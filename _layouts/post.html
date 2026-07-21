@@ -22,9 +22,9 @@ layout: default
         {{ content }}
       </div>
       {% if page.tags %}
-      <footer class="post-footer" style="margin-top:24px; font-size:0.9em; color:#666">
+      <footer class="post-footer" style="margin-top:24px; font-size:0.9em; color:#666; display:flex; flex-wrap:wrap; gap:6px 8px; align-items:center">
         <span>Argomenti:</span>
-        {% for tag in page.tags %}<a href="{{ '/blog/' | relative_url }}#{{ tag | slugify }}" style="margin-left:6px">#{{ tag }}</a>{% endfor %}
+        {% for tag in page.tags %}<a href="{{ '/blog/' | relative_url }}#{{ tag | slugify }}">#{{ tag }}</a>{% endfor %}
       </footer>
       {% endif %}
     </article>
