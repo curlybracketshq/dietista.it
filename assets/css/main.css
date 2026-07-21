@@ -154,8 +154,19 @@ h2{font-size:clamp(1.5rem,3vw,2.1rem)}
 .page-wrapper{padding:40px 0 48px}
 .page-header{margin-bottom:18px}
 .page-header h1{margin:0 0 8px}
-.page-card,.post-card{padding:28px}
-.post-header h1{margin:0 0 8px}
+.page-card{padding:28px}
+.post-card{padding:0}
+
+/* Spotify / generic embeds – prevent horizontal overflow on mobile */
+.embed{position:relative;width:100%;max-width:100%;overflow:hidden;border-radius:12px;margin:18px 0 24px}
+.embed iframe{width:100% !important;max-width:100% !important;display:block;border:0;vertical-align:top}
+
+/* mobile: tighten container to match /blog/ archive exactly */
+@media(max-width:680px){
+  .post-card{padding:0}
+  .post-header h1{margin:0 0 8px}
+  .embed{margin-left:0;margin-right:0}
+}
 .post-content{font-size:1.02rem}
 .post-content h2,.post-content h3{margin-top:28px}
 .breadcrumbs{margin-bottom:12px}

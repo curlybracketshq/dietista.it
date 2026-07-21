@@ -19,7 +19,7 @@ layout: default
         {% if page.description %}<p class="visually-hidden" itemprop="description">{{ page.description | escape }}</p>{% endif %}
       </header>
       {% if page.episode_id %}
-      <div class="embed" style="margin:18px 0 24px">
+      <div class="embed">
         {% include embed.html episode_id=page.episode_id %}
       </div>
       {% endif %}
