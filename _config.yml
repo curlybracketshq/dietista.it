@@ -17,6 +17,20 @@ podcast_rss: "https://castro.fm/itunes/1662272760"
 
 # Build
 markdown: kramdown
+collections:
+  recipes:
+    output: true
+    permalink: /ricette/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: recipes
+    values:
+      layout: recipe
+      author: Mara Micolucci
+      recipe_cuisine: Italiana
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap

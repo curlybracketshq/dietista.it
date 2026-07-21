@@ -1,0 +1,147 @@
+---
+layout: default
+---
+<div class="page-wrapper">
+  <div class="container narrow">
+    <nav class="breadcrumbs">
+      <a href="{{ '/ricette/' | relative_url }}">← Tutte le ricette</a>
+      {% if page.source_post_url %}
+      · <a href="{{ page.source_post_url }}">Vedi nel blog</a>
+      {% endif %}
+    </nav>
+
+    <article class="card post-card" itemscope itemtype="https://schema.org/Recipe">
+      <header class="post-header">
+        <p class="muted small" style="margin:0 0 6px">
+          {% if page.recipe_category %}<span itemprop="recipeCategory">{{ page.recipe_category }}</span>{% endif %}
+          {% if page.recipe_cuisine %} · <span itemprop="recipeCuisine">{{ page.recipe_cuisine }}</span>{% endif %}
+        </p>
+        <h1 itemprop="name">{{ page.title }}</h1>
+        {% if page.description %}
+        <p class="lead" itemprop="description">{{ page.description }}</p>
+        {% endif %}
+        <div class="recipe-meta muted small" style="display:flex;gap:18px;flex-wrap:wrap;margin:12px 0 6px">
+          {% if page.prep_time %}<span>⏱ Prep: <time itemprop="prepTime" datetime="{{ page.prep_time }}">{{ page.prep_time_human | default: page.prep_time }}</time></span>{% endif %}
+          {% if page.cook_time %}<span>🔥 Cottura: <time itemprop="cookTime" datetime="{{ page.cook_time }}">{{ page.cook_time_human | default: page.cook_time }}</time></span>{% endif %}
+          {% if page.total_time %}<span>⏲ Totale: <time itemprop="totalTime" datetime="{{ page.total_time }}">{{ page.total_time_human | default: page.total_time }}</time></span>{% endif %}
+          {% if page.recipe_yield %}<span>👥 <span itemprop="recipeYield">{{ page.recipe_yield }}</span></span>{% endif %}
+        </div>
+        {% if page.author %}
+        <div class="muted small">di <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span></div>
+        {% endif %}
+      </header>
+
+      {% if page.image %}
+      <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title | escape }}" itemprop="image" style="width:100%;border-radius:12px;margin:16px 0">
+      {% endif %}
+
+      <div class="recipe-grid" style="display:grid;grid-template-columns:1fr;gap:28px;margin-top:18px">
+        <section>
+          <h2>Ingredienti</h2>
+          <ul itemprop="recipeIngredient">
+            {% for ing in page.ingredients %}
+            <li>{{ ing }}</li>
+            {% endfor %}
+          </ul>
+          {% if page.serves_note %}
+          <p class="muted small">{{ page.serves_note }}</p>
+          {% endif %}
+        </section>
+
+        <section>
+          <h2>Preparazione</h2>
+          <ol itemprop="recipeInstructions">
+            {% for step in page.instructions %}
+            <li itemprop="step">{{ step }}</li>
+            {% endfor %}
+          </ol>
+        </section>
+
+        {% if page.nutrition_note or page.tips %}
+        <section>
+          <h2>Note della dietista</h2>
+          {% if page.nutrition_note %}<p>{{ page.nutrition_note }}</p>{% endif %}
+          {% if page.tips %}
+          <ul>
+            {% for tip in page.tips %}
+            <li>{{ tip }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </section>
+        {% endif %}
+
+        {% if page.variants %}
+        <section>
+          <h2>Varianti</h2>
+          <ul>
+            {% for v in page.variants %}
+            <li><strong>{{ v.name }}:</strong> {{ v.desc }}</li>
+            {% endfor %}
+          </ul>
+        </section>
+        {% endif %}
+      </div>
+
+      {% if page.tags %}
+      <footer class="post-footer" style="margin-top:28px;font-size:.9em;color:#666">
+        {% for tag in page.tags %}<a href="{{ '/ricette/' | relative_url }}#{{ tag | slugify }}" style="margin-right:8px">#{{ tag }}</a>{% endfor %}
+      </footer>
+      {% endif %}
+
+      {% if page.source_post_url %}
+      <div class="card" style="margin-top:24px;padding:16px;background:#F4FAF8;border:1px solid #DDE8E3">
+        <strong>Ricetta dal blog</strong><br>
+        <a href="{{ page.source_post_url }}">Leggi l’articolo completo: “{{ page.source_post_title }}” →</a>
+      </div>
+      {% endif %}
+    </article>
+
+    {% include cta-prenota.html %}
+  </div>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": {{ page.title | jsonify }},
+  "description": {{ page.description | strip_newlines | jsonify }},
+  "image": "{{ page.image | default: '/assets/images/mara-micolucci.jpg' | absolute_url }}",
+  "author": {
+    "@type": "Person",
+    "name": {{ page.author | default: "Mara Micolucci" | jsonify }}
+  },
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  {% if page.prep_time %}"prepTime": {{ page.prep_time | jsonify }},{% endif %}
+  {% if page.cook_time %}"cookTime": {{ page.cook_time | jsonify }},{% endif %}
+  {% if page.total_time %}"totalTime": {{ page.total_time | jsonify }},{% endif %}
+  "recipeYield": {{ page.recipe_yield | default: "1 porzione" | jsonify }},
+  {% if page.recipe_category %}"recipeCategory": {{ page.recipe_category | jsonify }},{% endif %}
+  {% if page.recipe_cuisine %}"recipeCuisine": {{ page.recipe_cuisine | jsonify }},{% endif %}
+  "recipeIngredient": [
+    {% for ing in page.ingredients %}{{ ing | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}
+  ],
+  "recipeInstructions": [
+    {% for step in page.instructions %}
+    {
+      "@type": "HowToStep",
+      "text": {{ step | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "inLanguage": "it-IT",
+  "publisher": {
+    "@type": "Organization",
+    "name": "dietista.it",
+    "url": "https://dietista.it"
+  }
+  {% if page.source_post_url %},
+  "isBasedOn": {
+    "@type": "BlogPosting",
+    "url": {{ page.source_post_url | absolute_url | jsonify }},
+    "name": {{ page.source_post_title | jsonify }}
+  }
+  {% endif %}
+}
+</script>

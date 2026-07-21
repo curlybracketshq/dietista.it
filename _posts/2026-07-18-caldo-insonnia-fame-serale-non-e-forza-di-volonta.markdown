@@ -52,7 +52,11 @@ E allora cosa facciamo, concretamente, stasera?
 
 Alle 21 circa: primo, **idratazione intelligente**. Un bicchiere grande, 350-400 ml, acqua fresca, non gelata, con un pizzico di sale fino e qualche goccia di limone. Reintegra sali, spegne la sete scambiata per fame. Aspetta dieci minuti.
 
+> **📋 Ricetta completa:** [Acqua sale e limone – idratazione intelligente serale](/ricette/acqua-sale-limone-idratazione/) · 1 min · 0 cottura
+
 Poi, se senti ancora bisogno, prepara la **ciotola estiva** che uso tantissimo a luglio: **150 grammi di yogurt greco intero, fresco di frigo. Una pesca gialla veneta, o metà melone, a cubetti piccoli. Quattro mandorle tritate al coltello. Se ti piace, scorza di limone.** È fredda, cremosa, dolce al punto giusto. Hai proteine che saziano, grassi buoni, fibra, acqua dalla frutta. Niente picco glicemico, niente sensi di colpa alle 23:30.
+
+> **📋 Ricetta completa:** [Ciotola estiva: yogurt greco, pesca e mandorle](/ricette/ciotola-estiva-yogurt-pesca-mandorle/) · 2 min · 150 kcal circa
 
 Se hai cenato leggerissimo perché "con caldo non ho fame", aggiungi due gallette di mais con un cucchiaino di crema di mandorle. Non è "sgarro", è completare la giornata.
 
@@ -65,6 +69,8 @@ Se alle 23 sei ancora sveglia e hai fame, ripeti: acqua + tre cucchiai di yogurt
 ## Cosa eviterei in queste serate afose
 
 Tre cose. **Uno: le bibite "zero" ghiacciate a ripetizione.** Non idratano davvero, tengono il gusto dolce alto. **Due: un bicchiere di vino o spritz "per rilassarmi".** L'alcol frammenta ancora di più il sonno, ti svegli alle 3. **Tre: saltare il pranzo perché fa caldo.** Se salti, la sera il corpo presenta il conto con gli interessi. Meglio un piatto freddo a pranzo: insalata di cetrioli, pomodori, ceci, mais, un filo d’olio e limone — ne parliamo proprio nella prossima puntata: [“Bimbi a casa, pranzo in 10 minuti” — in arrivo](/blog/).
+
+> **📋 Ricetta:** [Insalata estiva ceci, cetrioli, pomodori e mais](/ricette/insalata-estiva-ceci-cetrioli-pomodori-mais/) · 10 min · senza fornelli
 
 ---
 
