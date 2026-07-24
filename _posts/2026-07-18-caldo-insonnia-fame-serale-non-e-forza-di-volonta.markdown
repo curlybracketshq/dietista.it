@@ -10,7 +10,7 @@ date: 2026-07-18 18:00:00 +0200
 author: Mara Micolucci
 keywords: "fame serale, insonnia caldo, fame nervosa estate, dietista Musile di Piave, disidratazione estiva, grelina leptina"
 tags: [fame serale, insonnia, estate, idratazione, sonno]
-last_modified_at: 2026-07-21 04:25:00 +0200
+last_modified_at: 2026-07-24 11:25:00 +0200
 faq:
   - q: "Perché con il caldo viene fame serale?"
     a: "Disidratazione estiva, sonno spezzato che altera grelina e leptina, e stanchezza della corteccia prefrontale. Non è mancanza di forza di volontà."
