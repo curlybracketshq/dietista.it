@@ -11,6 +11,10 @@ author: Mara Micolucci
 keywords: "gelato sera, fame emotiva caldo, senso di colpa estate, alimentazione emotiva, dietista Musile di Piave, afa 36 gradi"
 tags: [estate, fame emotiva, gelato, psicologia, idratazione, caldo]
 last_modified_at: 2026-08-09 09:00:00 +0200
+recipes:
+  - yogurt-pesche-mandorle
+  - panzanella-veloce
+  - acqua-sale-limone-idratazione
 faq:
   - q: "Con 36 gradi non mangio di giorno e la sera mi butto sul gelato, è normale?"
     a: "Sì. Con 35-37° il corpo sposta sangue alla pelle, stomaco più fermo, salti pranzo. A sera glicemia bassa + stanchezza = voglia di fresco-dolce. Non è mancanza di volontà, è fisiologia + caldo."
@@ -55,10 +59,6 @@ Uno: panzanella veneta veloce. Pane raffermo, pomodoro cuore di bue, cetriolo, b
 Due: yogurt greco intero, pesche gialle a cubetti, 4 mandorle, pizzico di sale e limone. 2 min.
 
 Tre: piadina fredda arrotolata. Stracchino o primo sale, rucola, pomodoro.
-
-> **📋** [Yogurt greco con pesche e mandorle](/ricette/yogurt-pesche-mandorle/) · 2 min
-> **📋** [Panzanella veloce pomodoro cetriolo](/ricette/panzanella-veloce/) · 10 min
-> **📋** [Acqua sale limone – idratazione estiva](/ricette/acqua-sale-limone-idratazione/)
 
 Idratazione: bottiglia 1L vicino sempre, acqua con presa di sale e limone se sudi tanto. Non aspettare sete.
 

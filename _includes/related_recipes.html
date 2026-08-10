@@ -1,0 +1,44 @@
+---
+# Related recipes - sourced directly from the repo collection
+# Usage in post frontmatter:
+#   recipes:
+#     - acqua-sale-limone-idratazione
+#     - ciotola-estiva-yogurt-pesca-mandorle
+# Or fallback: recipes are auto-detected via recipe.source_post_url == page.url
+---
+{% assign recipes_to_show = "" | split: "" %}
+
+{%- if include.recipes -%}
+  {%- for slug in include.recipes -%}
+    {%- assign r = site.recipes | where_exp: "rec", "rec.path contains slug" | first -%}
+    {%- if r -%}{%- assign recipes_to_show = recipes_to_show | push: r -%}{%- endif -%}
+  {%- endfor -%}
+{%- elsif page.recipes -%}
+  {%- for slug in page.recipes -%}
+    {%- assign r = site.recipes | where_exp: "rec", "rec.path contains slug" | first -%}
+    {%- if r -%}{%- assign recipes_to_show = recipes_to_show | push: r -%}{%- endif -%}
+  {%- endfor -%}
+{%- else -%}
+  {%- assign recipes_to_show = site.recipes | where: "source_post_url", page.url -%}
+{%- endif -%}
+
+{%- if recipes_to_show.size > 0 -%}
+<section class="related-recipes" style="margin:32px 0 24px;padding:20px;border:1px solid #DDE8E3;border-radius:16px;background:#F8FBF9">
+  <h3 style="margin:0 0 14px;font-size:1.1em">Ricette citate in questo episodio</h3>
+  <div style="display:grid;gap:12px">
+  {%- for r in recipes_to_show -%}
+    <a href="{{ r.url | relative_url }}" style="display:flex;gap:12px;align-items:center;text-decoration:none;padding:10px 12px;border-radius:10px;background:#fff;border:1px solid #E8F0ED">
+      {%- if r.image -%}
+      <img src="{{ r.image | relative_url }}" alt="" style="width:64px;height:48px;object-fit:cover;border-radius:8px;flex-shrink:0">
+      {%- endif -%}
+      <div style="flex:1;min-width:0">
+        <div style="font-weight:600;color:#1D2B27;line-height:1.25">{{ r.title }}</div>
+        <div class="muted small" style="color:#5C716B">{{ r.total_time_human | default: r.total_time }} · {{ r.recipe_category | default: "Ricetta" }}</div>
+      </div>
+      <span style="font-size:0.9em;color:#2A6B56">→</span>
+    </a>
+  {%- endfor -%}
+  </div>
+  <p class="muted small" style="margin:10px 0 0">Sorgente diretta da <code>_recipes</code> — aggiorna una ricetta e si aggiorna ovunque.</p>
+</section>
+{%- endif -%}
