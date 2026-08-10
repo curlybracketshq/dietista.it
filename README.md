@@ -1,4 +1,47 @@
-# dietista.it v5 – aggiornamento richiesto
+# dietista.it
+
+Sito Jekyll su `gh-pages` — `https://dietista.it` — repo `curlybracketshq/dietista.it`
+
+## Come funziona — note veloci (aggiunto 2026-08-10)
+
+### 1. Spotify embed è già nel layout del post
+- Non aggiungere `iframe` o link `> **Ascolta...**` nel contenuto del post.
+- Basta mettere `episode_id: XXXXX` nel frontmatter del post.
+- `_layouts/post.html` include già:
+  ```liquid
+  {% if page.episode_id %}
+    {% include embed.html episode_id=page.episode_id %}
+  {% endif %}
+  ```
+  che carica `_includes/embed.html`.
+- Se lo aggiungi anche nel markdown, appare due volte (bug visto il 2026-08-09).
+
+### 2. Ricette citate — sorgente diretta da `/_recipes`
+- Non scrivere link manuali `> 📋 [Nome](/ricette/nome/)` nel post.
+- Metti nel frontmatter del post:
+  ```yaml
+  recipes:
+    - acqua-sale-limone-idratazione
+    - ciotola-estiva-yogurt-pesca-mandorle
+    - panzanella-veloce
+  ```
+  Gli slug sono i nomi file in `_recipes` senza `.md`.
+- `_layouts/post.html` include già `{% include related_recipes.html %}` dopo `{{ content }}`.
+- `_includes/related_recipes.html` fa:
+  - se `page.recipes` esiste → cerca ogni slug in `site.recipes` (`rec.path contains slug`) e renderizza card con immagine, titolo, tempo.
+  - altrimenti fallback: `site.recipes | where: "source_post_url", page.url` (auto-link via `source_post_url` nelle ricette).
+- Risultato: aggiorni la ricetta in `_recipes/*.md` e si aggiorna ovunque è citata.
+- Esempio vivo: posts estate 2026 (`2026-07-18`, `2026-07-24`, `2026-08-02`, `2026-08-09`) già migrati a questo sistema.
+
+### Pubblicazione post (ricorda)
+1. Mara registra podcast → ottieni `episode_id` Spotify
+2. Crea file `_posts/YYYY-MM-DD-slug.markdown` con frontmatter completo + `recipes:` se serve
+3. Assicurati che ogni ricetta in `recipes:` esista in `_recipes/` con `image` esistente in `/assets/images/recipes/`
+4. `git add`, `commit`, `push` su `gh-pages` — Pages ricostruisce in ~1 min
+
+---
+
+## v5 – aggiornamento (storico)
 
 Questa versione risolve i 7 punti richiesti:
 
