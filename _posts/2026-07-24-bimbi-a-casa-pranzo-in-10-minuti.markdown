@@ -11,6 +11,11 @@ author: Mara Micolucci
 keywords: "pranzo bimbi estate, meal prep famiglia, insalata ceci, pranzo veloce 10 minuti, dietista Musile di Piave, senso di colpa cibo"
 tags: [bambini, pranzo, estate, meal prep, legumi]
 last_modified_at: 2026-07-24 12:00:00 +0200
+recipes:
+  - insalata-ceci-pomodorini-cetriolo
+  - insalata-fagioli-cannellini-cetriolo-menta
+  - insalata-lenticchie-carota-limone
+  - ceci-schiacciati-bimbi-mais
 faq:
   - q: "Come organizzo un pranzo veloce con i bimbi a casa d'estate?"
     a: "Pre-decidi un salva-pranzo: legume freddo + verdura cruda di stagione + olio e limone. Ceci, pomodorini veneti, cetriolo: 10 minuti, zero fornelli, proteine e fibre che tengono sazi bimbi e genitori."
@@ -54,15 +59,7 @@ Prendi una vaschetta grande. Ceci già cotti in vetro, scolali, sciacquali. Una 
 
 **Zero fornelli. Dieci minuti. Tavolo apparecchiato.**
 
-> **📋 Ricetta completa:** [Insalata ceci, pomodorini e cetriolo](/ricette/insalata-ceci-pomodorini-cetriolo/) · 10 min · senza fornelli
-
 Varianti bimbi-friendly, stessa base:
-
-> **📋** [Insalata fagioli cannellini, cetriolo e menta](/ricette/insalata-fagioli-cannellini-cetriolo-menta/) — fagioli più neutri, perfetta per bimbi difficili
->
-> **📋** [Insalata lenticchie, carota e limone](/ricette/insalata-lenticchie-carota-limone/) — lenticchie piccole, dolci
->
-> **📋** [Ceci schiacciati bimbi + mais](/ricette/ceci-schiacciati-bimbi-mais/) — crema dolce, da spalmare
 
 Spesa utile Veneto luglio: ceci e fagioli in vetro, pomodorini, cetrioli, mais, limoni, pane integrale da freezer. Costa meno delle piadine tutti i giorni, e ti salva 5 decisioni a settimana.
 

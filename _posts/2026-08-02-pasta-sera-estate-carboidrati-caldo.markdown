@@ -11,6 +11,14 @@ author: Mara Micolucci
 keywords: "pasta sera, carboidrati estivi, mal di testa caldo, glicogeno, dietista Musile di Piave"
 tags: [carboidrati, estate, falsi miti, sonno, idratazione]
 last_modified_at: 2026-08-02 12:00:00 +0200
+recipes:
+  - insalata-ceci-pomodorini-cetriolo
+  - insalata-fagioli-cannellini-cetriolo-menta
+  - insalata-lenticchie-carota-limone
+  - ceci-schiacciati-bimbi-mais
+  - acqua-sale-limone-idratazione
+  - insalata-estiva-ceci-cetrioli-pomodori-mais
+  - ciotola-estiva-yogurt-pesca-mandorle
 faq:
   - q: "Togliere pasta la sera fa dimagrire più in fretta d'estate?"
     a: "I primi 2 giorni perdi acqua legata al glicogeno, non grasso. Poi arrivano mal di testa, stanchezza e fame alle 22. Con 35-37 gradi rischi crampi e sonno peggiore. Conta l'energia totale della giornata, non l'orologio."
@@ -62,23 +70,9 @@ Pasta fredda estiva 70 grammi a crudo, se vuoi pasta di legumi o integrale, cott
 
 Proteine? se hai fame vera aggiungi 40 grammi di ceci già cotti in vetro, o una scatoletta piccola di tonno al naturale.
 
-> **📋 Ricetta base fresca:** [Insalata ceci, pomodorini e cetriolo](/ricette/insalata-ceci-pomodorini-cetriolo/) · 10 min · senza fornelli
->
-> **📋** [Insalata fagioli cannellini, cetriolo e menta](/ricette/insalata-fagioli-cannellini-cetriolo-menta/) — più neutra, perfetta serale
->
-> **📋** [Insalata lenticchie, carota e limone](/ricette/insalata-lenticchie-carota-limone/) — lenticchie piccole, dolci
->
-> **📋** [Ceci schiacciati bimbi + mais](/ricette/ceci-schiacciati-bimbi-mais/) — se ceni con bimbi stanchi dal caldo
-
 E la mia "acqua Piave": brocca in frigo, un litro d'acqua, succo di mezzo limone, un pizzico scarso di sale fino, circa mezzo grammo per litro, menta se ti va. Bevi un bicchiere grande prima di cena, un altro durante. Con 37 gradi è più utile di qualunque "detox".
 
-> **📋** [Acqua sale limone – idratazione estiva](/ricette/acqua-sale-limone-idratazione/)
-
 Altre idee fresche senza fornelli per le sere più calde:
-
-> **📋** [Insalata estiva ceci, cetrioli, pomodori e mais](/ricette/insalata-estiva-ceci-cetrioli-pomodori-mais/)
->
-> **📋** [Ciotola estiva yogurt, pesca e mandorle](/ricette/ciotola-estiva-yogurt-pesca-mandorle/) — se vuoi chiudere con qualcosa di dolce che aiuta il sonno
 
 ### Azione comportamentale: post-it sul frigo, 20 secondi
 
