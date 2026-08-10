@@ -24,8 +24,6 @@ Buongiorno a tutti, buongiorno a tutte. Sono Mara Micolucci, dietista, farmacist
 
 Oggi registriamo da Musile di Piave, 36 gradi, afa piena, UV 8, notte a 24 gradi. Estate africana sul Piave, quella dove la sera il freezer sembra l'unica salvezza.
 
-> **Ascolta l'episodio su Spotify:** https://open.spotify.com/episode/1ZQUt9n44yOvjE80lAywVV
-
 **"Dottoressa, con questi 36 gradi non ho voglia di mangiare niente tutto il giorno, poi la sera mi butto sul gelato, e mi sento una frana, è normale?"**
 
 Domanda arrivata ieri sera tardi. Se ti è successo anche una volta sola questa settimana, fermati un secondo. Non sei una frana. Sei stanca, accaldata, disidratata, e il tuo corpo sta cercando di sopravvivere.
@@ -86,7 +84,3 @@ Se con questo caldo ti senti in lotta col cibo la sera, non è colpa tua. È il 
 Anche a te capita con questo caldo? Qual è la tua sera difficile?
 
 Se ti ritrovi in questa descrizione, scrivimi su Instagram @dietista.it in DM, oppure via email a info@dietista.it – è informazione generale, per il tuo caso costruiamo insieme.
-
-<div class="spotify-embed">
-<iframe src="https://open.spotify.com/embed/episode/1ZQUt9n44yOvjE80lAywVV" width="100%" height="152" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-</div>
