@@ -2,19 +2,27 @@
 
 Sito Jekyll su `gh-pages` — `https://dietista.it` — repo `curlybracketshq/dietista.it`
 
-## Come funziona — note veloci (aggiunto 2026-08-10)
+## Come funziona — convenzioni complete (aggiornato 2026-08-15)
+
+### 0) Lingua + CTA policy (IMPORTANTE - DO NOT VIOLATE)
+- Italiano per Mara, English con Giovanni.
+- CTA SEMPRE: `scrivimi su Instagram @dietista.it in DM, oppure via email a info@dietista.it` + disclaimer "è informazione generale, per il tuo caso costruiamo insieme".
+- MAI usare "studio a Musile / ne parliamo in studio / Ti aspetto in studio" (policy 2026-07-20).
+- `_includes/cta-prenota.html` FREEZED, `/prenota/` keep as-is, non toccare.
+- Banner finale auto-incluso da layout, non duplicare CTA nel markdown.
 
 ### 1. Spotify embed è già nel layout del post
 - Non aggiungere `iframe` o link `> **Ascolta...**` nel contenuto del post.
-- Basta mettere `episode_id: XXXXX` nel frontmatter del post.
+- Basta mettere `episode_id: XXXXX` nel frontmatter del post (es. `5TzC3fIv3G9Ni7zXP3Q4Y5`).
 - `_layouts/post.html` include già:
   ```liquid
   {% if page.episode_id %}
     {% include embed.html episode_id=page.episode_id %}
   {% endif %}
   ```
-  che carica `_includes/embed.html`.
+  che carica `_includes/embed.html` (iframe 152px).
 - Se lo aggiungi anche nel markdown, appare due volte (bug visto il 2026-08-09).
+- JSON-LD `PodcastEpisode` auto-generato da layout con `contentUrl: https://open.spotify.com/episode/{{ page.episode_id }}`.
 
 ### 2. Ricette citate — sorgente diretta da `/_recipes`
 - Non scrivere link manuali `> 📋 [Nome](/ricette/nome/)` nel post.
@@ -25,19 +33,86 @@ Sito Jekyll su `gh-pages` — `https://dietista.it` — repo `curlybracketshq/di
     - ciotola-estiva-yogurt-pesca-mandorle
     - panzanella-veloce
   ```
-  Gli slug sono i nomi file in `_recipes` senza `.md`.
+  Gli slug sono i nomi file in `_recipes` senza `.md`. Solo 7 ricette LIVE.
 - `_layouts/post.html` include già `{% include related_recipes.html %}` dopo `{{ content }}`.
 - `_includes/related_recipes.html` fa:
   - se `page.recipes` esiste → cerca ogni slug in `site.recipes` (`rec.path contains slug`) e renderizza card con immagine, titolo, tempo.
   - altrimenti fallback: `site.recipes | where: "source_post_url", page.url` (auto-link via `source_post_url` nelle ricette).
 - Risultato: aggiorni la ricetta in `_recipes/*.md` e si aggiorna ovunque è citata.
-- Esempio vivo: posts estate 2026 (`2026-07-18`, `2026-07-24`, `2026-08-02`, `2026-08-09`) già migrati a questo sistema.
+- Esempio vivo: posts estate 2026 (`2026-07-18`, `2026-07-24`, `2026-08-02`, `2026-08-09`, `2026-08-14`) già migrati a questo sistema.
 
-### Pubblicazione post (ricorda)
-1. Mara registra podcast → ottieni `episode_id` Spotify
+### 3. Frontmatter obbligatorio post
+```yaml
+---
+layout: post
+title: "Titolo episodio identico Spotify"
+seo_title: "Titolo SEO con keyword Ferragosto/estate/..."
+description: "1 frase dall'episodio, max 160 caratteri"
+image: /assets/images/recipes/<food-only>.jpg  # esiste in /assets/images/recipes/
+image_alt: "Descrizione piatto - contesto Ferragosto/estate"
+episode_id: SPOTIFY_ID_22CHARS
+date: YYYY-MM-DD 09:00:00 +0200
+author: Mara Micolucci
+keywords: "keyword1, keyword2, dietista Musile di Piave, ..."
+tags: [Ferragosto, estate, convivialità, stagionalità, idratazione] # max 5
+last_modified_at: YYYY-MM-DD 09:00:00 +0200 # = date
+recipes:
+  - slug1
+  - slug2
+  - slug3
+faq:
+  - q: "Domanda paziente stile colloquio?"
+    a: "Risposta breve, fisiologia, niente diagnosi."
+  - q: "..."
+    a: "..."
+  - q: "..."
+    a: "..."
+---
+```
+
+### 4. Struttura corpo post (Mara tone lock)
+- Saluto: "Buongiorno a tutti, buongiorno a tutte. Sono Mara Micolucci, dietista, farmacista, dottoressa in Scienze e Tecniche Psicologiche. Benvenuti su dietista.it."
+- Intro meteo: "Oggi registriamo da Musile di Piave, XX gradi, ..." (usa meteo reale Musile)
+- Domanda paziente in bold quote: **"Dottoressa, ..."**
+- Validazione empatica: "Se ti è successo anche una volta..."
+- > Collegato: link interni agli ultimi 2-3 post con slug corretti.
+- ## 1. Primo meccanismo (fisiologia / contesto)
+- ## 2. Secondo meccanismo (testa / comportamento / perfezionismo)
+- ---
+- ## Cosa fare oggi, in meno di due minuti
+  - ### Azione alimentare – ... (1 piatto salato freddo obbligatorio, 3 esempi veneti, sale/proteine/fresco)
+  - Idra: "bottiglia 1L vicino, acqua con presa di sale e limone se sudi"
+  - ### Azione comportamentale – rituale 3 respiri / 5 min prima / sedia / senza telefono
+  - ### Cosa evitare – lista 3-4 bullet (no digiuno compensatorio, no peso con caldo, no vaschetta TV, no "da lunedì")
+- Chiusura empatica + domanda aperta: "Anche a te capita? / Ti ritrovi?"
+- CTA doppia + disclaimer.
+
+### 5. Immagini + layout lock
+- `mara-micolucci.jpg` SOLO header 40×40 + footer 48×48, mai in post.
+- Blog covers: food-only, no persone, no AI slop. Preferibilmente foto reali da `/assets/images/recipes/`, o acquerello acqua se manca ma sempre food-only.
+- Container.lock: `.container.narrow` = 20px desktop / 16px mobile, `post-card`/`page-card` padding 0. Margini identici in `/blog/`, post, ricette, 404.
+- No `<iframe>` manuale, no `<h2>Errore 404` fuori container, no card padding.
+
+### 6. Tone + formato contenuti (weekly)
+- Reel breve: 145-180 parole
+- Reel lungo: 380-560 parole
+- Podcast: 1050-1250 parole
+- Ordine: hook empatico → 2 meccanismi → azione <2min → comportamentale → cosa evitare / FAQ → CTA doppia + disclaimer generale, no diagnosi.
+- Pilastro rotation (W1 sazietà, W2 bimbi estate, W3 carboidrati sera, W4 fame emotiva originally ma W6 Ferragosto = stagionalità+idratazione NOT fame emotiva)
+- Humanization: no em-dashes —, CTA varied, spoken intercalari "guarda, senti, ecco", Italian natural.
+- Hashtag IG/Threads: max 4, empatia + azione.
+
+### 7. Pubblicazione post (ricorda)
+1. Mara registra podcast → ottieni `episode_id` Spotify (22 char)
 2. Crea file `_posts/YYYY-MM-DD-slug.markdown` con frontmatter completo + `recipes:` se serve
 3. Assicurati che ogni ricetta in `recipes:` esista in `_recipes/` con `image` esistente in `/assets/images/recipes/`
-4. `git add`, `commit`, `push` su `gh-pages` — Pages ricostruisce in ~1 min
+4. Body senza embed, senza link manuali ricette, con CTA clean
+5. `git add`, `commit -m "post: Titolo - EPISODE_ID"`, `push` su `gh-pages` — Pages ricostruisce in ~1 min
+6. Verifica live: `https://dietista.it/YYYY/MM/DD/slug.html` — controlla embed singolo, immagini, related_recipes cards, footer.
+
+### 8. Sicurezza / repo
+- PAT GitHub Classic con scope `repo` → `git push` via `https://oauth:TOKEN@github.com/curlybracketshq/dietista.it.git` o credential helper store. Se 401 "Bad credentials", rigenera PAT (quello del 2026-08-09 leak è invalido).
+- Non committare PAT nel repo, `.git/config` deve restare `https://github.com/curlybracketshq/dietista.it.git` senza token.
 
 ---
 
