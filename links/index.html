@@ -1,0 +1,75 @@
+---
+layout: default
+title: Tutti i link
+description: Dott.ssa Mara Micolucci, dietista e farmacista, consulenze nutrizionali personalizzate senza diete restrittive, online e in presenza.
+---
+
+<div class="links-wrap">
+  <header class="links-profile">
+    <h1 class="links-name">Dott.ssa Mara Micolucci</h1>
+    <p class="links-tagline">Dietista · Farmacista<br>Dott.ssa in Scienze e Tecniche Psicologiche</p>
+  </header>
+
+  <section class="links-group" aria-label="Prodotti consigliati">
+    <h2 class="links-heading">Prodotti che consiglio</h2>
+    <a class="link-btn" href="https://amzlink.to/az0EBurw36P21" target="_blank" rel="noopener sponsored nofollow">Bandini® Creatina CREAPURE® Monoidrata in Polvere Pura</a>
+    <p class="links-note">Link affiliato Amazon: se acquisti tramite questo link potrei ricevere una commissione, senza costi aggiuntivi per te.</p>
+  </section>
+
+  <section class="links-group" aria-label="Consulenze">
+    <h2 class="links-heading">Consulenze</h2>
+    <a class="link-btn link-btn-primary" href="{{ '/#prenota' | relative_url }}">Prenota una consulenza online</a>
+    <a class="link-btn link-btn-whatsapp chat_on_whatsapp" href="{{ site.whatsapp_link | default: 'https://wa.me/393707021620' }}" target="_blank" rel="noopener">Scrivimi su WhatsApp</a>
+  </section>
+
+  <section class="links-group" aria-label="Social">
+    <h2 class="links-heading">Seguimi</h2>
+    <a class="link-btn" href="{{ site.instagram | default: 'https://www.instagram.com/dietista.it/' }}" target="_blank" rel="noopener">Instagram — @dietista.it</a>
+    <a class="link-btn" href="{{ site.facebook | default: 'https://www.facebook.com/dietista' }}" target="_blank" rel="noopener">Facebook</a>
+    <a class="link-btn" href="https://twitter.com/dietista" target="_blank" rel="noopener">X (Twitter) — @dietista</a>
+    <a class="link-btn" href="{{ site.threads | default: 'https://www.threads.com/@dietista.it' }}" target="_blank" rel="noopener">Threads — @dietista.it</a>
+  </section>
+
+  <section class="links-group" aria-label="Podcast">
+    <h2 class="links-heading">Podcast — Briciole di Nutrizione</h2>
+    <a class="link-btn" href="{{ site.podcast_spotify | default: 'https://podcasters.spotify.com/pod/show/dietista' }}" target="_blank" rel="noopener">Ascolta su Spotify</a>
+    <a class="link-btn" href="{{ site.podcast_apple | default: 'https://podcasts.apple.com/it/podcast/briciole-di-nutrizione/id1662272760' }}" target="_blank" rel="noopener">Ascolta su Apple Podcasts</a>
+  </section>
+
+  <section class="links-group" aria-label="Contatti">
+    <h2 class="links-heading">Contatti</h2>
+    <a class="link-btn" href="mailto:{{ site.email | default: 'info@dietista.it' }}">{{ site.email | default: 'info@dietista.it' }}</a>
+    <a class="link-btn link-btn-whatsapp chat_on_whatsapp" href="{{ site.whatsapp_link | default: 'https://wa.me/393707021620' }}" target="_blank" rel="noopener">WhatsApp — +39 370 702 1620</a>
+  </section>
+
+  <footer class="links-footer">
+    <a href="{{ '/' | relative_url }}">dietista.it</a>
+    <span aria-hidden="true"> · </span>
+    <a href="{{ '/blog/' | relative_url }}">Blog</a>
+    <span aria-hidden="true"> · </span>
+    <a href="{{ '/ricette/' | relative_url }}">Ricette</a>
+  </footer>
+</div>
+
+<style>
+/* /links/ — mobile-first link-in-bio. Scoped to this page. */
+.links-wrap{max-width:480px;margin:0 auto;padding:32px 16px 48px}
+.links-profile{text-align:center;margin-bottom:8px}
+.links-name{font-size:1.5rem;margin:0 0 6px}
+.links-tagline{margin:0 0 8px;color:var(--muted,#5C716B);font-size:.95rem;line-height:1.5}
+.links-group{margin-top:22px}
+.links-heading{font-family:Inter,system-ui,sans-serif;font-size:.78rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted,#5C716B);margin:0 0 10px}
+.link-btn{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;width:100%;min-height:52px;padding:13px 18px;margin:0 0 10px;border:1px solid var(--border,#DDE8E3);border-radius:999px;background:#fff;color:var(--ink,#1A2A26);font-weight:600;font-size:1rem;line-height:1.35;text-align:center;text-decoration:none;box-shadow:var(--shadow,0 8px 24px rgba(27,61,53,.07))}
+.link-btn:hover{border-color:var(--green-600,#3A9D8A);color:var(--green-800,#224F44);text-decoration:none;transform:translateY(-1px)}
+.link-btn-primary{background:var(--green-700,#2F7D6B);border-color:transparent;color:#fff}
+.link-btn-primary:hover{background:var(--green-800,#224F44);color:#fff}
+.link-btn-whatsapp{background:var(--whatsapp,#25D366);border-color:transparent;color:#fff}
+.link-btn-whatsapp:hover{background:var(--whatsapp-hover,#1FB356);color:#fff}
+.links-note{font-size:.8rem;color:var(--muted,#5C716B);margin:2px 2px 0;line-height:1.5}
+.links-footer{margin-top:28px;text-align:center;font-size:.88rem;color:var(--muted,#5C716B)}
+.links-footer a{font-weight:500}
+@media (max-width:380px){
+  .links-wrap{padding:24px 12px 40px}
+  .link-btn{font-size:.95rem;min-height:50px}
+}
+</style>
