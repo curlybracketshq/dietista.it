@@ -59,7 +59,7 @@ Quando il microbiota non è sufficientemente resiliente — dopo antibiotici, st
 
 Ti riconosci? Pancia gonfia dopo i pasti, alternanza intestinale, umore ballerino, frequenti candidosi o cistiti? Non è “normale”, è disbiosi da indagare.
 
-E se ti ritrovi in questa descrizione, scrivimi: mi trovi su Instagram [@dietista.it](https://www.instagram.com/dietista.it/) in DM, oppure via email a [info@dietista.it](mailto:info@dietista.it). Raccontami da quanto hai la pancia gonfia e cosa hai già provato: leggo tutto, senza giudizio, e costruiamo insieme un percorso su microbiota, alimentazione e probiotici mirati.
+E se ti ritrovi in questa descrizione, scrivimi: mi trovi su Instagram [@dietista.it]({{ site.instagram }}) in DM, oppure via email a [info@dietista.it](mailto:{{ site.email }}). Raccontami da quanto hai la pancia gonfia e cosa hai già provato: leggo tutto, senza giudizio, e costruiamo insieme un percorso su microbiota, alimentazione e probiotici mirati.
 
 *Sono Mara Micolucci, dietista e farmacista. È informazione generale, per il tuo caso personale serve una valutazione clinica.*
 

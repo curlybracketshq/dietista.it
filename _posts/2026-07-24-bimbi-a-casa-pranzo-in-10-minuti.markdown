@@ -91,6 +91,6 @@ Allora, ricapitolando: **pranzo bimbi a casa, luglio, 10 minuti. Legume freddo +
 
 Anche a te capita il pranzo salva-giornata? Qual è il tuo salva-pranzo veloce con i bimbi a casa? Scrivimelo nei commenti, leggo tutto, rispondo.
 
-E se ti ritrovi in questa descrizione, scrivimi su Instagram [@dietista.it](https://www.instagram.com/dietista.it/) in DM, oppure via email a [info@dietista.it](mailto:info@dietista.it). Costruiamo insieme il tuo pranzo in 10 minuti, sostenibile per tutta l’estate, per te e per i tuoi bimbi.
+E se ti ritrovi in questa descrizione, scrivimi su Instagram [@dietista.it]({{ site.instagram }}) in DM, oppure via email a [info@dietista.it](mailto:{{ site.email }}). Costruiamo insieme il tuo pranzo in 10 minuti, sostenibile per tutta l’estate, per te e per i tuoi bimbi.
 
 Io sono Mara Micolucci, dietista.it. Ci sentiamo la prossima settimana. Buona estate, e buon pranzo fresco.

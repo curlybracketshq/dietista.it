@@ -64,7 +64,7 @@ E anche nel caso cambiassimo le nostre abitudini alimentari con l'assunzione di 
 
 Nel prossimo podcast vi parlerò di come i <abbr>FODMAP</abbr> influenzano la salute del nostro microbiota — [quarta parte qui](/2023/06/06/e-la-pancia-non-c-e-piu-quarta-parte.html) — e metterò sotto la lente anche additivi alimentari e metalli pesanti.
 
-E se ti ritrovi in questa descrizione, scrivimi: mi trovi su Instagram [@dietista.it](https://www.instagram.com/dietista.it/) in DM, oppure via email a [info@dietista.it](mailto:info@dietista.it).
+E se ti ritrovi in questa descrizione, scrivimi: mi trovi su Instagram [@dietista.it]({{ site.instagram }}) in DM, oppure via email a [info@dietista.it](mailto:{{ site.email }}).
 
 *Sono Mara Micolucci, dietista e farmacista. È informazione generale.*
 

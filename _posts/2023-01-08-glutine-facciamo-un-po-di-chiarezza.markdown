@@ -39,6 +39,6 @@ Dovete sapere che utilizzando alimenti senza glutine, e soprattutto senza una mo
 
 Quindi, perdonatemi se mi ripeto, **per chi non è realmente intollerante al glutine e non ha dimestichezza con questo tipo di dieta, evitarlo diventa solo un boomerang, specie se lo si fa per ritrovare la propria forma fisica.**
 
-E se ti ritrovi in questa descrizione, scrivimi: mi trovi su Instagram [@dietista.it](https://www.instagram.com/dietista.it/) in DM, oppure via email a [info@dietista.it](mailto:info@dietista.it).
+E se ti ritrovi in questa descrizione, scrivimi: mi trovi su Instagram [@dietista.it]({{ site.instagram }}) in DM, oppure via email a [info@dietista.it](mailto:{{ site.email }}).
 
 Il nostro incontro termina qui ci sentiamo alla prossima, il tema sarà [l’acqua e l’idratazione]({% post_url 2023-01-23-la-forza-dell-acqua %}).

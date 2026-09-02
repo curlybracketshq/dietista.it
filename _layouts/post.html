@@ -59,7 +59,7 @@ layout: default
         "name": "Mara Micolucci",
         "url": "https://dietista.it",
         "jobTitle": "Dietista, Farmacista",
-        "sameAs": ["https://www.instagram.com/dietista.it/", "https://www.facebook.com/dietista"]
+        "sameAs": ["{{ site.instagram }}", "{{ site.facebook }}"]
       },
       "publisher": {
         "@type": "Organization",
@@ -83,7 +83,7 @@ layout: default
       "partOfSeries": {
         "@type": "PodcastSeries",
         "name": "Briciole di Nutrizione",
-        "url": "https://podcasters.spotify.com/pod/show/dietista"
+        "url": "{{ site.podcast_spotify }}"
       }
     }{% endif %}{% if page.faq %},
     {
