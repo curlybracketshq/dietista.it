@@ -86,7 +86,7 @@ E se ci si gonfia la pancia, leggiamolo come una richiesta di aiuto del nostro c
 
 ---
 
-Se ti ritrovi con pancia gonfia, FODMAP che non tolleri, o sospetti di leaky gut e disbiosi, scrivimi: mi trovi su Instagram [@dietista.it](https://www.instagram.com/dietista.it/) in DM, oppure via email a [info@dietista.it](mailto:info@dietista.it). Raccontami la tua storia, da quanto dura il gonfiore, cosa hai già provato: leggo tutto, senza giudizio, e costruiamo insieme un piano alimentare che calma la pancia.
+Se ti ritrovi con pancia gonfia, FODMAP che non tolleri, o sospetti di leaky gut e disbiosi, scrivimi: mi trovi su Instagram [@dietista.it]({{ site.instagram }}) in DM, oppure via email a [info@dietista.it](mailto:{{ site.email }}). Raccontami la tua storia, da quanto dura il gonfiore, cosa hai già provato: leggo tutto, senza giudizio, e costruiamo insieme un piano alimentare che calma la pancia.
 
 Io sono Mara. Ci sentiamo nella [quinta parte: il microbiota può farci ingrassare?](/2024/03/24/e-la-pancia-non-c-e-piu-quinta-parte.html)
 

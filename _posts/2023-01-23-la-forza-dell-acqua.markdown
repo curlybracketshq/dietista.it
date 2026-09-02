@@ -63,6 +63,6 @@ Mantenere un’idratazione ottimale è la strategia di longevità più semplice,
 
 *È informazione generale, ovviamente, per il tuo caso personale serve guardarti negli occhi.*
 
-Ti ritrovi a bere meno di un litro? Da domani proviamo insieme a cambiare una cosa sola? Scrivimi: mi trovi su Instagram [@dietista.it](https://www.instagram.com/dietista.it/) in DM, oppure via email a [info@dietista.it](mailto:info@dietista.it). Raccontami quanta acqua bevi davvero, senza giudizio: leggo tutto, e costruiamo insieme la tua idratazione giusta.
+Ti ritrovi a bere meno di un litro? Da domani proviamo insieme a cambiare una cosa sola? Scrivimi: mi trovi su Instagram [@dietista.it]({{ site.instagram }}) in DM, oppure via email a [info@dietista.it](mailto:{{ site.email }}). Raccontami quanta acqua bevi davvero, senza giudizio: leggo tutto, e costruiamo insieme la tua idratazione giusta.
 
 Io sono Mara, ci sentiamo alla prossima. Il tema sarà [il famigerato gonfiore della pancia]({% post_url 2023-02-07-e-la-pancia-non-c-e-piu-prima-parte %}). Buona acqua.

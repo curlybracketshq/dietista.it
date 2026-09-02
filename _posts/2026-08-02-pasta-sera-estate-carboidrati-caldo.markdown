@@ -102,6 +102,6 @@ Allora, ricapitolando: **togliere pane e pasta la sera d'estate può spiegare ma
 
 Anche a te capita? Da quanto hai tolto i carboidrati la sera, e come stai con questo caldo a Musile?
 
-Se ti è successo anche a te, scrivimi. Su Instagram [@dietista.it](https://www.instagram.com/dietista.it/) in DM, oppure via email a [info@dietista.it](mailto:info@dietista.it). Ti rispondo io. È informazione generale questa, eh, poi sul tuo caso ci lavoriamo insieme, piano piano.
+Se ti è successo anche a te, scrivimi. Su Instagram [@dietista.it]({{ site.instagram }}) in DM, oppure via email a [info@dietista.it](mailto:{{ site.email }}). Ti rispondo io. È informazione generale questa, eh, poi sul tuo caso ci lavoriamo insieme, piano piano.
 
 Io sono Mara Micolucci, dietista.it. Ci sentiamo la prossima settimana. Buona estate, e buona pasta fredda serale.

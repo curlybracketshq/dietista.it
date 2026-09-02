@@ -53,7 +53,7 @@ Vi segnalo che la dieta mediterranea ricca di fibre vegetali e povera di protein
 
 ---
 
-Se ti ritrovi a mangiare “pulito”, tante verdure, eppure il peso non si muove — o hai pancia gonfia, fame nervosa, e storia di diete yo-yo — scrivimi: mi trovi su Instagram [@dietista.it](https://www.instagram.com/dietista.it/) in DM, oppure via email a [info@dietista.it](mailto:info@dietista.it). Raccontami da quanto cerchi di dimagrire e cosa hai già provato: leggo tutto, senza giudizio, e costruiamo insieme un piano su microbiota, fibre commisurate e probiotici mirati.
+Se ti ritrovi a mangiare “pulito”, tante verdure, eppure il peso non si muove — o hai pancia gonfia, fame nervosa, e storia di diete yo-yo — scrivimi: mi trovi su Instagram [@dietista.it]({{ site.instagram }}) in DM, oppure via email a [info@dietista.it](mailto:{{ site.email }}). Raccontami da quanto cerchi di dimagrire e cosa hai già provato: leggo tutto, senza giudizio, e costruiamo insieme un piano su microbiota, fibre commisurate e probiotici mirati.
 
 Io sono Mara Micolucci, dietista e farmacista a Musile di Piave. Ci sentiamo alla prossima puntata: possiamo ancora parlare di peso ideale? Che cos'è in realtà il peso corporeo?
 

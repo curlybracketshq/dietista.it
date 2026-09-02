@@ -51,4 +51,4 @@ Per la [soluzione a questo problema]({% post_url 2023-02-21-e-la-pancia-non-c-e-
 
 Ti riconosci in questa pancia gonfia che non dà tregua? Scrivimi, ti leggo personalmente.
 
-Mi trovi su Instagram [@dietista.it](https://www.instagram.com/dietista.it/) in DM, oppure via email a [info@dietista.it](mailto:info@dietista.it). Raccontami quando compare il gonfiore, cosa hai già provato a eliminare e come stai dormendo: rispondo io, senza giudizio, e vediamo insieme se è il caso di approfondire con una consulenza a Musile di Piave o online.
+Mi trovi su Instagram [@dietista.it]({{ site.instagram }}) in DM, oppure via email a [info@dietista.it](mailto:{{ site.email }}). Raccontami quando compare il gonfiore, cosa hai già provato a eliminare e come stai dormendo: rispondo io, senza giudizio, e vediamo insieme se è il caso di approfondire con una consulenza a Musile di Piave o online.
