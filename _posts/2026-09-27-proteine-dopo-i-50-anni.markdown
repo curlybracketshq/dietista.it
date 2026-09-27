@@ -103,5 +103,3 @@ Ti riconosci in questa descrizione? Quante proteine mangi a colazione, la verit�
 Se ti riconosci in questa descrizione, scrivimi su Instagram @dietista.it in DM, oppure via email a info@dietista.it – è informazione generale, per il tuo caso costruiamo insieme.
 
 Avvertenze: questo contenuto è a solo scopo informativo e non sostituisce il parere del medico. Se hai patologie, segui terapie o hai dubbi, parlane con il tuo medico prima di cambiare l'alimentazione.
-
-[END]
