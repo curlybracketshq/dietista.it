@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div class="page-wrapper">
+  <div class="container narrow">
+    <nav class="breadcrumbs"><a href="{{ '/ricette/' | relative_url }}">← Torna alle ricette</a></nav>
+    <header class="page-header">
+      <h1>#{{ page.tag }}</h1>
+      {% assign tagged_recipes = site.recipes | where_exp: "r", "r.tags contains page.tag" %}
+      <p class="lead muted">{{ tagged_recipes.size }} {% if tagged_recipes.size == 1 %}ricetta{% else %}ricette{% endif %} con questo tag</p>
+    </header>
+    <div class="recipe-list" style="display:grid;gap:16px">
+      {% assign sorted_recipes = tagged_recipes | sort: "date" | reverse %}
+      {% for r in sorted_recipes %}
+      <article class="card" style="padding:18px;border:1px solid #DDE8E3;border-radius:16px;background:#fff">
+        <div style="display:flex;justify-content:space-between;gap:12px;align-items:start;flex-wrap:wrap">
+          <div style="flex:1;min-width:240px">
+            <div class="muted small">{{ r.recipe_category }} · {{ r.total_time_human | default: r.total_time }}</div>
+            <h2 style="margin:6px 0 8px;font-size:1.25em"><a href="{{ r.url | relative_url }}" style="text-decoration:none;color:inherit">{{ r.title }}</a></h2>
+            <p class="muted" style="margin:0">{{ r.description }}</p>
+          </div>
+          {% if r.image %}
+          <a href="{{ r.url | relative_url }}"><img src="{{ r.image | relative_url }}" alt="" style="width:120px;height:90px;object-fit:cover;border-radius:10px"></a>
+          {% endif %}
+        </div>
+        {% if r.source_post_url %}
+        <div style="margin-top:10px;font-size:.85em">
+          <a href="{{ r.source_post_url | relative_url }}">Vedi nel blog →</a>
+        </div>
+        {% endif %}
+      </article>
+      {% endfor %}
+    </div>
+    {{ content }}
+  </div>
+</div>

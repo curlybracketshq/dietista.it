@@ -85,7 +85,7 @@ layout: default
 
       {% if page.tags %}
       <footer class="post-footer" style="margin-top:28px;font-size:.9em;color:#666">
-        {% for tag in page.tags %}<a href="{{ '/ricette/' | relative_url }}#{{ tag | slugify }}" style="margin-right:8px">#{{ tag }}</a>{% endfor %}
+        {% for tag in page.tags %}<a href="{{ '/ricette/tag/' | relative_url }}{{ tag | slugify }}/" style="margin-right:8px">#{{ tag }}</a>{% endfor %}
       </footer>
       {% endif %}
 
