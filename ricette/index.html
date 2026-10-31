@@ -17,7 +17,7 @@ permalink: /ricette/
         <p class="muted" style="margin:0">{{ r.description }}</p>
         {% if r.tags %}
         <div style="margin-top:8px;font-size:.85em;color:#5C716B">
-          {% for t in r.tags limit:4 %}#{{ t }} {% endfor %}
+          {% for t in r.tags limit:4 %}<a href="{{ '/ricette/tag/' | relative_url }}{{ t | slugify }}/" style="color:#5C716B">#{{ t }}</a> {% endfor %}
         </div>
         {% endif %}
       </div>
