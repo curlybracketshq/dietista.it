@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="page-wrapper">
+  <div class="container narrow">
+    <nav class="breadcrumbs"><a href="{{ '/blog/' | relative_url }}">← Torna al blog</a></nav>
+    <header class="page-header">
+      <h1>#{{ page.tag }}</h1>
+      {% assign tag_posts = site.tags[page.tag] %}
+      <p class="lead muted">{{ tag_posts.size }} {% if tag_posts.size == 1 %}articolo{% else %}articoli{% endif %} su questo argomento</p>
+    </header>
+    <div class="blog-grid">
+      {% assign sorted_posts = tag_posts | sort: 'date' | reverse %}
+      {% for post in sorted_posts %}
+      <article class="post-preview">
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.description | default: post.excerpt | strip_html | truncate: 160 }}</p>
+        <div class="post-meta">{% include date_it.html date=post.date %}</div>
+      </article>
+      {% endfor %}
+    </div>
+    {{ content }}
+  </div>
+</div>
