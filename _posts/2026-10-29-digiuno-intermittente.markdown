@@ -9,7 +9,7 @@ date: 2026-10-29 09:00:00 +0200
 episode_id: 7yALOCa0Hdl5bmzTlZtetL
 author: Mara Micolucci
 keywords: "digiuno intermittente, 16:8, 12:12, 5:2, dimagrire digiuno, pro e contro digiuno, British Medical Journal, proteine donne over 45"
-tags: [digiuno intermittente, 16:8, peso, proteine, donne over 45]
+tags: [digiuno intermittente, "16:8", peso, proteine, donne over 45]
 last_modified_at: 2026-10-29 09:00:00 +0200
 recipes:
   - yogurt-pesche-mandorle
