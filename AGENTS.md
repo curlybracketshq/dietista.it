@@ -30,6 +30,11 @@ Static Jekyll site for https://dietista.it, built and served by GitHub Pages.
 - Product thumbnails are VENDORED in `images/` (flat directory, descriptive
   lowercase names like `bucce-psillio-saporepuro.jpg`) and referenced as
   root-absolute `/images/...` paths. Never hotlink `m.media-amazon.com`.
+- The page also carries an "Il tuo assistente AI" group (one pill button to
+  `/per-il-tuo-assistente-ai/`, same `.link-btn` style, two-line text via
+  `.link-ai .link-text`) and an `ItemList` JSON-LD block listing every link on
+  the page. Keep the JSON-LD in sync when a link is added, removed or renamed:
+  same order as the visible buttons, positions 1..N with no gaps.
 
 ## llms.txt / llms-full.txt (agent friendly)
 
