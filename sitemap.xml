@@ -14,7 +14,7 @@ layout: null
     {% endunless %}
   {% endfor %}
   {% for page in site.pages %}
-    {% unless page.name == "sitemap.xml" or page.name == "404.html" or page.url contains ".css" or page.url contains ".js" or page.url contains ".json" or page.url contains ".xml" or page.url contains "/assets/" or page.url contains "/directory/" %}
+    {% unless page.name == "sitemap.xml" or page.name == "404.html" or page.name == "AGENTS.md" or page.url == "/AGENTS.html" or page.url contains ".css" or page.url contains ".js" or page.url contains ".json" or page.url contains ".xml" or page.url contains "/assets/" or page.url contains "/directory/" %}
     <url>
         <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
         {% if page.last_modified_at %}

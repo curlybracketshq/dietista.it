@@ -1,0 +1,30 @@
+---
+layout: null
+---
+{
+  "site": "https://dietista.it",
+  "updated": "{{ site.time | date_to_xmlschema }}",
+  "posts": [
+    {% for post in site.posts %}
+    {
+      "title": {{ post.title | jsonify }},
+      "description": {{ post.description | default: "" | jsonify }},
+      "url": "{{ site.url }}{{ post.url }}",
+      "date": "{{ post.date | date_to_xmlschema }}",
+      "tags": {{ post.tags | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "recipes": [
+    {% assign recipes = site.recipes | sort: "date" | reverse %}
+    {% for recipe in recipes %}
+    {
+      "title": {{ recipe.title | jsonify }},
+      "description": {{ recipe.description | default: "" | jsonify }},
+      "url": "{{ site.url }}{{ recipe.url }}",
+      "date": "{{ recipe.date | date_to_xmlschema }}",
+      "tags": {{ recipe.tags | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}

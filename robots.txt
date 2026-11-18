@@ -1,0 +1,52 @@
+# dietista.it accoglie gli assistenti AI e i crawler di ricerca.
+# I contenuti sono in italiano e liberamente consultabili.
+# Nota: permettiamo anche i crawler di addestramento (GPTBot, CCBot,
+# Google-Extended). Se in futuro vorremo escluderli, basta aggiungere
+# "Disallow: /" sotto il loro User-agent qui sotto.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://dietista.it/sitemap.xml
