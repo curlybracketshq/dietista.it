@@ -38,3 +38,7 @@ defaults:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+
+# scripts/ holds the llms.txt generator: keep it out of the built site.
+exclude:
+  - scripts

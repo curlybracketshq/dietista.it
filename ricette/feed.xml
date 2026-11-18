@@ -1,0 +1,24 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Dott.ssa Mara Micolucci - Dietista | Ricette</title>
+  <link href="{{ site.url }}/ricette/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="{{ site.url }}/ricette/" rel="alternate" type="text/html"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}/ricette/</id>
+  <author><name>Mara Micolucci</name></author>
+  {% assign recipes = site.recipes | sort: "date" | reverse %}
+  {% for recipe in recipes %}
+  <entry>
+    <title>{{ recipe.title | xml_escape }}</title>
+    <link href="{{ site.url }}{{ recipe.url }}" rel="alternate" type="text/html" title="{{ recipe.title | xml_escape }}"/>
+    <published>{{ recipe.date | date_to_xmlschema }}</published>
+    <updated>{{ recipe.date | date_to_xmlschema }}</updated>
+    <id>{{ site.url }}{{ recipe.url }}</id>
+    <summary type="html">{{ recipe.description | xml_escape }}</summary>
+    <content type="html">{{ recipe.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+</feed>

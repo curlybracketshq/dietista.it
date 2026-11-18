@@ -46,3 +46,23 @@
 <meta property="article:section" content="Nutrizione">
 {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
 {% endif %}
+
+{%- if page.url == "/" -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://dietista.it/#website",
+  "url": "https://dietista.it/",
+  "name": "dietista.it",
+  "description": "Il sito della Dott.ssa Mara Micolucci, dietista, farmacista e dottoressa in Scienze e Tecniche Psicologiche. Articoli di nutrizione, ricette e podcast Briciole di Nutrizione.",
+  "inLanguage": "it-IT",
+  "publisher": {
+    "@type": "Person",
+    "name": "Mara Micolucci",
+    "jobTitle": "Dietista, Farmacista",
+    "url": "https://dietista.it"
+  }
+}
+</script>
+{%- endif -%}
