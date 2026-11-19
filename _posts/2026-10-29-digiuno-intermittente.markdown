@@ -5,12 +5,12 @@ seo_title: "Digiuno intermittente: pro e contro, 16:8 e 12:12, cosa dice la rice
 description: "Digiuno intermittente, pro e contro: la revisione BMJ 2025 su quasi 100 studi, e come iniziare dal 12:12 senza stress."
 image: /assets/images/recipes/yogurt-pesche-mandorle.jpg
 image_alt: "Yogurt greco con pesche e mandorle, esempio di pasto completo per rompere il digiuno con calma"
-date: 2026-10-29 09:00:00 +0200
+date: 2026-10-29
 episode_id: 7yALOCa0Hdl5bmzTlZtetL
 author: Mara Micolucci
 keywords: "digiuno intermittente, 16:8, 12:12, 5:2, dimagrire digiuno, pro e contro digiuno, British Medical Journal, proteine donne over 45"
 tags: [digiuno intermittente, "16:8", peso, proteine, donne over 45]
-last_modified_at: 2026-10-29 09:00:00 +0200
+last_modified_at: 2026-10-29
 recipes:
   - yogurt-pesche-mandorle
   - insalata-lenticchie-carota-limone

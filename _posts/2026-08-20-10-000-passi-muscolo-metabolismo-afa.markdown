@@ -6,11 +6,11 @@ description: "Ognuno di noi è particolare e speciale, non è necessario uniform
 image: /assets/images/recipes/insalata-estiva-ceci-cetrioli-pomodori-mais.jpg
 image_alt: "Insalata estiva con ceci, cetrioli, pomodorini e mais – fresca per caldo e NEAT"
 episode_id: 7w36Ippr4vOCRWEHUxmMZq
-date: 2026-08-20 09:00:00 +0200
+date: 2026-08-20
 author: Mara Micolucci
 keywords: "10.000 passi, metabolismo lento, NEAT caldo, muscolo estate, camminata estate Veneto, dietista Musile di Piave, afa"
 tags: [movimento, estate, metabolismo, NEAT, camminata]
-last_modified_at: 2026-08-20 09:00:00 +0200
+last_modified_at: 2026-08-20
 recipes:
   - insalata-estiva-ceci-cetrioli-pomodori-mais
   - insalata-ceci-pomodorini-cetriolo

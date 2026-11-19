@@ -4,11 +4,11 @@ title: "... e la Pancia non c'è più! (Terza Parte)"
 seo_title: "Gonfiore di pancia: stress, farmaci e cibo"
 description: "30% della popolazione soffre di pancia gonfia. Mara Micolucci spiega stress, antibiotici, PPI e alimentazione dietro la disbiosi."
 episode_id: 2MCeNR2NBys4zgzRPBcEc8
-date: 2023-03-29 12:00:00 +0200
+date: 2023-03-29
 author: Mara Micolucci
 keywords: "pancia gonfia, disbiosi, stress intestino, antibiotici, PPI, FODMAP"
 tags: [pancia gonfia, disbiosi, stress, farmaci, alimentazione]
-last_modified_at: 2026-07-21 04:15:00 +0200
+last_modified_at: 2026-07-21
 faq:
   - q: "Lo stress può gonfiare la pancia?"
     a: "Sì. Cervello e intestino sono collegati bidirezionalmente. Lo stress altera il microbiota e la permeabilità, e la disbiosi a sua volta può aumentare ansia e umore basso."

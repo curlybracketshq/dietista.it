@@ -6,7 +6,7 @@ description: "Celiachia, sensibilità al glutine e falsi miti. Mara Micolucci, d
 author: Mara Micolucci
 keywords: "glutine, celiachia, sensibilità glutine, dietista Musile di Piave, pasta grani antichi"
 tags: [glutine, celiachia, alimentazione, grani antichi, infiammazione]
-last_modified_at: 2026-07-21 04:15:00 +0200
+last_modified_at: 2026-07-21
 episode_id: 1cg7RZJWlig8U3hT2U5il2
 faq:
   - q: "Il glutine fa male a tutti?"

@@ -6,7 +6,7 @@ description: "Microbiota, eubiosi e disbiosi spiegati da Mara Micolucci. Come ba
 author: Mara Micolucci
 keywords: "microbiota, eubiosi, disbiosi, pancia gonfia, probiotici, dietista"
 tags: [microbiota, eubiosi, probiotici, pancia gonfia, intestino]
-last_modified_at: 2026-07-21 04:15:00 +0200
+last_modified_at: 2026-07-21
 episode_id: 0EaFicZEIqcXH8EneHzI6k
 faq:
   - q: "Cos’è il microbiota intestinale?"

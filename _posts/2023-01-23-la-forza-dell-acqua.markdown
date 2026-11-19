@@ -8,7 +8,7 @@ image_alt: "Acqua e idratazione – watercolor, no people"
 author: Mara Micolucci
 keywords: "acqua, idratazione, longevità, invecchiamento, dietista Musile di Piave"
 tags: [acqua, idratazione, longevità, anti-aging, salute]
-last_modified_at: 2026-07-21 04:15:00 +0200
+last_modified_at: 2026-07-21
 episode_id: 0yjtbfzZsPVEEhEw8BpJ9O
 faq:
   - q: "Quanta acqua devo bere al giorno?"

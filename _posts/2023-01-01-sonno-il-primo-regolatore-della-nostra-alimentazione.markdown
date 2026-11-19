@@ -6,11 +6,11 @@ description: "Mara Micolucci, dietista a Musile di Piave: come sonno, serotonina
 image: /assets/images/posts/sonno-primo-regolatore-2023.jpg
 image_alt: "Sonno e serotonina – watercolor, no people"
 episode_id: 6diWQBJ9D0AS8kpPEGoOHl
-date: 2023-01-01 00:00:00 +0100
+date: 2023-01-01
 author: Mara Micolucci
 keywords: "sonno e alimentazione, fame nervosa, serotonina melatonina, dietista Musile di Piave, insonnia e peso"
 tags: [sonno, alimentazione, serotonina, melatonina, fame nervosa]
-last_modified_at: 2026-07-21 04:15:00 +0200
+last_modified_at: 2026-07-21
 faq:
   - q: "Dormire poco fa ingrassare?"
     a: "Sì. Meno di 7 ore altera serotonina e melatonina, aumenta fame nervosa e riduce il controllo prefrontale. Esporsi alla luce mattutina e cenare leggero aiuta il sonno, come spiega Mara."

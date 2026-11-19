@@ -51,11 +51,11 @@ description: "1 frase dall'episodio, max 160 caratteri"
 image: /assets/images/recipes/<food-only>.jpg  # esiste in /assets/images/recipes/
 image_alt: "Descrizione piatto - contesto Ferragosto/estate"
 episode_id: SPOTIFY_ID_22CHARS
-date: YYYY-MM-DD 09:00:00 +0200
+date: YYYY-MM-DD
 author: Mara Micolucci
 keywords: "keyword1, keyword2, dietista Musile di Piave, ..."
 tags: [Ferragosto, estate, convivialità, stagionalità, idratazione] # max 5
-last_modified_at: YYYY-MM-DD 09:00:00 +0200 # = date
+last_modified_at: YYYY-MM-DD # = date
 recipes:
   - slug1
   - slug2

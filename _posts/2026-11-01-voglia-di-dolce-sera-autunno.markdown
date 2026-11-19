@@ -5,12 +5,12 @@ seo_title: "Voglia di dolce la sera in autunno: perché succede e cosa fare"
 description: "Con l'ora solare la voglia di dolce arriva sul divano ogni sera: non è mancanza di volontà, sono luce, stanchezza e abitudine. Il piatto caldo e la pausa calda che cambiano la serata."
 image: /assets/images/recipes/insalata-lenticchie-carota-limone.jpg
 image_alt: "Insalata di lenticchie, carote e limone: i legumi del piatto caldo serale che sazia davvero"
-date: 2026-11-01 09:00:00 +0100
+date: 2026-11-01
 episode_id: 1S9iXt8XX77wkcoJQRV5Kp
 author: Mara Micolucci
 keywords: "voglia di dolce sera, autunno voglia dolce, ora solare stanchezza, piatto caldo sera, tisana sera, luce mattina ritmo sonno"
 tags: [voglia di dolce, autunno, sonno, luce, cena, stanchezza, abitudini]
-last_modified_at: 2026-11-01 09:00:00 +0100
+last_modified_at: 2026-11-01
 recipes:
   - insalata-lenticchie-carota-limone
   - insalata-ceci-pomodorini-cetriolo
@@ -29,7 +29,7 @@ Prima settimana con l'ora solare, e si sente: alle 5 è già buio, le sere sono 
 
 Ti rispondo subito con la parte più importante: no, non è mancanza di volontà, e no, non sei l'unica. Oggi ti spiego cosa cambia nel corpo quando manca la luce, così la voglia di dolce smette di sembrarti un difetto di carattere.
 
-> Collegato: del rapporto tra riposo e fame ho parlato in [Sonno, il primo regolatore della nostra alimentazione](/2022/12/31/sonno-il-primo-regolatore-della-nostra-alimentazione.html), perché dormire poco o male cambia anche quello che ci va di mangiare.
+> Collegato: del rapporto tra riposo e fame ho parlato in [Sonno, il primo regolatore della nostra alimentazione](/2023/01/01/sonno-il-primo-regolatore-della-nostra-alimentazione.html), perché dormire poco o male cambia anche quello che ci va di mangiare.
 
 ## Con l'autunno succedono tre cose assieme
 

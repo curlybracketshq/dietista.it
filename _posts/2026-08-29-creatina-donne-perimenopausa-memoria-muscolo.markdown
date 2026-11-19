@@ -6,11 +6,11 @@ description: "Creatina per donne in perimenopausa: cosa dice davvero la scienza 
 image: /assets/images/recipes/yogurt-pesche-mandorle.jpg
 image_alt: "Yogurt greco con pesche e mandorle – proteine distribuite per supporto muscolo e sazietà in perimenopausa"
 episode_id: 2FVIaUNUMViTM7JUtAeqsJ
-date: 2026-08-29 09:00:00 +0200
+date: 2026-08-29
 author: Mara Micolucci
 keywords: "creatina donne, perimenopausa, memoria, nebbia mentale, massa magra, sarcopenia femminile, integrazione consapevole, proteine distribuite, forza leggera, dietista Musile di Piave"
 tags: [creatina, perimenopausa, memoria, massa magra, integrazione, proteine]
-last_modified_at: 2026-08-29 09:00:00 +0200
+last_modified_at: 2026-08-29
 recipes:
   - yogurt-pesche-mandorle
   - insalata-ceci-pomodorini-cetriolo

@@ -6,11 +6,11 @@ description: "Bimbi a casa da scuola a Musile di Piave: come organizzare un pran
 image: /assets/images/recipes/insalata-ceci-pomodorini-cetriolo.jpg
 image_alt: "Insalata ceci, pomodorini e cetriolo – salva-pranzo estivo"
 episode_id: 2jDfDfowYTEVYvTG81fkuP
-date: 2026-07-24 12:00:00 +0200
+date: 2026-07-24
 author: Mara Micolucci
 keywords: "pranzo bimbi estate, meal prep famiglia, insalata ceci, pranzo veloce 10 minuti, dietista Musile di Piave, senso di colpa cibo"
 tags: [bambini, pranzo, estate, meal prep, legumi]
-last_modified_at: 2026-07-24 12:00:00 +0200
+last_modified_at: 2026-07-24
 recipes:
   - insalata-ceci-pomodorini-cetriolo
   - insalata-fagioli-cannellini-cetriolo-menta

@@ -6,7 +6,7 @@ description: "Leaky gut, FODMAP, additivi alimentari e metalli pesanti. Mara Mic
 author: Mara Micolucci
 keywords: "FODMAP, leaky gut, additivi alimentari, metalli pesanti, pancia gonfia"
 tags: [FODMAP, leaky gut, additivi, metalli pesanti, microbiota]
-last_modified_at: 2026-07-21 04:15:00 +0200
+last_modified_at: 2026-07-21
 episode_id: 4O7tu0UzMM4dIYf6gswiw8
 faq:
   - q: "Cosa sono i FODMAP?"

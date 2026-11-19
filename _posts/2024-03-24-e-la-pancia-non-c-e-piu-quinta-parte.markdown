@@ -6,7 +6,7 @@ description: "Obesità e microbiota: come i batteri intestinali estraggono più 
 author: Mara Micolucci
 keywords: "microbiota e peso, obesità, fibre, probiotici, dietista Musile di Piave"
 tags: [microbiota, obesità, peso, fibre, probiotici]
-last_modified_at: 2026-07-21 04:15:00 +0200
+last_modified_at: 2026-07-21
 episode_id: 7cQXVyUuJimQPDH58M1Vvt
 faq:
   - q: "Il microbiota può far ingrassare?"

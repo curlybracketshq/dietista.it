@@ -6,11 +6,11 @@ description: "Con 36 gradi a Musile di Piave non hai fame di giorno e la sera ti
 image: /assets/images/recipes/yogurt-pesche-mandorle.jpg
 image_alt: "Yogurt greco con pesche e mandorle – alternativa fresca serale"
 episode_id: 1ZQUt9n44yOvjE80lAywVV
-date: 2026-08-09 09:00:00 +0200
+date: 2026-08-09
 author: Mara Micolucci
 keywords: "gelato sera, fame emotiva caldo, senso di colpa estate, alimentazione emotiva, dietista Musile di Piave, afa 36 gradi"
 tags: [estate, fame emotiva, gelato, psicologia, idratazione, caldo]
-last_modified_at: 2026-08-09 09:00:00 +0200
+last_modified_at: 2026-08-09
 recipes:
   - yogurt-pesche-mandorle
   - panzanella-veloce
