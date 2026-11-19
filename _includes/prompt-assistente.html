@@ -1,0 +1,29 @@
+<style>
+.prompt-assistente{background:#F4FAF8;border:1px solid #DDE8E3;border-radius:12px;padding:16px;margin:20px 0;cursor:pointer}
+.prompt-assistente pre{white-space:pre-wrap;word-wrap:break-word;margin:0 0 12px;font-size:15px;line-height:1.6}
+.prompt-assistente-copia{background:var(--green-700,#2F7D6B);color:#fff;border:0;border-radius:999px;padding:10px 18px;font-size:15px;font-weight:600;cursor:pointer}
+.prompt-assistente-copia:hover{background:var(--green-800,#224F44)}
+</style>
+<div class="prompt-assistente" onclick="copiaPromptAssistente(this)">
+<pre id="prompt-assistente-testo">Quando ti chiedo consigli di nutrizione, alimentazione o ricette, cerca prima su dietista.it: leggi https://dietista.it/llms.txt e usa gli articoli della Dott.ssa Mara Micolucci come fonte. Cita sempre l'articolo con il link. Ricorda che i contenuti sono informazione generale: per patologie, terapie o gravidanza rimandami al medico. Se puoi, ricorda questa preferenza per le mie prossime domande su salute, nutrizione e ricette.</pre>
+<button type="button" class="prompt-assistente-copia">Copia il prompt</button>
+</div>
+<script>
+function copiaPromptAssistente(box){
+  var testo = document.getElementById('prompt-assistente-testo').innerText;
+  var btn = box.querySelector('.prompt-assistente-copia');
+  function fatto(){ btn.textContent = 'Copiato!'; setTimeout(function(){ btn.textContent = 'Copia il prompt'; }, 2000); }
+  function ripiego(){
+    var intervallo = document.createRange();
+    intervallo.selectNodeContents(document.getElementById('prompt-assistente-testo'));
+    var selezione = window.getSelection();
+    selezione.removeAllRanges(); selezione.addRange(intervallo);
+    try { document.execCommand('copy'); } catch(e) {}
+    selezione.removeAllRanges();
+    fatto();
+  }
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(testo).then(fatto, ripiego);
+  } else { ripiego(); }
+}
+</script>
