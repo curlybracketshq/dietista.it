@@ -1,6 +1,6 @@
 # dietista.it — testo integrale
 
-> Testo completo degli articoli del blog e delle ricette di https://dietista.it, generato il 2026-11-18 da scripts/generate_llms_txt.py. Per l'indice ragionato vedi /llms.txt. I contenuti sono informazione generale e non sostituiscono il parere del medico.
+> Testo completo degli articoli del blog e delle ricette di https://dietista.it, generato il 2026-11-19 da scripts/generate_llms_txt.py. Per l'indice ragionato vedi /llms.txt. I contenuti sono informazione generale e non sostituiscono il parere del medico.
 
 ## Articoli del blog
 
@@ -106,7 +106,7 @@ Prima settimana con l'ora solare, e si sente: alle 5 è già buio, le sere sono 
 
 Ti rispondo subito con la parte più importante: no, non è mancanza di volontà, e no, non sei l'unica. Oggi ti spiego cosa cambia nel corpo quando manca la luce, così la voglia di dolce smette di sembrarti un difetto di carattere.
 
-> Collegato: del rapporto tra riposo e fame ho parlato in [Sonno, il primo regolatore della nostra alimentazione](/2023/01/01/sonno-il-primo-regolatore-della-nostra-alimentazione.html), perché dormire poco o male cambia anche quello che ci va di mangiare.
+> Collegato: del rapporto tra riposo e fame ho parlato in [Sonno, il primo regolatore della nostra alimentazione](/2022/12/31/sonno-il-primo-regolatore-della-nostra-alimentazione.html), perché dormire poco o male cambia anche quello che ci va di mangiare.
 
 ## Con l'autunno succedono tre cose assieme
 
@@ -916,7 +916,7 @@ Succedono tre cose, tutte insieme.
 
 **La disidratazione estiva confonde sete con fame.** Sudiamo anche ferme in ufficio con l'aria condizionata che va e viene. Perdiamo acqua e sali, soprattutto sodio e magnesio. Quando sei anche solo lievemente disidratata, il segnale di sete arriva confuso, e il cervello lo legge come "ho bisogno di energia".
 
-> Approfondimento: ne ho parlato anche in [“Sonno, il primo regolatore della nostra alimentazione”](/2023/01/01/sonno-il-primo-regolatore-della-nostra-alimentazione.html) — sonno e fame sono collegati, soprattutto d’estate.
+> Approfondimento: ne ho parlato anche in [“Sonno, il primo regolatore della nostra alimentazione”](/2022/12/31/sonno-il-primo-regolatore-della-nostra-alimentazione.html) — sonno e fame sono collegati, soprattutto d’estate.
 
 ## 2. Sonno spezzato: grelina su, leptina giù
 
@@ -1357,8 +1357,8 @@ Il nostro incontro termina qui ci sentiamo alla prossima, il tema sarà [l’acq
 
 ### Sonno, il primo regolatore della nostra alimentazione
 
-Fonte: https://dietista.it/2023/01/01/sonno-il-primo-regolatore-della-nostra-alimentazione.html
-Data: 2023-01-01
+Fonte: https://dietista.it/2022/12/31/sonno-il-primo-regolatore-della-nostra-alimentazione.html
+Data: 2022-12-31
 Argomenti: sonno, alimentazione, serotonina, melatonina, fame nervosa
 
 Buongiorno a tutti, buongiorno a tutte, come avete riposato questa notte? Bene, allora il tema per oggi sarà quello del sonno. **Il sonno**, come influisce sul nostro benessere, il nostro stato psicofisico e anche sulla nostra alimentazione. Vedremo tutte queste relazioni oggi.

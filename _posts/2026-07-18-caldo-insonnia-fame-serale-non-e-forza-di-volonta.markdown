@@ -36,7 +36,7 @@ Succedono tre cose, tutte insieme.
 
 **La disidratazione estiva confonde sete con fame.** Sudiamo anche ferme in ufficio con l'aria condizionata che va e viene. Perdiamo acqua e sali, soprattutto sodio e magnesio. Quando sei anche solo lievemente disidratata, il segnale di sete arriva confuso, e il cervello lo legge come "ho bisogno di energia".
 
-> Approfondimento: ne ho parlato anche in [“Sonno, il primo regolatore della nostra alimentazione”](/2023/01/01/sonno-il-primo-regolatore-della-nostra-alimentazione.html) — sonno e fame sono collegati, soprattutto d’estate.
+> Approfondimento: ne ho parlato anche in [“Sonno, il primo regolatore della nostra alimentazione”](/2022/12/31/sonno-il-primo-regolatore-della-nostra-alimentazione.html) — sonno e fame sono collegati, soprattutto d’estate.
 
 ## 2. Sonno spezzato: grelina su, leptina giù
 
