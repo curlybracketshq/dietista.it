@@ -13,7 +13,7 @@ live site as-is. Do not edit the generated files by hand.
 
 import re
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 try:
@@ -58,20 +58,52 @@ def link_text(text):
     return clean(text).replace("[", "(").replace("]", ")")
 
 
+def post_datetime_utc(path, fm):
+    """Front-matter date converted to UTC, or None.
+
+    Jekyll renders dates in the site timezone (UTC when _config.yml sets
+    none), so a midnight +0100 date belongs to the previous UTC day.
+    """
+    raw = fm.get("date")
+    dt = None
+    if isinstance(raw, datetime):
+        dt = raw
+    elif raw:
+        for fmt in ("%Y-%m-%d %H:%M:%S %z", "%Y-%m-%d %H:%M:%S", "%Y-%m-%d"):
+            try:
+                dt = datetime.strptime(clean(raw), fmt)
+                break
+            except ValueError:
+                continue
+    if dt is None:
+        return None
+    if dt.tzinfo is not None:
+        dt = dt.astimezone(timezone.utc)
+    return dt
+
+
 def post_url(path, fm):
+    """Build the post permalink the way Jekyll does.
+
+    The permalink date comes from the front-matter date in UTC, not the
+    filename: _posts/2023-01-01-sonno-... has date 2023-01-01 00:00:00
+    +0100, which is 2022-12-31 23:00 UTC, so Jekyll serves it at
+    /2022/12/31/... while the old filename-based URL 404d.
+    """
     m = re.match(r"(\d{4})-(\d{2})-(\d{2})-(.+)\.(?:markdown|md)$", path.name)
     if not m:
         return None
     year, month, day, slug = m.groups()
+    dt = post_datetime_utc(path, fm)
+    if dt is not None:
+        year, month, day = f"{dt.year:04d}", f"{dt.month:02d}", f"{dt.day:02d}"
     return f"{SITE_URL}/{year}/{month}/{day}/{slug}.html"
 
 
 def post_date(path, fm):
-    raw = fm.get("date")
-    if raw:
-        if isinstance(raw, datetime):
-            return raw.date().isoformat()
-        return clean(raw)[:10]
+    dt = post_datetime_utc(path, fm)
+    if dt is not None:
+        return dt.date().isoformat()
     m = re.match(r"(\d{4}-\d{2}-\d{2})-", path.name)
     return m.group(1) if m else "0000-00-00"
 

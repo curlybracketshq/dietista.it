@@ -29,7 +29,7 @@ Prima settimana con l'ora solare, e si sente: alle 5 è già buio, le sere sono 
 
 Ti rispondo subito con la parte più importante: no, non è mancanza di volontà, e no, non sei l'unica. Oggi ti spiego cosa cambia nel corpo quando manca la luce, così la voglia di dolce smette di sembrarti un difetto di carattere.
 
-> Collegato: del rapporto tra riposo e fame ho parlato in [Sonno, il primo regolatore della nostra alimentazione](/2023/01/01/sonno-il-primo-regolatore-della-nostra-alimentazione.html), perché dormire poco o male cambia anche quello che ci va di mangiare.
+> Collegato: del rapporto tra riposo e fame ho parlato in [Sonno, il primo regolatore della nostra alimentazione](/2022/12/31/sonno-il-primo-regolatore-della-nostra-alimentazione.html), perché dormire poco o male cambia anche quello che ci va di mangiare.
 
 ## Con l'autunno succedono tre cose assieme
 
