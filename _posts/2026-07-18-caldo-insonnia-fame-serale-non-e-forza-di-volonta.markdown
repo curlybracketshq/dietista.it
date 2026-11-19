@@ -6,11 +6,11 @@ description: "Notti tropicali a Musile di Piave: fame serale, insonnia e disidra
 image: /assets/images/posts/fame-serale-estate-2026.jpg
 image_alt: "Ciotola estiva – watercolor, no people"
 episode_id: 7dYt2y2dPuJaXRah3XwpAq
-date: 2026-07-18 18:00:00 +0200
+date: 2026-07-18
 author: Mara Micolucci
 keywords: "fame serale, insonnia caldo, fame nervosa estate, dietista Musile di Piave, disidratazione estiva, grelina leptina"
 tags: [fame serale, insonnia, estate, idratazione, sonno]
-last_modified_at: 2026-07-24 11:25:00 +0200
+last_modified_at: 2026-07-24
 recipes:
   - acqua-sale-limone-idratazione
   - ciotola-estiva-yogurt-pesca-mandorle
@@ -36,7 +36,7 @@ Succedono tre cose, tutte insieme.
 
 **La disidratazione estiva confonde sete con fame.** Sudiamo anche ferme in ufficio con l'aria condizionata che va e viene. Perdiamo acqua e sali, soprattutto sodio e magnesio. Quando sei anche solo lievemente disidratata, il segnale di sete arriva confuso, e il cervello lo legge come "ho bisogno di energia".
 
-> Approfondimento: ne ho parlato anche in [“Sonno, il primo regolatore della nostra alimentazione”](/2022/12/31/sonno-il-primo-regolatore-della-nostra-alimentazione.html) — sonno e fame sono collegati, soprattutto d’estate.
+> Approfondimento: ne ho parlato anche in [“Sonno, il primo regolatore della nostra alimentazione”](/2023/01/01/sonno-il-primo-regolatore-della-nostra-alimentazione.html) — sonno e fame sono collegati, soprattutto d’estate.
 
 ## 2. Sonno spezzato: grelina su, leptina giù
 

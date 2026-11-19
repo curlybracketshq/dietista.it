@@ -6,11 +6,11 @@ description: "A Musile di Piave con 37 gradi togliere pane e pasta la sera può 
 image: /assets/images/recipes/insalata-ceci-pomodorini-cetriolo.jpg
 image_alt: "Pasta fredda estiva con pomodorini, cetriolo e olio – piatto serale veloce"
 episode_id: 3G9rHd5KST3FUnu57xevBR
-date: 2026-08-02 12:00:00 +0200
+date: 2026-08-02
 author: Mara Micolucci
 keywords: "pasta sera, carboidrati estivi, mal di testa caldo, glicogeno, dietista Musile di Piave"
 tags: [carboidrati, estate, falsi miti, sonno, idratazione]
-last_modified_at: 2026-08-02 12:00:00 +0200
+last_modified_at: 2026-08-02
 recipes:
   - insalata-ceci-pomodorini-cetriolo
   - insalata-fagioli-cannellini-cetriolo-menta

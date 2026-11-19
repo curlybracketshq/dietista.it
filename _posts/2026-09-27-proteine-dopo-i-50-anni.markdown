@@ -5,12 +5,12 @@ seo_title: "Proteine dopo i 50 anni: fabbisogno, distribuzione e barrette protei
 description: "Perdi tono alle braccia dopo i 50? Quante proteine servono davvero, perché distribuirle nei tre pasti conta più di aumentarle, e cosa dice davvero l'etichetta delle barrette proteiche."
 image: /assets/images/recipes/yogurt-pesche-mandorle.jpg
 image_alt: "Yogurt greco con pesche e mandorle – l'ancora proteica della colazione, alternativa vera alle barrette"
-date: 2026-09-27 09:00:00 +0200
+date: 2026-09-27
 episode_id: 37Ne4hGjB45CsjbPCLl1Ci
 author: Mara Micolucci
 keywords: "proteine donne 50 anni, fabbisogno proteico, sarcopenia, tono muscolare, proteine a colazione, barrette proteiche, distribuire proteine, perdita muscolo menopausa"
 tags: [proteine, sarcopenia, over 50, tono muscolare, barrette proteiche]
-last_modified_at: 2026-09-27 09:00:00 +0200
+last_modified_at: 2026-09-27
 recipes:
   - yogurt-pesche-mandorle
   - insalata-lenticchie-carota-limone

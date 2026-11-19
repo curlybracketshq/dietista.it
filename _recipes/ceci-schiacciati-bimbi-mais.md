@@ -1,7 +1,7 @@
 ---
 title: "Ceci schiacciati bimbi-friendly con mais"
 description: "Crema rustica di ceci e mais: consistenza morbida e gusto naturalmente dolce, pensata per i bimbi che rifiutano i legumi interi."
-date: 2026-07-20 09:00:00 +0200
+date: 2026-07-20
 author: Mara Micolucci
 image: /assets/images/recipes/ceci-schiacciati-bimbi-mais.jpg
 image_alt: "Ceci schiacciati bimbi con mais"

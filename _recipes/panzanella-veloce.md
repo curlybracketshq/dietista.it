@@ -1,7 +1,7 @@
 ---
 title: "Panzanella veloce pomodoro e cetriolo – pranzo freddo 10 min"
 description: "Il pranzo freddo salva-afa di Mara Micolucci: pane raffermo, pomodoro cuore di bue, cetriolo, basilico, olio evo. Sazio, fresco, zero fornelli."
-date: 2026-08-09 09:00:00 +0200
+date: 2026-08-09
 author: Mara Micolucci
 image: /assets/images/recipes/insalata-ceci-pomodorini-cetriolo.jpg
 image_alt: "Panzanella veloce pomodoro cetriolo"

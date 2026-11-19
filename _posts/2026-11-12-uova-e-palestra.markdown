@@ -5,12 +5,12 @@ seo_title: "Uova e palestra: quante uova a settimana e perché il tuorlo non si 
 description: "Ti alleni cinque o sei ore a settimana e ti chiedi quante uova puoi mangiare? Le linee guida CREA, il range da quattro a sette per chi si allena e perché l'uovo intero batte l'albume."
 image: /assets/images/posts/uova-in-camicia-avocado.jpg
 image_alt: "Due uova in camicia su pane integrale con avocado, il brunch del sabato della settimana tipo"
-date: 2026-11-12 09:00:00 +0100
+date: 2026-11-12
 episode_id: 5UnVWk4zqfRxEkfYjI9dZR
 author: Mara Micolucci
 keywords: "uova palestra, quante uova settimana, uovo intero albume, proteine muscolo, colesterolo uova, tuorlo"
 tags: [uova, proteine, palestra, colesterolo]
-last_modified_at: 2026-11-12 09:00:00 +0100
+last_modified_at: 2026-11-12
 faq:
   - q: "Quante uova posso mangiare a settimana se mi alleno?"
     a: "Le linee guida CREA indicano da due a quattro uova a settimana, e dentro ci sono anche quelle nascoste nella pasta all'uovo, nei dolci e nelle torte salate. Se sei in salute, hai gli esami a posto e ti alleni cinque o sei ore a settimana, la letteratura più recente dice che anche un uovo al giorno, quindi fino a sette a settimana, può stare dentro un'alimentazione equilibrata. Per chi si allena, un range da quattro a sette uova intere a settimana è assolutamente ragionevole. Se invece hai il colesterolo alto, soprattutto familiare, problemi cardiovascolari o diabete, il numero scende e va valutato con il tuo medico."

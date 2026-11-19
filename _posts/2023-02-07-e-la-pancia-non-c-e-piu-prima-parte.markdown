@@ -7,7 +7,7 @@ author: Mara Micolucci
 keywords: "pancia gonfia, gonfiore addominale, microbiota, intestino, dietista Musile di Piave"
 tags: [pancia gonfia, microbiota, intestino, digestione, infiammazione]
 episode_id: 15xfqj2w2B2k8qmzoSiKMM
-last_modified_at: 2026-07-21 04:15:00 +0200
+last_modified_at: 2026-07-21
 faq:
   - q: "Perché ho sempre la pancia gonfia?"
     a: "L’intestino ha una superficie assorbente grande come un campo da basket. Quando perde efficienza produce gas in eccesso. È un segnale di allarme, non solo quello che mangi."

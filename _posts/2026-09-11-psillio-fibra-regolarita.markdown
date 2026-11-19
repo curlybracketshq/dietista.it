@@ -5,12 +5,12 @@ seo_title: "Psillio per regolarità, colesterolo e glicemia: guida sicura"
 description: "Psillio e paura di gonfiarti? Cos'è, perché regolarizza l'intestino, cosa dice la ricerca su colesterolo e glicemia, e come usarlo in sicurezza."
 image: /assets/images/recipes/insalata-ceci-pomodorini-cetriolo.jpg
 image_alt: "Insalata di ceci con pomodorini e cetriolo – fibra da legumi e verdure, la base prima di valutare lo psillio"
-date: 2026-09-11 09:00:00 +0200
+date: 2026-09-11
 episode_id: 75c0e3s0KjV6FLdAFJrVyr
 author: Mara Micolucci
 keywords: "psillio, psyllium, fibra solubile, regolarità intestinale, gonfiore, colesterolo LDL, glicemia, sazietà, Plantago ovata, dietista Musile di Piave"
 tags: [psillio, fibra solubile, regolarità, colesterolo, sazietà]
-last_modified_at: 2026-09-11 09:00:00 +0200
+last_modified_at: 2026-09-11
 recipes:
   - insalata-ceci-pomodorini-cetriolo
   - insalata-lenticchie-carota-limone

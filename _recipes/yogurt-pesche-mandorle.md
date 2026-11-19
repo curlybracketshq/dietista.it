@@ -1,7 +1,7 @@
 ---
 title: "Yogurt greco con pesche e mandorle – spuntino fresco 2 min"
 description: "La ciotola fresca salva-sera di Mara: yogurt greco, pesca gialla veneta, mandorle. Proteine e fibre, senza fornelli."
-date: 2026-08-09 09:00:00 +0200
+date: 2026-08-09
 author: Mara Micolucci
 image: /assets/images/recipes/yogurt-pesche-mandorle.jpg
 image_alt: "Yogurt greco con pesche e mandorle – spuntino estivo"

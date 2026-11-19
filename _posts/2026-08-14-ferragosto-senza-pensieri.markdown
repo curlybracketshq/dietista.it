@@ -6,11 +6,11 @@ description: "Per Ferragosto consigli, non regole, serenità e convivialità son
 image: /assets/images/recipes/insalata-estiva-ceci-cetrioli-pomodori-mais.jpg
 image_alt: "Insalata estiva con ceci, cetrioli, pomodorini e mais – fresca per Ferragosto"
 episode_id: 5TzC3fIv3G9Ni7zXP3Q4Y5
-date: 2026-08-14 09:00:00 +0200
+date: 2026-08-14
 author: Mara Micolucci
 keywords: "Ferragosto alimentazione, consigli Ferragosto, convivialità, serenità a tavola, dietista Musile di Piave, pranzo Ferragosto leggero"
 tags: [Ferragosto, estate, convivialità, stagionalità, idratazione]
-last_modified_at: 2026-08-14 09:00:00 +0200
+last_modified_at: 2026-08-14
 recipes:
   - panzanella-veloce
   - insalata-estiva-ceci-cetrioli-pomodori-mais
